@@ -1,0 +1,772 @@
+{
+  "version": "native-annotations-release/1.0",
+  "task": "P13.5",
+  "date": "2026-11-16",
+  "scope": "demo_integration_component",
+  "unit_regression_tests": 118,
+  "artifact_checks": 4,
+  "prior_release": {
+    "path": "artifacts/cad-object-assembly-release-v1.json",
+    "sha256": "1d4a209067d103e64cef1bf72792c6938cdcaaf35b86187f702b0a000d0410f0"
+  },
+  "manual_CAD_acceptance": "pending",
+  "physical_scale_confirmed": false,
+  "web_profile_changed": false,
+  "font_file_bundled": false,
+  "full_sheet_quality_accepted": false,
+  "real_TEXT_counts": {
+    "star": 64,
+    "jpg": 17
+  },
+  "visible_TEXT_counts": {
+    "star": 8,
+    "jpg": 1
+  },
+  "real_DIMENSION_counts": {
+    "star": 1,
+    "jpg": 0
+  },
+  "real_dimension_evidence": "agent_reviewed_unitless_draft",
+  "files": [
+    {
+      "path": "artifacts/cad-object-assembly-release-v1.json",
+      "sha256": "1d4a209067d103e64cef1bf72792c6938cdcaaf35b86187f702b0a000d0410f0"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/annotated-replaced.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/annotated-residual.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/annotated.dxf",
+      "sha256": "faf1684f1950646b000a08bae8b9d2f82f2ae19a97b7de956913df18b71ac819"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/annotated.json",
+      "sha256": "caed6f9743e5ef94b1ec2ec209f5e83558c485d86b5617f99a11b8289c2b8a01"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/annotated.png",
+      "sha256": "586890fa5fd66096c038c5642d5b61a179d58c9fea6ec8bcbbe4274484ffa949"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/geometry-base-objects.json",
+      "sha256": "49c2a429dd6ffed851d9d35331a2b0cbe2107525e0703a7293643dd010e07a79"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/geometry-base-ownership.png",
+      "sha256": "b0a9ad32a67ac41e56806a2812b0842a41c938a1c951556df213b725febc38da"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/geometry-base-removed.png",
+      "sha256": "1916d0860aea1346d23dbb4c72d1d648d767483435a71567999b0c85bb6b6df6"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/geometry-base-residual.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/geometry-base.dxf",
+      "sha256": "8bdc2a33a4ff4f180fc07cd3c98989c12979da2c53848b8267de693a03d6e398"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/input.json",
+      "sha256": "9ef7761c5bc48be34a79eb057a880d1462ce9193a00261a02fe02b1e4df75b70"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/roles.png",
+      "sha256": "f06e89dc7f39be266a34ab9d56c628694bcc6f491e27b9fad873cfa459731143"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/aligned/source.png",
+      "sha256": "97d623345400f6532dc19cfe2e4af0bd086fd255ba3e068f557331ab670f979d"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/annotated-replaced.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/annotated-residual.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/annotated.dxf",
+      "sha256": "736e0b7267bf28a83782e4774ed714a18a61ef7f01aa4e040c4284365dde677a"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/annotated.json",
+      "sha256": "c2e89a08c526ab90874a949fe500c5f67e9624db5c34e6cb89e3bf0dfd639fff"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/annotated.png",
+      "sha256": "d01accd36480e1104d187017998a1e82781990fd4fdd755e50200c3f2e0c7328"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/geometry-base-objects.json",
+      "sha256": "671a218ed3b1509522aebbcb183a41a964a960888778615c30101f86e4a92e5f"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/geometry-base-ownership.png",
+      "sha256": "ebcae30a2d9858dcdc66bb890da69256b51f79a59f6b151e664f9292a02be250"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/geometry-base-removed.png",
+      "sha256": "4a6dde8b25fa89de524d4c7b01b2dc7e900f73e20fff267333a9bc764988d8a4"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/geometry-base-residual.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/geometry-base.dxf",
+      "sha256": "a73c2783b132d59203a9ee1d43854a68d36669f031c094ab01f7602397aa5060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/input.json",
+      "sha256": "a820d8c3440b2df679a331849ae4de8dd31af969f650336df79994190186d1d7"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/roles.png",
+      "sha256": "f06e89dc7f39be266a34ab9d56c628694bcc6f491e27b9fad873cfa459731143"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/angular/source.png",
+      "sha256": "5e4c30f5c413b105d502c3130be007601f5d85f94dc179a7b11422bb43eba345"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/annotated-replaced.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/annotated-residual.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/annotated.dxf",
+      "sha256": "4560c3c3ef06dace470e0b11abcfdc07b6f76961c412bdd2fc572b7d9179c55f"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/annotated.json",
+      "sha256": "023ba1a3eb04cf1b9f182e5ec51daa4f25b33e1aaa1bcbb7b106ca3cd764c394"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/annotated.png",
+      "sha256": "c5398a5b5c62488f53c1f1668c9273b1f67b7dc5f086e222b9c8419ff15fa4b7"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/geometry-base-objects.json",
+      "sha256": "485bec59e27856a5f492e129c03a53d771fa207dfebd5536364db3c724a82f02"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/geometry-base-ownership.png",
+      "sha256": "a340edb5fc3e2b8d32cc02f146374e01996ac73074879bfeb8cdb63d98c2a5fa"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/geometry-base-removed.png",
+      "sha256": "5f44e13d58874d26b449e739c55d93bda6ec1415468c1af52025b98fb8018930"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/geometry-base-residual.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/geometry-base.dxf",
+      "sha256": "4b40df8979e56c5cee47c534b6683a5284cdae4b7dee601b01fb50d247cf04c1"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/input.json",
+      "sha256": "80c5b8e14f388ec5ed9c5e31c407fa6646b232c0be6b0557ed52b9cd80ae17aa"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/roles.png",
+      "sha256": "f06e89dc7f39be266a34ab9d56c628694bcc6f491e27b9fad873cfa459731143"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/diameter/source.png",
+      "sha256": "610380c9fbdd56aa402a22d1186630e1685b3b2a4f2fea9e26c911100ca87b8c"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/annotated-replaced.png",
+      "sha256": "1ab73557c44ab175f6b515fe5ee8ae1edffd3e658095ddaee5047223a906d70a"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/annotated-residual.png",
+      "sha256": "b6bc0d130661e184a671e67d3eb002ef21477c99cc1e0cb78f79117224d51193"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/annotated.dxf",
+      "sha256": "a20f20a7915b80a3a757477f40a6cc84789047d871229370d6d4caa48e337852"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/annotated.json",
+      "sha256": "04c0dcef1d8bc5e4408877c07d28e7f958f7f019390ac6878403de120c72eb90"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/annotated.png",
+      "sha256": "c66252cd55de439700dd369bcf47164543b38023e21c02cf730241d1c1f98d6b"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/geometry-base-objects.json",
+      "sha256": "3cee66201f30826b31ff9b661ddab80be475883f027b81364b0294119c0aee94"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/geometry-base-ownership.png",
+      "sha256": "249f830afdda4360bfbd5a3547817bbccba7400ec1663120b75e70691149d573"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/geometry-base-removed.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/geometry-base-residual.png",
+      "sha256": "7202ffdb62e28253088c99ea7deded0a25a074957a8f4d6d4a0e32a8c3b8c090"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/geometry-base.dxf",
+      "sha256": "ecae13b36cb973c89493a731892994530ae86ebd2f8b1684c799459e073e168e"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/input.json",
+      "sha256": "b5df6ee20f96165c9f439d110c3a9410078d8949b2da91afc1cc31e92429c64c"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/roles.png",
+      "sha256": "f06e89dc7f39be266a34ab9d56c628694bcc6f491e27b9fad873cfa459731143"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/leader/source.png",
+      "sha256": "cc798fccf1cceefb41be2460ad04c610aac547d28b8f85f0423cde3847b7a2e8"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/annotated-replaced.png",
+      "sha256": "9da9cb7064ca5cdd3734f3b7c92a4b0cfd1a7d7fefaa1acedf1b6b4c91ca2486"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/annotated-residual.png",
+      "sha256": "db2b3abb0cbd381f8629aad4a85f36cf88d2a0577a1d76190f89a12324dad730"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/annotated.dxf",
+      "sha256": "99f59e62c7d56e35c61fd6cff8d73057c40b9f0f09026bb39c4d68384092a882"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/annotated.json",
+      "sha256": "24748141d0d32f5cf04147cbe33584f97dbe4ad7d34e3023a4ab67b9122277de"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/annotated.png",
+      "sha256": "d1291808a0534514e6fde69de506ce1a5812caed4e986f8467a94cb23ecdaf23"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/geometry-base-objects.json",
+      "sha256": "58601128493db6a272f43aa24a5fdd8e64ed0d5f4d25fa68bdcb50a2602ea511"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/geometry-base-ownership.png",
+      "sha256": "e66f6d36f1519672ee5e1a0218e1beeb91f37ef7e565bcb4b74bb37ff74cb998"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/geometry-base-removed.png",
+      "sha256": "f582e994e40938909f215cfb3629e3156b946db45a87a300893d581f83f9c340"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/geometry-base-residual.png",
+      "sha256": "36b5338fc9e8b98b2b323336f74e6ef1c1aa52cfc644b4b51e510eaa942d2514"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/geometry-base.dxf",
+      "sha256": "461b23558b750675d3f3560ab247f2a6ab4c5082ddb0b3603d9162435b7ed3d0"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/input.json",
+      "sha256": "d4b97a70f3e59a54799615b7c9bb7790f39d9b14aa5a4cc3152233d73260be43"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/roles.png",
+      "sha256": "f06e89dc7f39be266a34ab9d56c628694bcc6f491e27b9fad873cfa459731143"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/linear/source.png",
+      "sha256": "88e467b4e84d9f666387cc235422cfe16180b2edb99abaa9ff23341bdf7d57ae"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/annotated-replaced.png",
+      "sha256": "1580bffdc10535289f1b8c7e6799c0af30e1b3bf88a2210d48f9923fc7f87df6"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/annotated-residual.png",
+      "sha256": "da80e2741abc6cfaeb8ac2a43d79528564e3e1cbb7825dbb12571bb0dedad032"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/annotated.dxf",
+      "sha256": "96ce9c6a854e1bf2bdb2964321bc8fe8714111b5236a863a4368e23f6b035bee"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/annotated.json",
+      "sha256": "fcf4c75d55d9127c2f58d6fe2132d53467610e1b5253158e33a3481737db7e55"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/annotated.png",
+      "sha256": "d9d9e62f5efba122477094e3772b182876d6dac9c8ed71a75b933ba7930f0246"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/geometry-base-objects.json",
+      "sha256": "1709cd5b51e3968a8e7043f17da9765672f2c48ae3e708c16de0e948ff47cb91"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/geometry-base-ownership.png",
+      "sha256": "b371f20b1b5e2e3412435a56c6e3180f161bb9c3508a9678ccc0657e8551a2c6"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/geometry-base-removed.png",
+      "sha256": "da80e2741abc6cfaeb8ac2a43d79528564e3e1cbb7825dbb12571bb0dedad032"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/geometry-base-residual.png",
+      "sha256": "1580bffdc10535289f1b8c7e6799c0af30e1b3bf88a2210d48f9923fc7f87df6"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/geometry-base.dxf",
+      "sha256": "80fa2364dca6d6a19fe3b689f02c43efc748c4f3a6d6850c5e446d6e73746a4f"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/input.json",
+      "sha256": "faa0362360a6279bf0cc6a400e6caebbeb01126b3ddf3abd11932c70fb29e428"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/roles.png",
+      "sha256": "2759e4d46a6022003fed9d36e45113a2f94a5718ef5081d9838fecd02aaaa30c"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/mtext/source.png",
+      "sha256": "4d3bdeb928c6b0e2701dab1d165a364fc44a198d0d3ee246dd9526f0c977245e"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/annotated-replaced.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/annotated-residual.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/annotated.dxf",
+      "sha256": "8202cfc07d504b359014ae61e1263884cbed9f96b73d3ef7c1ebb801022218d4"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/annotated.json",
+      "sha256": "22001eb44331148f7aa57b55ea7c9e442ecfa75b08487083bc21818313553566"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/annotated.png",
+      "sha256": "2cb35719889621c38e3f699ab2927eaedb4d6488459a1ba9389dd03766747deb"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/geometry-base-objects.json",
+      "sha256": "1ba8535d94fee662b30fbb932e8155f84eabe79a49411b048ee6b910e9ec45f7"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/geometry-base-ownership.png",
+      "sha256": "a340edb5fc3e2b8d32cc02f146374e01996ac73074879bfeb8cdb63d98c2a5fa"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/geometry-base-removed.png",
+      "sha256": "5f44e13d58874d26b449e739c55d93bda6ec1415468c1af52025b98fb8018930"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/geometry-base-residual.png",
+      "sha256": "5933d4c44ed2bc2f431e2698b41923a18d056b24b450540bb109e7592a547060"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/geometry-base.dxf",
+      "sha256": "c9c72b3970d6e12ce0d9a8bb3db7adf3da11e3217c7991a547352d2d1e22dd4b"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/input.json",
+      "sha256": "dd7777c502cddfd4e498d5fe1c512877a0f58c088c63407bed0b6b5590d58e04"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/roles.png",
+      "sha256": "f06e89dc7f39be266a34ab9d56c628694bcc6f491e27b9fad873cfa459731143"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/radius/source.png",
+      "sha256": "610380c9fbdd56aa402a22d1186630e1685b3b2a4f2fea9e26c911100ca87b8c"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/annotated-replaced.png",
+      "sha256": "1580bffdc10535289f1b8c7e6799c0af30e1b3bf88a2210d48f9923fc7f87df6"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/annotated-residual.png",
+      "sha256": "da80e2741abc6cfaeb8ac2a43d79528564e3e1cbb7825dbb12571bb0dedad032"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/annotated.dxf",
+      "sha256": "b37a6bbaeb123949f72b543b2d5590d58ccf492685bea4687914e6d1a026b96c"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/annotated.json",
+      "sha256": "eb62dab5f6a1dad0e934bd8f5d62fcdeeaab59050e9f9c47459399663e3d4dee"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/annotated.png",
+      "sha256": "86f5e37f961c965f8f66321da4035df92177ba8d9d088adeac77a83225ecfcc4"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/geometry-base-objects.json",
+      "sha256": "a4144719e3378e0bb1658981f36a70c3661294beb4b7249bd9ecc7a0c5f485a8"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/geometry-base-ownership.png",
+      "sha256": "b371f20b1b5e2e3412435a56c6e3180f161bb9c3508a9678ccc0657e8551a2c6"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/geometry-base-removed.png",
+      "sha256": "da80e2741abc6cfaeb8ac2a43d79528564e3e1cbb7825dbb12571bb0dedad032"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/geometry-base-residual.png",
+      "sha256": "1580bffdc10535289f1b8c7e6799c0af30e1b3bf88a2210d48f9923fc7f87df6"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/geometry-base.dxf",
+      "sha256": "a58359c6730a2ab13e3188f88bc7804f18db3a53b684a360479d743239bf3adf"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/input.json",
+      "sha256": "799f93bbc1912ca29e2173101dd37d0ab0b2d2685fe7fb2557945843b0949d4f"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/roles.png",
+      "sha256": "2759e4d46a6022003fed9d36e45113a2f94a5718ef5081d9838fecd02aaaa30c"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-controls/unicode/source.png",
+      "sha256": "4d3bdeb928c6b0e2701dab1d165a364fc44a198d0d3ee246dd9526f0c977245e"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/annotated-replaced.png",
+      "sha256": "3652f1196b339e0e03a1fc4a1c98d7f0c3dc44499e98ee21cfa4cc55e3794d4a"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/annotated-residual.png",
+      "sha256": "2808c0acea26d7fe2065d657a418922a5552bbadb949e84d1fc7f68b4a3e4530"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/annotated.dxf",
+      "sha256": "5a3c9dff275b6ea9653ed0753ac54e70a34e3e7da1bc488529effa2c1ecda42f"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/annotated.json",
+      "sha256": "75cdaf77b162a9af588713179c38cd7e4c7f8c996c414971aafc17de8cda4778"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/annotated.png",
+      "sha256": "774122ee1ef74461d8d43d522cc0254bd05588274918c828431971f8092b30d6"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/comparison.json",
+      "sha256": "76b1477b666500a44739bbba487bd6e91736a9c70d64b0775f5a45bac9a135ee"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/geometry-base-objects.json",
+      "sha256": "745542361af52dd5a20f52305562d0db7f0c8587a857f1c55e5ebf85dd8c7e3a"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/geometry-base-ownership.png",
+      "sha256": "07e6d8dfe8cdd8d61212a04ea7cfbd3be60d92646020afe6caec74559b39b859"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/geometry-base-removed.png",
+      "sha256": "687dcbf6e9101ec4c5f73bd997a2305ab4f5e6eb5afe2069df48d30d96360893"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/geometry-base-residual.png",
+      "sha256": "777f3f4e4a7d7ad8faa465ad98aef027c14f81bb7cbdac93e26198060504495c"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/jpg/geometry-base.dxf",
+      "sha256": "aa78dc2171ad56e144958a382dde07e6a3aa157cd39bed3ad35dc9b112135880"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/annotated-replaced.png",
+      "sha256": "b2f928a4b8565f2f64e56ca16484214bbaddf7c6178a7e505b64934aa75321e7"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/annotated-residual.png",
+      "sha256": "0325c62dd51b87cdc8ea1c8ee07732d13cf540fcf6cb04842ce2a7c64782c5e5"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/annotated.dxf",
+      "sha256": "0205c2abc7e5c986e51e0f68b11084000d15e4b43fed5d13a54bf6f9cf06106d"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/annotated.json",
+      "sha256": "4c3b48cd7654d1e8ef4bdf4ff783746569c99bcffa615bf9da79be33f53ebfc4"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/annotated.png",
+      "sha256": "1bcaca4cbb81648c09ec53ef2cb90c1071d8b55d849c422d08a4f8048889e11c"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/comparison.json",
+      "sha256": "56160c9c5f8764000c856c962082419fcb3421674475558a64266b25ed1eadee"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/geometry-base-objects.json",
+      "sha256": "90f669c4dac594e7daddeef63bfb02b55de4d424894289d7e9dfe1b94fd43cca"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/geometry-base-ownership.png",
+      "sha256": "ee4d7015831813c1986680190181987e57d61c6a50998e37586529c8beabe0dc"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/geometry-base-removed.png",
+      "sha256": "36cb0dc1a34af61cb31e4f29c5803dbc2fb863a0201590ae7f06774adbd2d908"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/geometry-base-residual.png",
+      "sha256": "c98abd7961f70ee3a67c19bc7f3de6c52a3c318e491b93854dfa0a495dc01b91"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-repeat/star/geometry-base.dxf",
+      "sha256": "a0fd40cb095e0e9d8894b620a39bafad8fb4321c5deb5240a96c9bad84a24987"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-results-tests.xml",
+      "sha256": "e0fb745f5e120162050dce899dc5dab6dd99006a0670a8bb0d9f6fbbd4febfd9"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-tests.xml",
+      "sha256": "6ea21ddae529c705b2d8d3a59a1a3c5da253bc1e33d08c12abd42477822f41e9"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery-verification.json",
+      "sha256": "69c13189df62b92ef8ce4adddc32f79509e7d8a349bc64f2c638ae3442634238"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/annotated-replaced.png",
+      "sha256": "3652f1196b339e0e03a1fc4a1c98d7f0c3dc44499e98ee21cfa4cc55e3794d4a"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/annotated-residual.png",
+      "sha256": "2808c0acea26d7fe2065d657a418922a5552bbadb949e84d1fc7f68b4a3e4530"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/annotated.dxf",
+      "sha256": "7ba1486d1b9b7645a2c8faf03858fecf77c4e9ae6f38170e0b2809b8c25613eb"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/annotated.json",
+      "sha256": "d2195d1d89e9756ca4598479b068ca99108636315a09f8d1b082657b35788e67"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/annotated.png",
+      "sha256": "774122ee1ef74461d8d43d522cc0254bd05588274918c828431971f8092b30d6"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/comparison.json",
+      "sha256": "126ffedc50b4fb6b673c46a5f7d3140448c57dec37937ef8d0dc7a89b39135a6"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/geometry-base-objects.json",
+      "sha256": "691c48ada19c51022270f3befe8ca677070556a428298b80eec0d9f9e251e1bc"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/geometry-base-ownership.png",
+      "sha256": "07e6d8dfe8cdd8d61212a04ea7cfbd3be60d92646020afe6caec74559b39b859"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/geometry-base-removed.png",
+      "sha256": "687dcbf6e9101ec4c5f73bd997a2305ab4f5e6eb5afe2069df48d30d96360893"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/geometry-base-residual.png",
+      "sha256": "777f3f4e4a7d7ad8faa465ad98aef027c14f81bb7cbdac93e26198060504495c"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/jpg/geometry-base.dxf",
+      "sha256": "92008fe031c754ecb457a89ff03355e7fa2e2f94bbccb900bc1b864161de74c2"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/annotated-replaced.png",
+      "sha256": "b2f928a4b8565f2f64e56ca16484214bbaddf7c6178a7e505b64934aa75321e7"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/annotated-residual.png",
+      "sha256": "0325c62dd51b87cdc8ea1c8ee07732d13cf540fcf6cb04842ce2a7c64782c5e5"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/annotated.dxf",
+      "sha256": "990c8f7b309b331879d59be339e0d7187fe174b48bb5885dacfcf020cccdca6a"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/annotated.json",
+      "sha256": "18168dd0922a499ee068197965ba15dfcabc3829797c5ce1127397bdd4cdb227"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/annotated.png",
+      "sha256": "1bcaca4cbb81648c09ec53ef2cb90c1071d8b55d849c422d08a4f8048889e11c"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/comparison.json",
+      "sha256": "6e36fe656fdeb11ab95b005a1a08f1db1a8e66390304981d6f0539a654a73fa3"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/geometry-base-objects.json",
+      "sha256": "6164ad8f3fc35cea3937dc1908f31c38987dd6b76e0162c59aab17160984ed1b"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/geometry-base-ownership.png",
+      "sha256": "ee4d7015831813c1986680190181987e57d61c6a50998e37586529c8beabe0dc"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/geometry-base-removed.png",
+      "sha256": "36cb0dc1a34af61cb31e4f29c5803dbc2fb863a0201590ae7f06774adbd2d908"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/geometry-base-residual.png",
+      "sha256": "c98abd7961f70ee3a67c19bc7f3de6c52a3c318e491b93854dfa0a495dc01b91"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/delivery/star/geometry-base.dxf",
+      "sha256": "e076ba09708d8c6f7ab6b49320a207bb58ba401da2e86a2adb072c5a3cd913cd"
+    },
+    {
+      "path": "artifacts/native-annotations-v1/star-review.json",
+      "sha256": "df234029aafd049079f7b1d2fa46fff91b0441f69af8cad41c015aa2a44197ec"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/page-001-ocr.json",
+      "sha256": "8aa0da622f94b4947ad26d8c0d767a00461bc2574b64094edde964cc9de6a3da"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/page-001-processed.png",
+      "sha256": "1975bcbe70aced9fa61d5da951a8761614e45fca8d7daa68956f7d450f492450"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/chains.json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/geometry.json",
+      "sha256": "b1f8758a5433a73a9c2726725e514c531778cc48647d24a3eb5c7cdf40ed8253"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/graph.json",
+      "sha256": "25cdeb302ad46e794fee06f42a1b1c98080f83294681afd1671d87dd257f0311"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/gray.png",
+      "sha256": "ce26213fa5fc6ceb3fed1a4cf91a8695289dc5ed8e3b29ea2d0de14a3fdf4699"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/heads.json",
+      "sha256": "9195d92a1b90d0da214e945f2c9e45e881f58610c090502f0233629d048af740"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/roles.png",
+      "sha256": "c06aa74888956a810b1a9d0566661d20fe3adae41fa1d2675fc2cf00c6d2f01d"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/summary.json",
+      "sha256": "662be76d4b98f262703bdbdb3477e663e1f145346b26c7c8a85bd77540137ae6"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/page-001-ocr.json",
+      "sha256": "a27f78804ee428fd79b71d56a26bd1706dd9f7bb1694439329fbebfd1e95f65d"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/page-001-processed.png",
+      "sha256": "5d208fc52bb2262957cb174b8b3536e4f128700aff485e62327eb81d1460ef55"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/chains.json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/geometry.json",
+      "sha256": "d5a093734e230741b5c6f2bf2f331784a8a49bfc12785e2f3beece09acf669ee"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/graph.json",
+      "sha256": "5e8df17ee25401e38535bdaf4508f8ac1524dca3ce9f4dffc39ccf05d5821c39"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/gray.png",
+      "sha256": "5d208fc52bb2262957cb174b8b3536e4f128700aff485e62327eb81d1460ef55"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/heads.json",
+      "sha256": "60bf813dff4600f0b4a6c2f18f6b21637cb3775ff59f0582e3f5c3bec60d1c66"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/roles.png",
+      "sha256": "e8a80b9e501786ad43d8ea1cee1fbbfcd88b26e55cac64e23561077f6e12a84b"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/summary.json",
+      "sha256": "71af1658323d13d2fa8dcad9752fbd463cdd5aa8ab6df3d19d0495c0b2fc0e70"
+    },
+    {
+      "path": "docs/native-annotations-protocol-v1.md",
+      "sha256": "5590fd1b42a7be4f080cb552b22c3b3706f47a4e8d62712c05ed93e356abc300"
+    },
+    {
+      "path": "docs/native-annotations-v1.md",
+      "sha256": "5a8afa5b8c6e98617c272ca2c13a2e4fa4f900e2ecec71501ed6003860f163da"
+    },
+    {
+      "path": "scripts/check_native_annotations_v1.py",
+      "sha256": "eecfad537341713f317bda585b62742c7710bc2e6dd3754713cf0ea3d4e32925"
+    },
+    {
+      "path": "scripts/export_native_annotations_v1.py",
+      "sha256": "c9dfc26c92cd71011a3ab1999ed728ab1727e6063b2ba7ddb07821f2afe15eeb"
+    },
+    {
+      "path": "scripts/prepare_native_annotations_demo_v1.py",
+      "sha256": "19d481d5bfeb27fb93e07ebeb4aa6c45e5ff5df0b3a5caf767772e699212f099"
+    },
+    {
+      "path": "scripts/seal_native_annotations_v1.py",
+      "sha256": "36c63cbb2694d5fb25ca259da3a01f97c277a237f045a868c96a37db9b196a77"
+    },
+    {
+      "path": "src/cad_recovery/native_annotation_export_v1.py",
+      "sha256": "2112b170e49e93d9309856ee5fafae6b0242ef4520b1b383b4e7585d1c6e5aac"
+    },
+    {
+      "path": "src/cad_recovery/native_annotation_inputs_v1.py",
+      "sha256": "0f1d0bd8f534c212f5c211518167c2cdaa8f544e327d40eb320ea9d3fd393258"
+    },
+    {
+      "path": "src/cad_recovery/native_annotation_plan_v1.py",
+      "sha256": "03220fd9594e35df71d1a25cff1d1cf2dae0906e55095e9b0a5273125c981aa9"
+    },
+    {
+      "path": "tests/test_cad_object_assembly_v1.py",
+      "sha256": "7f9f2897d05ae6605dc9baeaa6dc102e29aff6f4d156f62aa9a8dcad59c8d1bb"
+    },
+    {
+      "path": "tests/test_cad_object_inputs_v1.py",
+      "sha256": "410a434681cf5d8777d6d21824c8c595806f7ca88c861f5bdc1b7d1a892dc2c6"
+    },
+    {
+      "path": "tests/test_native_annotation_inputs_v1.py",
+      "sha256": "a6f55fa16727173ffbdfd17122ed5b794eea0e395b3b0622acdcd1dd8004912b"
+    },
+    {
+      "path": "tests/test_native_annotation_results_v1.py",
+      "sha256": "42ddd4f1ccb4553b6627cffc08cedc4b0c8c3e48c9e415bb7afb7f3b43a2111a"
+    },
+    {
+      "path": "tests/test_native_annotations_v1.py",
+      "sha256": "c2708a2d6461fef81576ac1daf8beab6f0a2c91ab5c52e9b7948230ec4386997"
+    }
+  ]
+}

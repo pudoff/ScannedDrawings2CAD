@@ -1,0 +1,114 @@
+[
+  {
+    "common_export_repair": true,
+    "id": "0074",
+    "initial_result": {
+      "path": "artifacts/cold-joint-control-v1/runs/0074/result.json",
+      "sha256": "ce61d67e87afd0ec3c07afe22031e35000269022dbf2350694d0661c606d7c71"
+    },
+    "initial_status": "process_failed",
+    "predictions": {
+      "path": "artifacts/cold-joint-control-v1/export-recovery/0074/output/predictions.json",
+      "sha256": "ef6e8c5b6063883a8ad69d3bfc9f707e693a6a0cee9dbc6383b072777d33e038"
+    },
+    "runtime": {
+      "budget_pass": true,
+      "budget_rss_MiB": 1024,
+      "budget_seconds": 180,
+      "exit_code": 0,
+      "failure": null,
+      "limitation": "Not simultaneous RSS; processes shorter than sampling interval can be missed; past unlogged PID attribution cannot be reconstructed",
+      "memory_method": "Sum of lifetime working-set peaks keyed by PID+creation time; OS job membership or timestamp-verified ancestry; 50ms sampling",
+      "observed_process_count": 3,
+      "peak_rss_MiB": 187.765625,
+      "rejected_stale_process_count": 0,
+      "walltime_seconds": 58.401347200007876
+    },
+    "same_C1_policy_and_inputs": true,
+    "status": "ok"
+  },
+  {
+    "common_export_repair": true,
+    "id": "0079",
+    "initial_result": {
+      "path": "artifacts/cold-joint-control-v1/runs/0079/result.json",
+      "sha256": "14780227672fd951821d6b5c4c77599e17aaf7c43149244009a1407433759e58"
+    },
+    "initial_status": "process_failed",
+    "predictions": {
+      "path": "artifacts/cold-joint-control-v1/export-recovery/0079/output/predictions.json",
+      "sha256": "fb9317f3b6bd7329b49b4749b6eb6f1a550df9e85f58d4ae33617defce6680a5"
+    },
+    "runtime": {
+      "budget_pass": true,
+      "budget_rss_MiB": 1024,
+      "budget_seconds": 180,
+      "exit_code": 0,
+      "failure": null,
+      "limitation": "Not simultaneous RSS; processes shorter than sampling interval can be missed; past unlogged PID attribution cannot be reconstructed",
+      "memory_method": "Sum of lifetime working-set peaks keyed by PID+creation time; OS job membership or timestamp-verified ancestry; 50ms sampling",
+      "observed_process_count": 2,
+      "peak_rss_MiB": 193.296875,
+      "rejected_stale_process_count": 0,
+      "walltime_seconds": 49.735282600013306
+    },
+    "same_C1_policy_and_inputs": true,
+    "status": "ok"
+  },
+  {
+    "common_export_repair": true,
+    "id": "0104",
+    "initial_result": {
+      "path": "artifacts/cold-joint-control-v1/runs/0104/result.json",
+      "sha256": "338df27b9deac8f7e7854572963b3bad74dbe4fbb88067ee96ec2bdd9c5bb05b"
+    },
+    "initial_status": "process_failed",
+    "predictions": {
+      "path": "artifacts/cold-joint-control-v1/export-recovery/0104/output/predictions.json",
+      "sha256": "141818a652aaeaab154ecdc92d9dabd2761fcb33c379e91c4f46529b3ce8a41f"
+    },
+    "runtime": {
+      "budget_pass": true,
+      "budget_rss_MiB": 1024,
+      "budget_seconds": 180,
+      "exit_code": 0,
+      "failure": null,
+      "limitation": "Not simultaneous RSS; processes shorter than sampling interval can be missed; past unlogged PID attribution cannot be reconstructed",
+      "memory_method": "Sum of lifetime working-set peaks keyed by PID+creation time; OS job membership or timestamp-verified ancestry; 50ms sampling",
+      "observed_process_count": 2,
+      "peak_rss_MiB": 205.6953125,
+      "rejected_stale_process_count": 0,
+      "walltime_seconds": 73.80550329998368
+    },
+    "same_C1_policy_and_inputs": true,
+    "status": "ok"
+  },
+  {
+    "common_export_repair": true,
+    "id": "0108",
+    "initial_result": {
+      "path": "artifacts/cold-joint-control-v1/runs/0108/result.json",
+      "sha256": "93b31927f0e9a71e24dab6529339c46afedbc30842b16787582b66dc7df5315e"
+    },
+    "initial_status": "process_failed",
+    "predictions": {
+      "path": "artifacts/cold-joint-control-v1/export-recovery/0108/output/predictions.json",
+      "sha256": "c9ee47e6b7d6e6d43619e931b271401d448e2543bc5cb6b65c4503590fc16065"
+    },
+    "runtime": {
+      "budget_pass": true,
+      "budget_rss_MiB": 1024,
+      "budget_seconds": 180,
+      "exit_code": 0,
+      "failure": null,
+      "limitation": "Not simultaneous RSS; processes shorter than sampling interval can be missed; past unlogged PID attribution cannot be reconstructed",
+      "memory_method": "Sum of lifetime working-set peaks keyed by PID+creation time; OS job membership or timestamp-verified ancestry; 50ms sampling",
+      "observed_process_count": 2,
+      "peak_rss_MiB": 204.40625,
+      "rejected_stale_process_count": 0,
+      "walltime_seconds": 40.84161189998849
+    },
+    "same_C1_policy_and_inputs": true,
+    "status": "ok"
+  }
+]

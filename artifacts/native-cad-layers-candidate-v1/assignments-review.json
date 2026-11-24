@@ -1,0 +1,123 @@
+{
+  "schema": "native-cad-layer-source-review/1.0",
+  "reviewer": "Codex",
+  "evidence_mode": "assistant_source_raster_review",
+  "not_engineer_or_CAD_acceptance": true,
+  "whole_original_frame_side_not_claimed": true,
+  "all_new_assignments": [
+    {
+      "source": {
+        "path": "dataset/test_png/чертеж131.png",
+        "sha256": "40d1e87714f37886efd732a55964b78a22df5762e705c787c514c3e380260094"
+      },
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/02-C/output/candidate/page-001.dxf",
+        "sha256": "564a36c8eb856d76d08e697d60ee91890e0c1ff4be53ad036552287aa31d04a7"
+      },
+      "object_id": "cad-primitive/0772cecbfd39a6ae7c02febd",
+      "handle": "63C",
+      "assigned_role_correct": true,
+      "expected_role": "FRAME",
+      "note": "131: right lower outer frame, full exported LINE",
+      "overlay": {
+        "path": "artifacts/native-cad-layers-candidate-v1/02-assignments.png",
+        "sha256": "84f8714374e85726c04fccdab50925fb459e812fafdc9ae7acab1c936739f2ee"
+      }
+    },
+    {
+      "source": {
+        "path": "dataset/test_png/чертеж131.png",
+        "sha256": "40d1e87714f37886efd732a55964b78a22df5762e705c787c514c3e380260094"
+      },
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/02-C/output/candidate/page-001.dxf",
+        "sha256": "564a36c8eb856d76d08e697d60ee91890e0c1ff4be53ad036552287aa31d04a7"
+      },
+      "object_id": "cad-primitive/20d86ea1b93aa7717761b8ae",
+      "handle": "747",
+      "assigned_role_correct": true,
+      "expected_role": "FRAME",
+      "note": "131: lower outer frame left of title block, full exported LINE",
+      "overlay": {
+        "path": "artifacts/native-cad-layers-candidate-v1/02-assignments.png",
+        "sha256": "84f8714374e85726c04fccdab50925fb459e812fafdc9ae7acab1c936739f2ee"
+      }
+    },
+    {
+      "source": {
+        "path": "dataset/test_png/чертеж133.png",
+        "sha256": "bfa0e7c46579e304643f7cf3512c6f7c5971b265183da7128527e8afaddd992e"
+      },
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/03-C/output/candidate/page-001.dxf",
+        "sha256": "16d6dc5eccc2eb98d02e737e81090b10f9aeb28a816902d9f1ddea20bae52cf9"
+      },
+      "object_id": "cad-primitive/1ee6d402e2ff2cd5c671d69b",
+      "handle": "615",
+      "assigned_role_correct": true,
+      "expected_role": "FRAME",
+      "note": "133: right outer frame beside title block, full exported LINE",
+      "overlay": {
+        "path": "artifacts/native-cad-layers-candidate-v1/03-assignments.png",
+        "sha256": "419579a661ed9be2f32146b39c91920b63b35349aa30f70bb3fb98ea785515e8"
+      }
+    },
+    {
+      "source": {
+        "path": "dataset/test_png/чертеж133.png",
+        "sha256": "bfa0e7c46579e304643f7cf3512c6f7c5971b265183da7128527e8afaddd992e"
+      },
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/03-C/output/candidate/page-001.dxf",
+        "sha256": "16d6dc5eccc2eb98d02e737e81090b10f9aeb28a816902d9f1ddea20bae52cf9"
+      },
+      "object_id": "cad-primitive/874e367e9a3e50517a2779a5",
+      "handle": "687",
+      "assigned_role_correct": true,
+      "expected_role": "FRAME",
+      "note": "133: right lower outer frame, full exported LINE",
+      "overlay": {
+        "path": "artifacts/native-cad-layers-candidate-v1/03-assignments.png",
+        "sha256": "419579a661ed9be2f32146b39c91920b63b35349aa30f70bb3fb98ea785515e8"
+      }
+    },
+    {
+      "source": {
+        "path": "dataset/test_png/чертеж133.png",
+        "sha256": "bfa0e7c46579e304643f7cf3512c6f7c5971b265183da7128527e8afaddd992e"
+      },
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/03-C/output/candidate/page-001.dxf",
+        "sha256": "16d6dc5eccc2eb98d02e737e81090b10f9aeb28a816902d9f1ddea20bae52cf9"
+      },
+      "object_id": "cad-primitive/06a19e0f384ce15cdd70dc3a",
+      "handle": "7B9",
+      "assigned_role_correct": true,
+      "expected_role": "FRAME",
+      "note": "133: lower outer frame left of title block, full exported LINE",
+      "overlay": {
+        "path": "artifacts/native-cad-layers-candidate-v1/03-assignments.png",
+        "sha256": "419579a661ed9be2f32146b39c91920b63b35349aa30f70bb3fb98ea785515e8"
+      }
+    },
+    {
+      "source": {
+        "path": "dataset/test_png/чертеж180.png",
+        "sha256": "e36fb57959478e8775b31f7ec5cef1cbd7e4b3d3654cce8661864484b25e8237"
+      },
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/04-C/output/candidate/page-001.dxf",
+        "sha256": "17cb85d234c3c99b279846c06da6be5955d3922bc2ca2fbaef1b411e2240e9b8"
+      },
+      "object_id": "cad-primitive/7cd7b3653474d42e02a4243e",
+      "handle": "4A1",
+      "assigned_role_correct": true,
+      "expected_role": "FRAME",
+      "note": "180: short right lower outer frame, full exported LINE",
+      "overlay": {
+        "path": "artifacts/native-cad-layers-candidate-v1/04-assignments.png",
+        "sha256": "3b9213c0b1362768f3b384222f2a759f6efa5e599f0eb187d05320c4b3b55020"
+      }
+    }
+  ]
+}

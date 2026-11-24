@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "id": "rapidocr-3.9.2-ppocr-v5-eslav-mobile-v1",
+  "rapidocr_version": "3.9.2",
+  "onnxruntime_version": "1.31.0",
+  "source_manifest": "https://github.com/RapidAI/RapidOCR/blob/v3.9.2/python/rapidocr/default_models.yaml",
+  "checked_on": "2026-10-22",
+  "models": [
+    {
+      "role": "det",
+      "filename": "ch_PP-OCRv5_det_mobile.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/det/ch_PP-OCRv5_det_mobile.onnx",
+      "sha256": "4d97c44a20d30a81aad087d6a396b08f786c4635742afc391f6621f5c6ae78ae"
+    },
+    {
+      "role": "rec",
+      "filename": "eslav_PP-OCRv5_rec_mobile.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/rec/eslav_PP-OCRv5_rec_mobile.onnx",
+      "sha256": "08705d6721849b1347d26187f15a5e362c431963a2a62bfff4feac578c489aab"
+    },
+    {
+      "role": "cls",
+      "filename": "ch_PP-LCNet_x0_25_textline_ori_cls_mobile.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/cls/ch_PP-LCNet_x0_25_textline_ori_cls_mobile.onnx",
+      "sha256": "54379ae5174d026780215fc748a7f31910dee36818e63d49e17dc598ecc82df7"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "additional_guard_and_test_code": [
+    {
+      "path": "src/cad_recovery/native_table_pipeline_v2.py",
+      "sha256": "8e02648813036224e05773153cae67576c7a0613ffdc58cda7a218acb445339f"
+    },
+    {
+      "path": "scripts/native_table_v2.py",
+      "sha256": "ec9102a41d82e4e451e92a8667a5be4d5ef9dc3c2682535e45db2520d0b57fb8"
+    },
+    {
+      "path": "scripts/verify_native_table_v1.py",
+      "sha256": "7efebc9f8e4fb88f0b646846c57c7c4e914396e5cb1719d30e47d97a9877ae74"
+    },
+    {
+      "path": "tests/test_native_table_pipeline_v1.py",
+      "sha256": "003c2f07cba350c2031358df463e3a4c97bed682a50e004f7de151c0838bb685"
+    },
+    {
+      "path": "tests/test_native_table_registration_v2.py",
+      "sha256": "be808cb67972dfc3cb6b6c753f7ee6bc041883770e856a7e9d5436e16bc531fb"
+    }
+  ],
+  "automatic_routing_admitted": false,
+  "current_Web_binding_unchanged": true,
+  "decision": "limited_manual_candidate",
+  "evidence": [
+    {
+      "path": "docs/stage2-10-6-3-2-native-tables-v1.md",
+      "sha256": "e74c939ff9a0d2068a30f608c1c65ce28a703e402a14a52cbc2395a11104fe0d"
+    },
+    {
+      "path": "artifacts/native-table-qualification-v1/protocol.json",
+      "sha256": "3a754cb6ee9c3397955f945ff187e0bece573463e7c8024a16730cd5585a9f0a"
+    },
+    {
+      "path": "artifacts/native-table-qualification-v1/verification.json",
+      "sha256": "51bacaecf6c8ebedaaddff7c714d37073e9b88738483192a809d3ff20eb69977"
+    },
+    {
+      "path": "artifacts/native-table-qualification-v1/field-reading-policy.json",
+      "sha256": "c4c5960f11e75b07e69b619fcc13c8946a681ef1a0c7c9c6318622f3335cd874"
+    },
+    {
+      "path": "artifacts/native-table-regressions-final-v1.xml",
+      "sha256": "eb998507d124bcffffee088d7e0d9c74892a4c702310a738f42c09fabf284edd"
+    }
+  ],
+  "field_summary": {
+    "fields": 12,
+    "independent_acceptance": false,
+    "native_CER": 0.05434782608695652,
+    "native_WER": 0.23076923076923078,
+    "native_exact": 9,
+    "native_nonempty": 12,
+    "old_CER": 0.17391304347826086,
+    "old_WER": 0.23076923076923078,
+    "old_exact": 8,
+    "old_nonempty": 8,
+    "scope": "12 fixed source fields, not whole-page OCR or dense table GT",
+    "strict_characters": 92,
+    "strict_fields": 11
+  },
+  "limits": [
+    "short title205 unknown",
+    "case regressions in code fields",
+    "plus-minus misread as plus",
+    "retained native primitive/residual overlap possible",
+    "207 outside ROI retains legacy resolution",
+    "No independent dense table GT or full native PDF table acceptance"
+  ],
+  "native_cells": [
+    329,
+    342,
+    85
+  ],
+  "next_priority": "10.6.3.3",
+  "parent_task_10_6_3_complete": false,
+  "production_changed": false,
+  "schema_version": "native-table-release/1.0",
+  "task": "10.6.3.2",
+  "task_completed": true,
+  "tests_passed": 103
+}

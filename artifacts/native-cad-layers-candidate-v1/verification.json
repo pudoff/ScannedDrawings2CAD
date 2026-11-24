@@ -1,0 +1,28 @@
+{
+  "task": "9.1.2",
+  "limited_demo_layer_passed": true,
+  "full_runs": 5,
+  "new_correct_FRAME_objects": 6,
+  "reviewed_false_assignments": 0,
+  "all_new_assignments_reviewed": true,
+  "native_models_exact": true,
+  "annotations_and_source_masks_exact": true,
+  "known_roles_preserved": true,
+  "prior_CAD_gain_preserved_by_exact_model_equality": true,
+  "independent_acceptance": false,
+  "manual_CAD_verified": false,
+  "web_changed": false,
+  "review": {
+    "path": "artifacts/native-cad-layers-candidate-v1/assignments-review.json",
+    "sha256": "6cd2292b1f8c79c83c4b034ddaf2226320803d56eeb51144dbf4dc049297dbe2"
+  },
+  "comparison": {
+    "path": "artifacts/native-cad-layers-candidate-v1/comparison.json",
+    "sha256": "f1b0bfa5fd10d336ae950544286606540cf8ec0b0da70d3149059ea3f3d66a11"
+  },
+  "tests_passed": 85,
+  "raster_role_maps_exact": true,
+  "baseline_binding_unchanged": true,
+  "archive_unchanged": true,
+  "unique_task_ids": true
+}

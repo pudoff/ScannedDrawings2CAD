@@ -1,0 +1,109 @@
+{
+  "CV_OCR_export_changed": false,
+  "code": [
+    {
+      "path": "src/cad_recovery/search_completeness_v1.py",
+      "sha256": "8c4de156eaf28d85ff40bbdfedbc8c85bd4e8471371dd6778d68ad7d8a96959f"
+    },
+    {
+      "path": "src/cad_recovery/profile_contract_v9.py",
+      "sha256": "72454a393936a59d5ee11f65cf5812c6fe3da8a19d64695d1cce350ddd756293"
+    },
+    {
+      "path": "src/cad_recovery/profile_pipeline_v9.py",
+      "sha256": "1afb252b5e0da9e1a5c48f2eadc2bdbac7eb926b06b928d04b318c2a42f9c166"
+    },
+    {
+      "path": "src/cad_recovery/sealed_child_v2.py",
+      "sha256": "1534f115ffebc6f360e86ff5a6ead6242b1cab65af340025aeafc33e9a99570c"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v21/queue.py",
+      "sha256": "19d9a9a29108470a77b29639d79fca3fb8b5fd9e9e7b4a5d4d95b4d7b3e2ff05"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v21/worker.py",
+      "sha256": "bfab88425cd1876f4b46aa42d3a47727409fad7babadf4652734ab3f3a381211"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v22/__init__.py",
+      "sha256": "50f8f24febab487f0477404c389c3929a79f3d3ed763df160c1155aafd31868c"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v22/api.py",
+      "sha256": "55253943904028e24e34c3f8cb75ce66f14b312e3077b629d33296a5c5c72bda"
+    },
+    {
+      "path": "src/cad_recovery/search_completeness_assets_v1/coverage.js",
+      "sha256": "6d0d91ebe6a7bbede94455bdec96b2394360716c156684db860ddc8b0009897d"
+    },
+    {
+      "path": "src/cad_recovery/web_tables_contract_v7.py",
+      "sha256": "b15d21763a8c50da46ce662f2e9e21e8e10b1f5a13693d14c10e2b769b76f8cb"
+    },
+    {
+      "path": "src/cad_recovery/web_tables_context_v7.py",
+      "sha256": "4e635e2b255026c8311eb80e655fc0cb827899cf6144cb5bfefdfde7f94e977a"
+    },
+    {
+      "path": "src/cad_recovery/web_tables_api_v8.py",
+      "sha256": "a31c2698dea02a94e872ccba222f0494bad25fa93c8a758c0eae89469b91f406"
+    },
+    {
+      "path": "src/cad_recovery/web_tables_build_v7.py",
+      "sha256": "96a203657764107e9a0d68ec0fd0eab49db56e2bc319919f07e91e719241fa46"
+    },
+    {
+      "path": "src/cad_recovery/web_tables_worker_v10.py",
+      "sha256": "c71948d16fe05073f8408438b1b6e5b92137acc78ee89d5585ab9d801db29a81"
+    },
+    {
+      "path": "src/cad_recovery/table_worker_request_v4.py",
+      "sha256": "8319497ae08a994be43e81ace49ac4c6ff74d3987fa24b824e43c1a5eb7c1cd9"
+    },
+    {
+      "path": "src/cad_recovery/table_build_dispatch_v4.py",
+      "sha256": "0b8b00ef76e77dd8fd5b360b0a77ba1002b97946593fd0e04836529e0a386e99"
+    },
+    {
+      "path": "scripts/service_profile_diagnostic_v7.py",
+      "sha256": "fccf21a12b772e3b42dcaeeb649a49ad907cd59ed2620cf27ac2ab87d5c96882"
+    },
+    {
+      "path": "scripts/process_search_status_v1.py",
+      "sha256": "bf6687519ac5732e42f7f8e29e6bba8a46466a3231d56e6000fbe48715fae7ea"
+    },
+    {
+      "path": "scripts/run_profiles_v27.py",
+      "sha256": "a67ebe000e45b72601c3848fef588fbe4ccf82375ae09e00e101ee644cd846af"
+    },
+    {
+      "path": "scripts/start_profiles_v27.py",
+      "sha256": "621efc19c088477745eae6f5387f772a3d3df1f66284624b0caace7094bde098"
+    },
+    {
+      "path": "scripts/build_web_tables_v10.py",
+      "sha256": "c92996a5471af56b42fc19bf749ffa709806ae8500ba78ff476e28be1e1e3464"
+    }
+  ],
+  "policy": {
+    "head_search": "seed AND width/axis/eligibility/localized/context/curved",
+    "legacy_cv": "unchanged experimental aggregate; historically excludes seed",
+    "overall": "legacy_cv AND structural_cv AND head_search; not detection recall",
+    "quality_credit": false,
+    "states": [
+      "complete",
+      "incomplete",
+      "unknown",
+      "not_applicable"
+    ],
+    "structural_cv": "recorded source path/boundary graph flag, including initial roles; not all CV stages",
+    "unknown_historical_fields": "unknown; never inferred from DXF or other flags",
+    "version": "search-completeness/1.0"
+  },
+  "previous_release": {
+    "path": "artifacts/point-head-trial-release-v1.json",
+    "sha256": "c61efb39198656bd996e87c92936d5dfdd6830ef6584028f1c93fb1e9d8d3c14"
+  },
+  "schema_version": "search-reporting-web/1.0"
+}

@@ -1,0 +1,3177 @@
+{
+  "task": "9.1.2",
+  "prior_protocol": {
+    "path": "artifacts/native-cad-demo-candidate-v1/protocol.json",
+    "sha256": "4e286762586674083707ddad1a506d74091a892fb7dda3410e9c39a120c7d590"
+  },
+  "prior_comparison": {
+    "path": "artifacts/native-cad-demo-candidate-v1/comparison.json",
+    "sha256": "981bd01189b987398c844b59714ab35e4fbb9156f5a722cdcb7c3e2165653fec"
+  },
+  "sources": [
+    {
+      "path": "dataset/clear_sum_dataset/vse_png/звездочка.png",
+      "sha256": "30fb4c7ec23d654e70feebea783faddd6c6a8c3b9923b9fdfdb1ec45be808def"
+    },
+    {
+      "path": "dataset/test_png/чертеж131.png",
+      "sha256": "40d1e87714f37886efd732a55964b78a22df5762e705c787c514c3e380260094"
+    },
+    {
+      "path": "dataset/test_png/чертеж133.png",
+      "sha256": "bfa0e7c46579e304643f7cf3512c6f7c5971b265183da7128527e8afaddd992e"
+    },
+    {
+      "path": "dataset/test_png/чертеж180.png",
+      "sha256": "e36fb57959478e8775b31f7ec5cef1cbd7e4b3d3654cce8661864484b25e8237"
+    },
+    {
+      "path": "IMG_20261109_160629_212.jpg",
+      "sha256": "d3baaca90795c9ccb85e3bcfa71245bb2182996c74132bc410e3ce2653e4ca14"
+    }
+  ],
+  "code": [
+    {
+      "path": "src/cad_recovery/__init__.py",
+      "sha256": "4ab69472c9911ac717de86dac30710be06268026a1be7c749cb09f802a63929e"
+    },
+    {
+      "path": "src/cad_recovery/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "src/cad_recovery/anchor_localization_evaluation.py",
+      "sha256": "a7bfe05ace3ae0bac37e0f1ed97aede883551af01fb6594cb173f40f9b99467c"
+    },
+    {
+      "path": "src/cad_recovery/anchor_review_case.py",
+      "sha256": "a3253d1d91b4873dd3b439519b74f3113cd919d13d138e36efa9c411f7dc8e1c"
+    },
+    {
+      "path": "src/cad_recovery/anchored_curve_fit_v1.py",
+      "sha256": "74f3427dc29a270ccb7ea13353b1d58ab8a1908f2f384bbf141683cd68aad3c0"
+    },
+    {
+      "path": "src/cad_recovery/angular_association_v1.py",
+      "sha256": "6a724134e6a6affabc63c92241a82d8ad1eab92e704f52230ade71b6b6145387"
+    },
+    {
+      "path": "src/cad_recovery/angular_association_v2.py",
+      "sha256": "bf3020111a2113bb29dd304719ec73d766c7c6de218b14ad9f4480e893e246b8"
+    },
+    {
+      "path": "src/cad_recovery/angular_association_v3.py",
+      "sha256": "522c9d50cd1a34cb55e395268eabef4cb4fac986917edce4c6503fe7c52655cc"
+    },
+    {
+      "path": "src/cad_recovery/angular_association_v4.py",
+      "sha256": "54492fe80e4e7ed43e1d0254cf3bc1229198cac1c201593f23ba1ffe2b954f1f"
+    },
+    {
+      "path": "src/cad_recovery/angular_association_v5.py",
+      "sha256": "703b0eb675f8f07826ccaa52d8e75e5f055a939b4dca8393b6c81cd2bf809716"
+    },
+    {
+      "path": "src/cad_recovery/angular_component_pixels_v1.py",
+      "sha256": "06b94d77c246801ae670e306d8063ecc1e1a99c928cfe2e1505f9739a9f2d731"
+    },
+    {
+      "path": "src/cad_recovery/angular_component_pixels_v2.py",
+      "sha256": "759f14695116b90d566af9a1a65d0522445fa9b84ee816731245108d16eee68a"
+    },
+    {
+      "path": "src/cad_recovery/angular_component_pixels_v3.py",
+      "sha256": "88e73e79f31a0a4fb1136162d4269695be09cd37577e4a2d7e212cc2da5de4c9"
+    },
+    {
+      "path": "src/cad_recovery/angular_group_ownership_v1.py",
+      "sha256": "6f2b1dc5adada36ed0d101342c232c896ed348cf28564c7c94519c17c0c251a2"
+    },
+    {
+      "path": "src/cad_recovery/angular_leader_search_v1.py",
+      "sha256": "01cacbaae7fc164d6df047305794f9e81613fe049f9215f4d966afa498a698d1"
+    },
+    {
+      "path": "src/cad_recovery/angular_leader_search_v2.py",
+      "sha256": "a52f5197da06b1ba15d4216689a771f3884fd0677d6c9f3beb243702e0e89f00"
+    },
+    {
+      "path": "src/cad_recovery/angular_link_metrics_v1.py",
+      "sha256": "2195cd515d2b0969520aac84fe90c5a18cb9fc9663855fd2d87cc61de4b65888"
+    },
+    {
+      "path": "src/cad_recovery/angular_text_components_v1.py",
+      "sha256": "ed0f68a93dd15d74679540b3b5d97464b4ba67d3bbfb4c60c72b065da79e2bad"
+    },
+    {
+      "path": "src/cad_recovery/annotation_shaft_profile_v1.py",
+      "sha256": "42db6aa74be896be8a138b940bf0682fa8c3f7051123cee5e452f06638b621ae"
+    },
+    {
+      "path": "src/cad_recovery/annotation_style_v1.py",
+      "sha256": "9a6814a0223cc54228ed76c25793f487011c3c476d6541854cc6b0417fa78f2e"
+    },
+    {
+      "path": "src/cad_recovery/arc_endpoint_alignment_v1.py",
+      "sha256": "61b5d92b309906022ed2d88307580ab7c7f9bc6978fac53f6a60af2dfdceaa50"
+    },
+    {
+      "path": "src/cad_recovery/arc_final_validation_v1.py",
+      "sha256": "b66f0f9654a7792b495448b7263133691e5eca923d80b4ced5e7553ee22818b6"
+    },
+    {
+      "path": "src/cad_recovery/arc_identity_role_guard_v1.py",
+      "sha256": "3ab0082466ba926cf129cd1ae8e3d037512906592339c015d3aa68c4d9346f64"
+    },
+    {
+      "path": "src/cad_recovery/arc_joint_corner_v1.py",
+      "sha256": "f420c3ff1291540ff5bdcdebc349ac30854a041df326ebf6842b1842577467b4"
+    },
+    {
+      "path": "src/cad_recovery/arc_junction_merge_v1.py",
+      "sha256": "a55eca7cc4ce3ddbf821fca331bc4b886bb989b472bf27bde9410588ba8a2bfa"
+    },
+    {
+      "path": "src/cad_recovery/arc_junction_merge_v2.py",
+      "sha256": "b45cd698f1409c3db5a3cc16d82496d067e0e9c73a43e559b7cad8f4f2cee2c9"
+    },
+    {
+      "path": "src/cad_recovery/arc_junction_merge_v3.py",
+      "sha256": "40bbafe48a5c73a055918833c5e6f33d856dc0c7ac930f31880ec55bef6f93ed"
+    },
+    {
+      "path": "src/cad_recovery/arc_junction_merge_v4.py",
+      "sha256": "167cc4bfb840c6f5e62c6e37a4d6f84041937421f2f3331b1a1856a3d6e8a7c9"
+    },
+    {
+      "path": "src/cad_recovery/architecture_baseline_v1.py",
+      "sha256": "395536ef87bcdc74b211ddfe51d62c6558283ecbd4190b40577797269b3a3147"
+    },
+    {
+      "path": "src/cad_recovery/architecture_data_readiness_v1.py",
+      "sha256": "09f8e0d137d0232b522fcdffd114a1c349176e20a97859d08e83d44465a0f6b2"
+    },
+    {
+      "path": "src/cad_recovery/arrow_detection.py",
+      "sha256": "434708b3a60b4e66fb8a691d84358bc59b4728bc3ac82fe347e290b26800292f"
+    },
+    {
+      "path": "src/cad_recovery/arrow_head_completion_v1.py",
+      "sha256": "ca0a5980ec3294fabf13b360dfd3b3db8f4b20cd1bdc1bd60df35f2010759caa"
+    },
+    {
+      "path": "src/cad_recovery/arrow_head_validation_v1.py",
+      "sha256": "6f4fff204fde2ab57baad51088ba9bbf85f3b77cf5e73e97555e03d792b7377a"
+    },
+    {
+      "path": "src/cad_recovery/arrow_path_recovery_v1.py",
+      "sha256": "9fe72698ebe30fc39e48c5b63ac58fa94dceca2b49dbc54d761b51b91a1b517f"
+    },
+    {
+      "path": "src/cad_recovery/arrow_rejection_trace_v1.py",
+      "sha256": "0dd8d59f242f7b6e05741174f83ecc0b5c973c93cb971be12709e2d8868b7f55"
+    },
+    {
+      "path": "src/cad_recovery/arrow_review_cohort_v1.py",
+      "sha256": "dab92b66aff92a84b25ee970ce41f9fbd4f913b6cd2f7a2c1863fa4df3d5de63"
+    },
+    {
+      "path": "src/cad_recovery/arrow_shaft_pipeline_v1.py",
+      "sha256": "5013b918fbcf4ac3529b3f8fa805162e91af747fb0b57df75306b84fa3cd5b9f"
+    },
+    {
+      "path": "src/cad_recovery/arrow_shaft_support_v1.py",
+      "sha256": "20ce28ba691ebbde91ea8798d129b26810959988dcd9ced2151d827e7d68154d"
+    },
+    {
+      "path": "src/cad_recovery/arrow_tip_refinement_v1.py",
+      "sha256": "c648f926e27b92946e11a989f8bb2e2b44dee73421e8b31d2729373d670e2e84"
+    },
+    {
+      "path": "src/cad_recovery/association_evaluation.py",
+      "sha256": "70fae0157cad4bd7753ff66405cca86446e73e82a5f900a2b67cca29ccbced91"
+    },
+    {
+      "path": "src/cad_recovery/association_rejection_trace_v1.py",
+      "sha256": "344b5414db907575a1a00e3353fe370e8a9bed9fa774e66156eb21368ca88e28"
+    },
+    {
+      "path": "src/cad_recovery/association_rejection_trace_v2.py",
+      "sha256": "5f8992ab9a196fd170b1ec1922a0416d5b3e9c9c765fd4c63e63abf05ed16f66"
+    },
+    {
+      "path": "src/cad_recovery/atomic_source_graph_v1.py",
+      "sha256": "56dc280757d470fc0877b5f5ad7b36cd9be23c4d9fffb9b93646186eb4b673b0"
+    },
+    {
+      "path": "src/cad_recovery/atomic_supervision_v1.py",
+      "sha256": "a02d16a945529a1886530db444de1ef94c45bb9e0aa43a00d274578432f28759"
+    },
+    {
+      "path": "src/cad_recovery/attached_grid_competition_v1.py",
+      "sha256": "0b9280a7aa1c0023ba38e71fd20a56d22422fa6ff71101c033e78f1c86df8fcf"
+    },
+    {
+      "path": "src/cad_recovery/attached_grid_context_io_v1.py",
+      "sha256": "19c692b31ceebee3f85fc0d0ba8693fde94dc366475ea999eb5049bbc867f9a9"
+    },
+    {
+      "path": "src/cad_recovery/axis_dash_search_v1.py",
+      "sha256": "6e06f9f26e2534538f42889ca9232640eaa1a5c1aa67706f0345124edf3ebc87"
+    },
+    {
+      "path": "src/cad_recovery/background_comparison_v1.py",
+      "sha256": "1a009e30e03cf8b52993704ff58373bac2297c5079728e64d026fc396ee4b175"
+    },
+    {
+      "path": "src/cad_recovery/baseline_anchor_windows_v1.py",
+      "sha256": "86cce8958dcf4db9af7d41dad1ec5e94c6ad32cdeb74c79471dcf1d91d2f0398"
+    },
+    {
+      "path": "src/cad_recovery/boundary_certificates_v1.py",
+      "sha256": "9225c0f3cf88a77a03337e7791c33621ffd4c0d1972b375e57d51871c42c661f"
+    },
+    {
+      "path": "src/cad_recovery/boundary_certificates_v2.py",
+      "sha256": "3fc61910081141d899a1e80941b8a17196e687f3183f77d812714efbfddf5cb0"
+    },
+    {
+      "path": "src/cad_recovery/boundary_certificates_v3.py",
+      "sha256": "946269d0f023746ae0ec53d38a100a3195512b451e48dab04c52e9691da07cf7"
+    },
+    {
+      "path": "src/cad_recovery/boundary_role_overlay_v1.py",
+      "sha256": "84d737f5f5f8ef8749b9404e6f860aeeb00770a410b87e9a1d7f6b62ccfd4c0f"
+    },
+    {
+      "path": "src/cad_recovery/boundary_role_overlay_v2.py",
+      "sha256": "d5870e373ab2990afb0db6821c4cfd8c4cc8142d6963858f64c320658ee5b06a"
+    },
+    {
+      "path": "src/cad_recovery/bounded_png_access_v1.py",
+      "sha256": "b59af42a1a1e9b35e4fba9578d9ef96438c772b97cb1e7cf414deecf3a8c82ef"
+    },
+    {
+      "path": "src/cad_recovery/bounded_preprocessing_metrics_v1.py",
+      "sha256": "78388a3816df85bbb9a23469b7bedbab959cad0ff34435dbf553ca49278283a3"
+    },
+    {
+      "path": "src/cad_recovery/bounded_preprocessing_v1.py",
+      "sha256": "00800f7676835370d9d3e483b7238c3b65ab6bf23f9c2c3e97c7bd68f7d51bf7"
+    },
+    {
+      "path": "src/cad_recovery/cad_axis_candidate_export_v1.py",
+      "sha256": "0c1f36486e68690a128c3fe6f2a1b5edfc9f43f68b04c86f25fd368665f64777"
+    },
+    {
+      "path": "src/cad_recovery/cad_axis_contract_v1.py",
+      "sha256": "ecf2655adad7bcef86d2244cec2f65ff535a5a075cef09f58f32b99950e5da4b"
+    },
+    {
+      "path": "src/cad_recovery/cad_axis_pattern_v1.py",
+      "sha256": "13814b4b52e45e49a66cd2873fef5c77a3fe5401efdc17e8e2a8bd46e33f664a"
+    },
+    {
+      "path": "src/cad_recovery/cad_axis_pattern_v2.py",
+      "sha256": "c2944d095a19e5d9b27909c56e80d201af0ffd963349f375a50d42f29ed08500"
+    },
+    {
+      "path": "src/cad_recovery/cad_axis_pattern_v3.py",
+      "sha256": "93f010ac15294fddb4f7801daccf8a9fa3770ee832b5740f550733bb093309cf"
+    },
+    {
+      "path": "src/cad_recovery/cad_axis_pattern_v4.py",
+      "sha256": "c76ea0c6a941b1a7b6e2050023eda3d676bddef0c17223b4f3579dff39ffdf70"
+    },
+    {
+      "path": "src/cad_recovery/cad_axis_pattern_v5.py",
+      "sha256": "e3df97b818b75123e8b9bd06818ebced2a918d0323b5c4f157907f7e918ca9b2"
+    },
+    {
+      "path": "src/cad_recovery/cad_axis_preview_v1.py",
+      "sha256": "f69fa524aad6e7ee7bd76dfb986eac9157036fdc9ba7537685dac3259fce75af"
+    },
+    {
+      "path": "src/cad_recovery/cad_axis_review_v1.py",
+      "sha256": "3766334633d8933e3a295edf85519f8fb748556c7f3e918625da9567fd18f4d1"
+    },
+    {
+      "path": "src/cad_recovery/cad_dimension_contact_v1.py",
+      "sha256": "456a85e9d214f305fde90b42329bf2c575fe6437dc9bb7b1229405a4d5c83421"
+    },
+    {
+      "path": "src/cad_recovery/cad_full_diameter_v1.py",
+      "sha256": "ba0774f505042ccb656aee98dbab49ee58cd51920f530cc8d265a31f8671a36b"
+    },
+    {
+      "path": "src/cad_recovery/cad_line_completion_v3.py",
+      "sha256": "119fa284940a4194130c01439dd21a5ec9a06396a2ac140db19678e90628f523"
+    },
+    {
+      "path": "src/cad_recovery/cad_line_export_v10.py",
+      "sha256": "ce87fddbf9098bb90256c7923b2364e8e0eb39f86aadf164250d620ad3c8b6c8"
+    },
+    {
+      "path": "src/cad_recovery/cad_line_export_v11.py",
+      "sha256": "0214291ace09af71f6cab9f3e6654841464d472c6c0479c557f4e787712ebadd"
+    },
+    {
+      "path": "src/cad_recovery/cad_line_export_v3.py",
+      "sha256": "87c54c3e4faf38fef8c43228e98731f72c9a62b08c06814aac678db1020b5394"
+    },
+    {
+      "path": "src/cad_recovery/cad_line_export_v4.py",
+      "sha256": "7fd5833b9351b8cac25274768bca9510c90cf18421d28ce3f7f36ff2ef9ef7c4"
+    },
+    {
+      "path": "src/cad_recovery/cad_line_export_v5.py",
+      "sha256": "5b73907e2fe3d9fc711273069836390dbb6f78af92f5682fa5eae206fb4e3067"
+    },
+    {
+      "path": "src/cad_recovery/cad_line_export_v6.py",
+      "sha256": "74dac2789925b8a332b131beb90802c2d70d0b9e95dba7f3138d22b52271d028"
+    },
+    {
+      "path": "src/cad_recovery/cad_line_export_v7.py",
+      "sha256": "3583c8f499c2f90e8cfeda2a87fa778b6631a6cbd71de24f0466e59a0a206c10"
+    },
+    {
+      "path": "src/cad_recovery/cad_line_export_v8.py",
+      "sha256": "27f19dba55ae2af71379424549eec0a26386b572073066ce6c3859dfa4e6895d"
+    },
+    {
+      "path": "src/cad_recovery/cad_line_export_v9.py",
+      "sha256": "b6b95bc0ac3c28ab95dc74b3f7e06060b36cf0ec732cc9a410ee8a2e8ba55c87"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v1.py",
+      "sha256": "9eb7cb27fb9fe0924af033c152906999ddf8eef4f2589f12b4c2fe9c74de5b65"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v10.py",
+      "sha256": "1397148b3a1f1e4baac688df73c279e444a291664018d517f1b4f5a789f42dd0"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v11.py",
+      "sha256": "840db4e3350bc61dbdd1f2a03a295fc643b87239362801116ebb4a4878bd0145"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v12.py",
+      "sha256": "d0b6878479ce3d7ba9f2079d22a6d95c8935792950955aa47a96a3003a328885"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v13.py",
+      "sha256": "bc58d479b5ea45b9d65e2ba9cfbebbbc64fff89f8d5dc67eecdaca560df62892"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v14.py",
+      "sha256": "f534b86a40a577b56c6e3c20c1aae8e753fe87d742c49400fe1bd4a86f2ede1e"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v15.py",
+      "sha256": "ac78d4af410270b2d9baab5148dd369411db8ebd453914e9ceee938fca8d6c60"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v16.py",
+      "sha256": "79cfcc10b5722a2cfd90d679176e61aabba5a59e777ed2620401ad1db1c11483"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v2.py",
+      "sha256": "e208ad12ffd1c4353355bf5b6aa7448de581e86ed3e01fda75457b1ebe4c1669"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v3.py",
+      "sha256": "93367505fa40c0cd9a8a370ed11cdff70e7041c5b58db43c133213979b228fb5"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v4.py",
+      "sha256": "2242d6896b913de3edc905dc63dc3dcbfd63c5039973ef2a25deba2b7d88c138"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v5.py",
+      "sha256": "3499643c48a15c3ec7e05349bc401807bd3f050cdb16aae826a763fda76c09c6"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v6.py",
+      "sha256": "c7079c8aecf04cc4312453f13e266dfe2d79060821438d0103f7fa2f2cc52039"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v7.py",
+      "sha256": "bd18c12ec053ff1f25ff053552cf5489bd9790d921c4361056fb83d9d152757e"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v8.py",
+      "sha256": "5c591100be3d42cb40c7a689fc6d2b7dc0b216928c54504dab229378f4474a55"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v9.py",
+      "sha256": "de8b5ed8bb4a4915b829afd14ac948f6ae34705c15a7c6e49ea9eb56fd1fa859"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_export_v1.py",
+      "sha256": "c3479d482324a956f6de150dd868f874846b8ec96465785bc7c8d84daae7e257"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_export_v2.py",
+      "sha256": "239ec0806cfe1a3a6d9bfeafc8ff86f9183608ff5c13b795971b7ac88898c1b1"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_inputs_v1.py",
+      "sha256": "e1cc3573266aaac6ab3ddfe066c570780cfcdadfe71671bae10cc428a9b653ab"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_inputs_v2.py",
+      "sha256": "3890eb2416eb5f62c831ea37485518160b53cdb830a82785f282323d577c0b86"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_merge_index_v1.py",
+      "sha256": "2ce85ae8d2172b3f7be94c7ac53cb7ff6feed8845a19f2f4c8d39fd23de588c4"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_corners_v3.py",
+      "sha256": "d210d341a062082faa16ff065135b232c7ea6e1446bd1df0071ed93e796f6560"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_export_v3.py",
+      "sha256": "c4e3d10e51804897d23b7a53a5b17d663ab9b3931d7bfafcfb207943d683770b"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_export_v4.py",
+      "sha256": "78956c921d4ec9b328c2ff45714a80690a96309f384f1d576466bd649fcc833f"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_export_v5.py",
+      "sha256": "d975988aa9ffb83066ca64bb3e9c68d8401c970810ad1463e7c4db5720e66f1b"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_fit_v2.py",
+      "sha256": "979269d3a5fb02d6a3b9855829cc10aec58eb35d4dbfa5529c21fa4607be2353"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_fit_v3.py",
+      "sha256": "c782dfedff6705bc17c55540364da5b95a8e19fc33a5bcd87543f41b35a07e5a"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_fit_v4.py",
+      "sha256": "38a0744fef868351cf8631e8114694cc7f4d142d8ae4a24ca5cf66386f241a68"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_fit_v5.py",
+      "sha256": "097616fe5448f1c220cbcebc09a43f4896a9db55bea291d0556264241656b197"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_fit_v6.py",
+      "sha256": "015db7b112da4f0331bc5ac63f5d575e166465438dc564184cd2c9be38c8ffa3"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_fit_v7.py",
+      "sha256": "bd5ce58957d77a69642d8556a9c309cf1b89a7ab422a2cd670343671c2cc5ee8"
+    },
+    {
+      "path": "src/cad_recovery/cad_primitive_fit_v8.py",
+      "sha256": "cc74ae9197f85f805becb00c773ab1c2719c8d37542ddc49a642a7ec764de144"
+    },
+    {
+      "path": "src/cad_recovery/cad_validation_geometry_v1.py",
+      "sha256": "f397032ce8533dc4639f1a806e83bc069f831458c4c926159c4ec077c0ee1506"
+    },
+    {
+      "path": "src/cad_recovery/cad_validation_render_v1.py",
+      "sha256": "a32326b3498245d5b5e46ba7f59d7ed22ac642adaa61dd4cc17fc0b47a00467f"
+    },
+    {
+      "path": "src/cad_recovery/cad_validation_topology_v1.py",
+      "sha256": "d49c34478eca3923d285b107dee00749f273d33446ad109a8a3cfe75f6af27dd"
+    },
+    {
+      "path": "src/cad_recovery/cad_validation_v1.py",
+      "sha256": "fefd266caf18de55176fffd7427d7a5944c594a998ff71a1d0e6c3e656aad58c"
+    },
+    {
+      "path": "src/cad_recovery/centerline_comparison_v1.py",
+      "sha256": "e3f007a415a65ef8002619b1346f95a10c6dc6d49d9c24fdd0cd1ed5667f0968"
+    },
+    {
+      "path": "src/cad_recovery/chain_legacy_bridge_v1.py",
+      "sha256": "1a8cc2fac2d6ce9cc93bb5ff3dc9f8dc9118ee918604bf0c1ccc4b86e342c832"
+    },
+    {
+      "path": "src/cad_recovery/chain_ownership_v1.py",
+      "sha256": "0f15ccc3261c6a709856b68163fbbfce601239d092a2579a85673a97a36a6a50"
+    },
+    {
+      "path": "src/cad_recovery/chain_pipeline_v1.py",
+      "sha256": "862216cc2005c1577158967c671073bf5e77816744918a107cdd0bf2dcf05321"
+    },
+    {
+      "path": "src/cad_recovery/chain_reliability_metrics_v1.py",
+      "sha256": "29b5da8f4ae7fe3829b9800a680c444960831d39c1950d223a1dccd92f54b2d0"
+    },
+    {
+      "path": "src/cad_recovery/chain_resources_v1.py",
+      "sha256": "e19e58779d749953b26dafca9cc3e99d86edec3e337e1ce9fa60c2d895470d39"
+    },
+    {
+      "path": "src/cad_recovery/chain_verification_v1.py",
+      "sha256": "3d417df9772ae7ed9e788ecef9b92134d210c15488e86e8fc2775eb77f5ed841"
+    },
+    {
+      "path": "src/cad_recovery/circle_search_v2.py",
+      "sha256": "01eb7e66899423ca54b2d3616f91112238835dc639046438704ae68a45eaa6fd"
+    },
+    {
+      "path": "src/cad_recovery/clear_pairs.py",
+      "sha256": "e89ce94fa1efee3cb12e4b444a933c973550570d0b9e67f1e8b6ccef09b8461b"
+    },
+    {
+      "path": "src/cad_recovery/clear_pairs_v2.py",
+      "sha256": "e00f19a52653e9c1b9ccaac08d70dc5be066921339e82312248b28bc04f9cac4"
+    },
+    {
+      "path": "src/cad_recovery/clear_pairs_v3.py",
+      "sha256": "dc849d83c1e99c5f6414471a8ab16ec0c494aa65bb023e9fb39950eb2bd711aa"
+    },
+    {
+      "path": "src/cad_recovery/cli.py",
+      "sha256": "c4e0252c89f85e2cfeea1fb0331002863e3060c95882e147ee44ff33684c77b4"
+    },
+    {
+      "path": "src/cad_recovery/closed_primitive_cycle_v1.py",
+      "sha256": "8791dcba1fa39b0142af2bc0013a261fdb39a8dbd1f467f3c2e5e4387b435cca"
+    },
+    {
+      "path": "src/cad_recovery/coallocation_policy_v1.py",
+      "sha256": "daa6e75ae54e5180f8f637b371d6dc235ff712beb80c33c11edbcd5d753f0ee7"
+    },
+    {
+      "path": "src/cad_recovery/coallocation_review_v1.py",
+      "sha256": "c5eed698bc8f74faa23e6f8998b6c6b6eeb2c2f6bdb5ad75071e0e8b1d8a2dbe"
+    },
+    {
+      "path": "src/cad_recovery/coarse_orientation_v1.py",
+      "sha256": "dbb3d7b6a2cc56f153cd275cc58ce4a95ea68323aa9d117f5f160487bc0e63b7"
+    },
+    {
+      "path": "src/cad_recovery/coarse_orientation_v2.py",
+      "sha256": "93eadce5d36df39b122ec505729d1f1685a98fd16ef4c184c257f6a46141f8c9"
+    },
+    {
+      "path": "src/cad_recovery/comparison_frame_v1.py",
+      "sha256": "b7bbfb8d2299d267da2fe3bf82eea03a7a4da98691031fbd3ae21ee5861fc276"
+    },
+    {
+      "path": "src/cad_recovery/comparison_service_v1.py",
+      "sha256": "f3a120bef8762ab491be969232f8f4339351fca4be311b74dc574edb4185ff21"
+    },
+    {
+      "path": "src/cad_recovery/competitive_grid_admission_v1.py",
+      "sha256": "d6b2888db4a751b607494479846f867986fe38c326c0b73257697b58b6ed096d"
+    },
+    {
+      "path": "src/cad_recovery/competitive_grid_admission_v2.py",
+      "sha256": "3964cda3f8593a59e3f714543478aea844f5ad279c917794ffc8b2caf35fce6e"
+    },
+    {
+      "path": "src/cad_recovery/competitive_grid_io_v1.py",
+      "sha256": "6be960a83a36bc02b9179a825de3b988076e08c5b02842142f722ecaa5929ffe"
+    },
+    {
+      "path": "src/cad_recovery/competitive_grid_io_v2.py",
+      "sha256": "330ccbee6c0cf322f4d6928eae1ec85ab8ae2cd9cb48b750eaa9f8ea6f9a736f"
+    },
+    {
+      "path": "src/cad_recovery/competitive_grid_witness_v1.py",
+      "sha256": "25ee07678e7c24f51ae9a0b0d98c3a468c2565758e1da36ca1ce14dd22dcdc28"
+    },
+    {
+      "path": "src/cad_recovery/competitive_grid_witness_v2.py",
+      "sha256": "d7a55e8de7fb9a10c167c8e5d3bcfe6d62a0553f56ebb8e9cf518f61fbb06d8d"
+    },
+    {
+      "path": "src/cad_recovery/completeness_publication_v1.py",
+      "sha256": "908d50c356512bfc10d40d952992c7bef34a218b36142982cefd296bdf9a7d01"
+    },
+    {
+      "path": "src/cad_recovery/component_pixel_metrics_v1.py",
+      "sha256": "483d52af57366a7c11f3d2afde44d71d35985a09720e8865e5075da3883c7147"
+    },
+    {
+      "path": "src/cad_recovery/component_row_partition_v1.py",
+      "sha256": "248209e2d525ea26ea616cc7301cff2fbd7aea5e58a717842d0ddb6f4c31be4a"
+    },
+    {
+      "path": "src/cad_recovery/component_row_partition_v2.py",
+      "sha256": "233f95c6b0f61eec4a7f521d5c2bc160e2ebc53930b94e899bd242701babb8fd"
+    },
+    {
+      "path": "src/cad_recovery/compound_contour_v1.py",
+      "sha256": "6d74cece334e43bcc2cb85ec5b793e178780ba49c9d826ee7519de7594a7733e"
+    },
+    {
+      "path": "src/cad_recovery/compound_contour_v2.py",
+      "sha256": "99e022e96255978b6ee345d89b544e0a1b82d7d7afa3fca8555ffe3db043a22d"
+    },
+    {
+      "path": "src/cad_recovery/conditional_ocr_v1.py",
+      "sha256": "b1191000f35236ff16a776a76e65e23e5ad172e46b5695ffb343d6d03bd27b18"
+    },
+    {
+      "path": "src/cad_recovery/connector_guard_v1.py",
+      "sha256": "e3b08a5e473c37eb084e2ed4e6d031f0f6e004afce132b97387b3d07074ca328"
+    },
+    {
+      "path": "src/cad_recovery/consensus_role_guard_v1.py",
+      "sha256": "e5d51983b2adac9659e62fa410ac214630be6880552bced60435381ae9a7fd4a"
+    },
+    {
+      "path": "src/cad_recovery/contact_core_probes_v1.py",
+      "sha256": "55cb612debe4a4745b883e3f84b891560dcbbbb2711eced6c34e58e66ee364c1"
+    },
+    {
+      "path": "src/cad_recovery/contact_negative_overlay_v1.py",
+      "sha256": "c11b91f72fd69f36577840bdf92b6c9f603452934c3faafee67cd2efcdb6b17f"
+    },
+    {
+      "path": "src/cad_recovery/contact_role_overlay_v1.py",
+      "sha256": "512f0c5aea7e5895fabc09b3c2a8a0b15ceaf76f54cb0f8f34743a4c63e52fbc"
+    },
+    {
+      "path": "src/cad_recovery/contact_role_overlay_v2.py",
+      "sha256": "5a260be122a6f7648df8523165fda26f46e6a643d62539c61076dffedca0ad9a"
+    },
+    {
+      "path": "src/cad_recovery/context_noise_v1.py",
+      "sha256": "e2731bb1ab76358d11d06057909ef31c1d9bb0a959f902ae5a05ecf969943f4e"
+    },
+    {
+      "path": "src/cad_recovery/contour_contact_recovery_v1.py",
+      "sha256": "21187052b2065ced3f7cf25872b7fa5e499eddee70cf53b79f2141ea11b98630"
+    },
+    {
+      "path": "src/cad_recovery/contour_contact_recovery_v2.py",
+      "sha256": "437c948b0da4539aa97bff7707bc426e1d4b3dde0b6c8bb4f79f621f59dbc8ab"
+    },
+    {
+      "path": "src/cad_recovery/contour_contact_witness_v1.py",
+      "sha256": "86fd40c2c705caaec6f18fe629c0b1b94cd231fba206e0390e93170f1b2ead9d"
+    },
+    {
+      "path": "src/cad_recovery/contour_contact_witness_v2.py",
+      "sha256": "1c31295887c150eb97538d9a2e2501f02f37475ed0f050806c2dcc732b0a6556"
+    },
+    {
+      "path": "src/cad_recovery/contour_contact_witness_v3.py",
+      "sha256": "4f901afc473017e8659224b17643c1d787b96c1f860e678de4abfa627d28f68a"
+    },
+    {
+      "path": "src/cad_recovery/contour_grid_competition_v1.py",
+      "sha256": "5aced4a870e8dc069caf9c153fa13322e5ab1c48b9593f7bd2f529171ef45c87"
+    },
+    {
+      "path": "src/cad_recovery/contour_grid_inference_v2.py",
+      "sha256": "29c15affcccb88b1aa59a2d3eeb2bc9502c59ee1abb7a25b5fd5376850c8a84a"
+    },
+    {
+      "path": "src/cad_recovery/contour_page_competition_io_v1.py",
+      "sha256": "ece6b0996b019c284d54d8ce2107d8498abf791a73aee4fa18c80eba3d60182a"
+    },
+    {
+      "path": "src/cad_recovery/contour_page_competition_v1.py",
+      "sha256": "77bed95a396f2b75210e57c1f81a8c96c4a6d34bfaefb003a8ba452761e007e0"
+    },
+    {
+      "path": "src/cad_recovery/contour_role_competition_v1.py",
+      "sha256": "6f0b55f8be042be23199dd116cf5478a97b0f174a8b456ee4e748512d429fd44"
+    },
+    {
+      "path": "src/cad_recovery/contour_role_competition_v2.py",
+      "sha256": "81ac69f93293c25ff025b7fa663a26db589a340a230bed5cff2e5de240069515"
+    },
+    {
+      "path": "src/cad_recovery/contour_role_contacts_v1.py",
+      "sha256": "76f5bd24f2c4b5950dd8fe96c3ac6866810f88fa9a74760fc3464d9bad4f7604"
+    },
+    {
+      "path": "src/cad_recovery/contour_role_contacts_v2.py",
+      "sha256": "8ccce19b13f8d6f8dc41a824e4bf525a357f2d01f537efed99c8d983fd18c066"
+    },
+    {
+      "path": "src/cad_recovery/contour_role_contacts_v3.py",
+      "sha256": "e062f983d6e7f4b1945af7eb58f4e590c59e336121b76ef7f8023088dfab53df"
+    },
+    {
+      "path": "src/cad_recovery/contour_topology.py",
+      "sha256": "de0a65845d9702337b05f4df46a48add48539bb4babb5615645e8f99255844e0"
+    },
+    {
+      "path": "src/cad_recovery/contour_topology_v3.py",
+      "sha256": "2269a84ca56615f370c8aa71e2d109709033825d5a5ab5eeb5c586a1026576bc"
+    },
+    {
+      "path": "src/cad_recovery/contour_veto_diagnostics_v1.py",
+      "sha256": "5227475167b23b4c62263b5918f5e3fe580cd8ecae79b5b7ef5da9025190b55d"
+    },
+    {
+      "path": "src/cad_recovery/correction_controls_v1.py",
+      "sha256": "47de53f433e07b5fdf4e57c9de18d16c7ebfc82ea9838667c4f1d14e0bab29c5"
+    },
+    {
+      "path": "src/cad_recovery/correction_loop_v1.py",
+      "sha256": "a9f72a307277f6ede09b717b7fc034d9b488e4961d50da26577d03cd61d06f32"
+    },
+    {
+      "path": "src/cad_recovery/current_cv_qualification_v1.py",
+      "sha256": "27ba50680e31ce9daa47da0d19f04c434c3a22767aca61c6c98df0546ba95614"
+    },
+    {
+      "path": "src/cad_recovery/curve_graph_metrics_v1.py",
+      "sha256": "dc5136ce2370ee4b98ab2e4c45bc157e9ef69aa399d5192db82b71a9fdec7e79"
+    },
+    {
+      "path": "src/cad_recovery/curve_graph_v1.py",
+      "sha256": "cd2e81898d5f527262c60abe31a9387905cb61b1e483b60cbfe7395e2aa98ac7"
+    },
+    {
+      "path": "src/cad_recovery/curved_source_heads_v1.py",
+      "sha256": "4a44c5b8ed69fa64cfd23621794099933b9e9f38764d0f2ca4fe35f7af8ae2af"
+    },
+    {
+      "path": "src/cad_recovery/cv_comparison_fixtures_v1.py",
+      "sha256": "c356982b5393555f1d06d241091b64071f36acd0fe49c484b63369e7780adca9"
+    },
+    {
+      "path": "src/cad_recovery/cv_comparison_protocol_v1.py",
+      "sha256": "2eee4840af9ee09113f4d65416fe3a1a71934b4dff1c21919836ac4c2a30a521"
+    },
+    {
+      "path": "src/cad_recovery/dataset.py",
+      "sha256": "39a3195eb848437b612fe79d4a9ab8c5a049aa3684afb2ac0b16504961130847"
+    },
+    {
+      "path": "src/cad_recovery/dataset_content_review_v1.py",
+      "sha256": "762df9684def3c11bd6ccd1ea7c30af02f1b2ef4643f94f84ac7462287653a1e"
+    },
+    {
+      "path": "src/cad_recovery/dataset_content_v1.py",
+      "sha256": "45b2ad686566bbec91c469860983fd16bf942d6ec990845469514831eac16a16"
+    },
+    {
+      "path": "src/cad_recovery/dataset_history_v1.py",
+      "sha256": "d8325c410c965bfc94d130b1dca778c742478f4368b8900942d4985955aa717b"
+    },
+    {
+      "path": "src/cad_recovery/dataset_layout_v1.py",
+      "sha256": "f8c780779066d017608f667a24ae084763b60b64e4cb1fbb16c7827fe2a5c29e"
+    },
+    {
+      "path": "src/cad_recovery/dataset_preparation_v1.py",
+      "sha256": "5e3af6ce7cd7e8fe282244860c6e790cf13c2c98f6cd078e65976110d484005b"
+    },
+    {
+      "path": "src/cad_recovery/dataset_update.py",
+      "sha256": "0af2ce83716946ee33471aa83da5f9c4d416ddf4beda6afc8a1d0e6f3536c608"
+    },
+    {
+      "path": "src/cad_recovery/demo_export_v1.py",
+      "sha256": "6c87e58d8434bcc4ed4beff253db4fef7e3c2c58e06d764a4158397d5091272d"
+    },
+    {
+      "path": "src/cad_recovery/demo_input_v1.py",
+      "sha256": "b392bef61881a8f0235ba23309cdbbbd1357ffdecbbcad4a1eb22b3f5a9032a7"
+    },
+    {
+      "path": "src/cad_recovery/demo_pipeline_v1.py",
+      "sha256": "b3aea6ff0aeeca1228402737c27a71238a8f2b5676d41dea5fca8ee0feab0dd5"
+    },
+    {
+      "path": "src/cad_recovery/development_object_qa_v1.py",
+      "sha256": "0a848e08a2008f99f3bfa59505aaebdc5905b2fdb777805ddbfaad8a054c8af4"
+    },
+    {
+      "path": "src/cad_recovery/dimension_association.py",
+      "sha256": "fcb1afb46ee6df0faa3cd66e79b1c4b0445bf75978ea268dc1b53e5b6953a197"
+    },
+    {
+      "path": "src/cad_recovery/dimension_association_v2.py",
+      "sha256": "b1c89bd4fd897901d04b3ea6f7d28d36afd46d75bc4915d11022a4b6ede22afb"
+    },
+    {
+      "path": "src/cad_recovery/dimension_association_v3.py",
+      "sha256": "25be7d726b0abff61da2e3ba8f84fc90dd8d8e37bdd2b4b5a0c61bc699542e0c"
+    },
+    {
+      "path": "src/cad_recovery/dimension_attachment_candidates.py",
+      "sha256": "c52e4c0271ed5e926e3269208387d94fa880aa28c5663e6d5a6961ea53e00196"
+    },
+    {
+      "path": "src/cad_recovery/dimension_chain_audit_v1.py",
+      "sha256": "8530a8438664f2ac554fe29a71c8cdc6360503e281c829b3cd2edfc35ae7edae"
+    },
+    {
+      "path": "src/cad_recovery/dimension_chain_pipeline_v1.py",
+      "sha256": "c744bafed1fdeae9e9a4a98359c4a16c1bf1bf7f24c11b33b7dd1438e4eabca7"
+    },
+    {
+      "path": "src/cad_recovery/dimension_chain_pipeline_v2.py",
+      "sha256": "b706c0dff7d1e17f3304d04af7b23136eb0c156c6ad292f18947f6777eda64ca"
+    },
+    {
+      "path": "src/cad_recovery/dimension_contact_extension_v1.py",
+      "sha256": "4b6bedcbcd40cfb27a3114f889c505cabbaab7bb6941297b5e0cc7ddb9775dd1"
+    },
+    {
+      "path": "src/cad_recovery/dimension_context_inputs_v1.py",
+      "sha256": "25ae595adc3e04c86aef7b2a8c136c9d9da4a07a8cc9e1a091f1b3918f4abb90"
+    },
+    {
+      "path": "src/cad_recovery/dimension_context_inputs_v2.py",
+      "sha256": "272d9f12e0036c018f97b0aa29979a31faea98f6286b07ee2728919a9899d3ff"
+    },
+    {
+      "path": "src/cad_recovery/dimension_field_decisions.py",
+      "sha256": "0618d85870bfb2375e7a1a56461472c15a41b9c69bd558a772dda4f454bf372b"
+    },
+    {
+      "path": "src/cad_recovery/dimension_field_native.py",
+      "sha256": "7b09745602126de940fc28c2273a5eb9e8a44b2261366bc97faaabc442d5ba43"
+    },
+    {
+      "path": "src/cad_recovery/dimension_field_raster.py",
+      "sha256": "dfe3f4a725baa6aad0d6b3a3aff59d43cdb9671f81fc4b23a4a808dd6505e6ac"
+    },
+    {
+      "path": "src/cad_recovery/dimension_field_references.py",
+      "sha256": "1f27b4ca581fb35c816556f4e5aa430d321d58392aeea306e505a6fbff990897"
+    },
+    {
+      "path": "src/cad_recovery/dimension_field_review.py",
+      "sha256": "95e699a2292de0e901abc45181f43b342509c42e0fcd08bca4a070fff5dccf3a"
+    },
+    {
+      "path": "src/cad_recovery/dimension_observations.py",
+      "sha256": "e758e08ec1eee5c7d4667bd77d7d7d66199221ef575b220b7152c4b7cc901ef0"
+    },
+    {
+      "path": "src/cad_recovery/dimension_recovery_trace_v1.py",
+      "sha256": "828680a2aacf31020e707fff395165633a8f0ce8f0334c4ab6103e5c5d7340ab"
+    },
+    {
+      "path": "src/cad_recovery/dimension_result_normalization_v1.py",
+      "sha256": "c51466398ddb991617cea903f6f6f11d77b253afd96fceb1d1dac931a397ff31"
+    },
+    {
+      "path": "src/cad_recovery/dimension_role_stage_v1.py",
+      "sha256": "357547e4cea28544d24b53b6ef546b1d95aa21a7fa40c24dfd61bb95340c1238"
+    },
+    {
+      "path": "src/cad_recovery/dimension_role_stage_v2.py",
+      "sha256": "f1a8b6686f18384e5b7dc43f6048dcbb2bb846eb124cd173e9497a7b39d7a05a"
+    },
+    {
+      "path": "src/cad_recovery/dimension_role_stage_v3.py",
+      "sha256": "ef46e9c60d75e55f19e1316a90a417af4b54308a2b85076770b7bbe50e5d77cf"
+    },
+    {
+      "path": "src/cad_recovery/dimension_role_stage_v4.py",
+      "sha256": "cae19c3e17ad7dd6ceee42be0a12040f09967adae3ce7842c649e69e41a2f2de"
+    },
+    {
+      "path": "src/cad_recovery/dimension_role_stage_v5.py",
+      "sha256": "64ca3168c1bda2a29c2ed0cad06143484e3833afbcd4bbdd735598d0783fe6e2"
+    },
+    {
+      "path": "src/cad_recovery/dimension_role_stage_v6.py",
+      "sha256": "c3dc50ac35870ad0391d68e703288df7564f765aa83e1cb4acd3f4cf826757f8"
+    },
+    {
+      "path": "src/cad_recovery/dimension_role_stage_v7.py",
+      "sha256": "b0b7fd8b4034b55c54e2f312e75a7771a1afd4e15f6e201edd2b98698763a0e2"
+    },
+    {
+      "path": "src/cad_recovery/dimension_roles.py",
+      "sha256": "22defc24a2e5b53b4b895cec2f9023c556e204bf665866df130be5e196f8f05c"
+    },
+    {
+      "path": "src/cad_recovery/dimension_support_metrics_v1.py",
+      "sha256": "e08c59ca5076d0df1c0ff794f561d97ffa360e9039fc37f5b76ab1a9b1a7a76a"
+    },
+    {
+      "path": "src/cad_recovery/dimension_support_serialization_v1.py",
+      "sha256": "c98eb8d3f347d22feb0ec77518aa0f21e0be8defed76e074b318c76eb00d205d"
+    },
+    {
+      "path": "src/cad_recovery/dimension_support_v1.py",
+      "sha256": "1cae0694f7a5e588cdc9b54e3991d14985473fab4d2b7a5725f9cc0230a32ebb"
+    },
+    {
+      "path": "src/cad_recovery/dimension_support_v2.py",
+      "sha256": "ab7b5b64df9dc7b53eb7e8e9d1b20f4a282f4425cc21deadf53e534ec0b67064"
+    },
+    {
+      "path": "src/cad_recovery/dimension_support_verified_v1.py",
+      "sha256": "266a3a46dd4a0b4cf38c917bd9b596dec3a8c9693af4337fc1e9321cc33bf918"
+    },
+    {
+      "path": "src/cad_recovery/dimension_support_visibility_v1.py",
+      "sha256": "e66e55f6bcddb122c62c82fb82959e94bc3e28571ae2d36cfce8d641be1d3abe"
+    },
+    {
+      "path": "src/cad_recovery/directed_control_release_v1.py",
+      "sha256": "e473a3084417e4bcb3355ef0fa8b957425c567610ebca9304c0cced936b0f32d"
+    },
+    {
+      "path": "src/cad_recovery/dxf_reference.py",
+      "sha256": "e08e944e1dbcd134ad13dff97bf7b1793b15aff849d657ed5251832d8c9a2b01"
+    },
+    {
+      "path": "src/cad_recovery/dxf_reference_v4.py",
+      "sha256": "898f65383ce2a98db88deb51aa5292fc2f254fc6a7ce000a21c6f344c104c4fe"
+    },
+    {
+      "path": "src/cad_recovery/dxf_reference_v5.py",
+      "sha256": "e728490fbd12e4011fe9ad448955bbd45930632285fa5996bade6a1a7a0fc681"
+    },
+    {
+      "path": "src/cad_recovery/dxf_semantics.py",
+      "sha256": "6dc19d3a15f497828a9c2ce8a30290ed0a53d0364e28ee1782a8456cb4efab59"
+    },
+    {
+      "path": "src/cad_recovery/e2e_controls_v1.py",
+      "sha256": "fd0a9bd12f397d070c36a0c0bf0be8c809bc31e9cf46917d8b4e8b62b2cbffcf"
+    },
+    {
+      "path": "src/cad_recovery/economical_head_profiles_v1.py",
+      "sha256": "1ce98866e44e0b8d55e2a8e13ac8c18ab3a16607443a42f5519c7379f9dd22f1"
+    },
+    {
+      "path": "src/cad_recovery/economical_local_heads_v1.py",
+      "sha256": "5937283b6c00e2b3c3c3d6ab8e51ebaad47028f124e976eda184e8e979ead09e"
+    },
+    {
+      "path": "src/cad_recovery/engineering_glyph_classifier_v1.py",
+      "sha256": "21bc0e3aebde282f1b01b10a8e3d0354282eee597becb7ffb4d6e8fd5cf85eaf"
+    },
+    {
+      "path": "src/cad_recovery/engineering_glyphs_v1.py",
+      "sha256": "0e8a0b7265c51dff0b5e887139bc00218246d4096ac67f6911ce835267861d3a"
+    },
+    {
+      "path": "src/cad_recovery/engineering_symbol_assembly_v2.py",
+      "sha256": "864f46e1d14e947955e27dd562bbf06f03eb6bffcc11dfbb436dd5793414a0c8"
+    },
+    {
+      "path": "src/cad_recovery/engineering_symbols_v1.py",
+      "sha256": "37d4d479e91424e8e9f57463c3131fea41a46127aecc7003d294f7cc9da84a2c"
+    },
+    {
+      "path": "src/cad_recovery/experimental_cv_v1.py",
+      "sha256": "b357d7e64cc925d7051348058bb280b4ad43385bec1684a74a89d107683f0d21"
+    },
+    {
+      "path": "src/cad_recovery/experimental_export_v1.py",
+      "sha256": "ded3a8345bfd1163dfb9b24b840fae71bde3aba61052b22c81241199596cacdc"
+    },
+    {
+      "path": "src/cad_recovery/exporter.py",
+      "sha256": "3bd214495adc5999de63ecc539249e40f2f36b7309bcc3400c126f2bc9da66e1"
+    },
+    {
+      "path": "src/cad_recovery/exporter_v2.py",
+      "sha256": "575606a017a26c3057aff76bcf6c65a419c998e6a84f886d5b2533af0290f906"
+    },
+    {
+      "path": "src/cad_recovery/family_catalog_v2.py",
+      "sha256": "81a5ffd6ddeb6a56069a5da8ffd1c2d6f2590fae078933b79fd1bbb8c8723e3e"
+    },
+    {
+      "path": "src/cad_recovery/family_split_v2.py",
+      "sha256": "3b3efb6cf17173f1d988f2c202eb8ceb3f4c6fb2782160dd78fc4e97dbfc714a"
+    },
+    {
+      "path": "src/cad_recovery/frame_connected_context_v1.py",
+      "sha256": "f9aba4ac5c385c32126a5353c0e56a1e16265d1efd162337a6bc43a52074cb31"
+    },
+    {
+      "path": "src/cad_recovery/frame_grid_guard_v1.py",
+      "sha256": "d1445511c9339fce86677a6ae5d630b9cd8d0062c0f88ef805eb631aaeaaa1a7"
+    },
+    {
+      "path": "src/cad_recovery/frame_grid_guard_v2.py",
+      "sha256": "2637553ef65a668548d1fe06e6fbb687d543750b24278aa59bebc4cfe75461fc"
+    },
+    {
+      "path": "src/cad_recovery/frame_raster_template_v1.py",
+      "sha256": "62048cb4666b1b5f52bc63647e1877d760f2d06508acc6f0becf9f8c64417a9c"
+    },
+    {
+      "path": "src/cad_recovery/frame_view_guard_v1.py",
+      "sha256": "a04e612af4758826a0a422e8c4aa50e1b7fa151302028e3c438a269897046c3d"
+    },
+    {
+      "path": "src/cad_recovery/fresh_control_metadata_v1.py",
+      "sha256": "82a3054123e4dcb7636b251ba14f55f75c455de1ea044d07909cd68ba875cd20"
+    },
+    {
+      "path": "src/cad_recovery/fresh_control_reconciliation_v2.py",
+      "sha256": "7c247a1a718476e7d29f2d554740ee79520a86f466a6a5da12a500d74ad0f976"
+    },
+    {
+      "path": "src/cad_recovery/fresh_control_reconciliation_v3.py",
+      "sha256": "b84249d1cab4a821c42c789dbce8bc030b081b4196b97b10dc9dd51e15d2471a"
+    },
+    {
+      "path": "src/cad_recovery/full_role_recovery_v1.py",
+      "sha256": "83b1e8d9329c563948d34197177e4e93402c1411d69fe99c44aebc4858e5bbd8"
+    },
+    {
+      "path": "src/cad_recovery/geometry_bundle_handoff_v1.py",
+      "sha256": "c6779fe3f140c8a53a96e5c3321be2ae0cc5c505b33b2e23679e7b8b46161bd6"
+    },
+    {
+      "path": "src/cad_recovery/geometry_bundle_io_v1.py",
+      "sha256": "316dceeae16c9bfb53934be8a9a69cfbd81544212828897805ebca0f3eeb0947"
+    },
+    {
+      "path": "src/cad_recovery/geometry_bundle_io_v2.py",
+      "sha256": "cd98b0cdca3b23a3e0c0abb7e1b6e32d08809851d004a0e7d3cd494a0d600092"
+    },
+    {
+      "path": "src/cad_recovery/geometry_bundle_v1.py",
+      "sha256": "e74651c07d640792d58b9718746660c892ec024fe2a399741da6a9387fdd3b8e"
+    },
+    {
+      "path": "src/cad_recovery/geometry_bundle_v2.py",
+      "sha256": "4a640bc610d9e8ccc92202cfc2f0389255cc6d5ac38f9d010e3fec3d60992e36"
+    },
+    {
+      "path": "src/cad_recovery/geometry_constraints_v2.py",
+      "sha256": "71f4ec59bac641c5fc316278cf1208c97fb5c4631a856c1d07b69a5f3fb9297a"
+    },
+    {
+      "path": "src/cad_recovery/geometry_detection.py",
+      "sha256": "b39a3065669ddd38b655a5da12141aabdbf457ff53a3aaf9747b5fb9a9231d46"
+    },
+    {
+      "path": "src/cad_recovery/geometry_lineage_review_v2.py",
+      "sha256": "15c9b00667702c8697fe1a1aa2a538172e8d40f3af9f017dad5cbb64b9adcee5"
+    },
+    {
+      "path": "src/cad_recovery/geometry_lineage_v1.py",
+      "sha256": "9114e3299a641095b41e113e83806e619396374ff593be1fc1f88e16a87d51fc"
+    },
+    {
+      "path": "src/cad_recovery/geometry_lineage_v2.py",
+      "sha256": "aeae0015ecc9c6448154cfddc9aa7994d5d7189cf87a1adcba351c311a9c1d58"
+    },
+    {
+      "path": "src/cad_recovery/geometry_preserving_role_export_v1.py",
+      "sha256": "d261df5cd870a60be12ad2270892ab7fd195b8375624c727c68941537df9cc5a"
+    },
+    {
+      "path": "src/cad_recovery/geometry_semantic_rebuild_v1.py",
+      "sha256": "29565f6ff0bf53127cd0c3e781674e3a370e1cef10775c406fb04b0c37acbeaf"
+    },
+    {
+      "path": "src/cad_recovery/geometry_semantic_rebuild_v2.py",
+      "sha256": "f239368315a87b81038e09811bee9b5f20a034f2b7d19a42788e7211f2996229"
+    },
+    {
+      "path": "src/cad_recovery/geometry_solver_run_v2.py",
+      "sha256": "c9a0947fdfed3f175c40cbe59ef7fce2aa906eba44d78e662a93aff41074b4b7"
+    },
+    {
+      "path": "src/cad_recovery/gpu_comparison_v1.py",
+      "sha256": "a763d4e68b3cc764e294f35ae81c95f17d778c40aed6cc8c8a408a45e4414ef5"
+    },
+    {
+      "path": "src/cad_recovery/gpu_inference_v1.py",
+      "sha256": "27f22d6010940cacb2dffc8d2f91fb80fc1aabebb1385447aa8ef84a14a5b05c"
+    },
+    {
+      "path": "src/cad_recovery/gpu_training_probe_v1.py",
+      "sha256": "b1580ed268e080e4a77d596593bd0c43cdfb9a67af14a1f888aebf3eedc260cf"
+    },
+    {
+      "path": "src/cad_recovery/graph_constraint_solver_v2.py",
+      "sha256": "440d2f158fc05be1da442980db24503da75328acf65db85cc8a6c133dba0296d"
+    },
+    {
+      "path": "src/cad_recovery/graph_correction_run_v1.py",
+      "sha256": "e96ac784e721a05545f5d10329f16ea35364d3efcb45d0a7471d93555be6fce4"
+    },
+    {
+      "path": "src/cad_recovery/graph_correction_v1.py",
+      "sha256": "85c401b614c51a6ab97ec43c762efb14c5a33234e408fb62a0cb2ea373c83c55"
+    },
+    {
+      "path": "src/cad_recovery/graph_v2.py",
+      "sha256": "05884c02877e720eddde3fc70c2a4c8088313f774c006a49c448a020ace578a4"
+    },
+    {
+      "path": "src/cad_recovery/grid_context_v1.py",
+      "sha256": "b59eabd40e6fa2f2069f48e29f66bed9a5009ae0ad91b4502da886deeec7ed7d"
+    },
+    {
+      "path": "src/cad_recovery/grid_role_revision_v1.py",
+      "sha256": "45839c6d802ae74d4decf2ba3b3582f67220564f0446092af289df0944b44ff6"
+    },
+    {
+      "path": "src/cad_recovery/hard_raster_metrics_v1.py",
+      "sha256": "85c415142849749b746d8c2d1470908d1a647bd852a26325a4aa13862c9fe43f"
+    },
+    {
+      "path": "src/cad_recovery/hard_raster_regression_v1.py",
+      "sha256": "f809a4132351e72882bdfbf0f0ebd8ab20b831107a6d038e6fe5121a6d1f17c3"
+    },
+    {
+      "path": "src/cad_recovery/hard_raster_runs_v1.py",
+      "sha256": "8e13995d354c54cf709952c0974b0db5c4766a4595b1a6130b6eaa61c0d38bf3"
+    },
+    {
+      "path": "src/cad_recovery/head_eligibility_v1.py",
+      "sha256": "30f728c3c0584115ec32ecfb68134a811b709123c92190ad7094ce3d12e7b1e7"
+    },
+    {
+      "path": "src/cad_recovery/head_eligibility_v2.py",
+      "sha256": "d28da32132fab6c3f39f9d95a8274c6a1851218bf57f4dc848c5acaf18f33ac0"
+    },
+    {
+      "path": "src/cad_recovery/head_gate_diagnostics_v1.py",
+      "sha256": "883407b40d66e1f1f36af3125a8b70731725a7f35532ebb6939e2d75a4e6bf4b"
+    },
+    {
+      "path": "src/cad_recovery/head_junction_ownership_v1.py",
+      "sha256": "6d31e39b3005077a79616fed181f9511dbfaf31c17f543529db07a5fd7efe1ac"
+    },
+    {
+      "path": "src/cad_recovery/head_parallel_context_v1.py",
+      "sha256": "076e88ae2b8e41cd32de2ee774a21532d1dba1906fa574a03216fb23134dceb7"
+    },
+    {
+      "path": "src/cad_recovery/head_refinement_v1.py",
+      "sha256": "d484567efc976feeefb4b32707a406d3af4cef95b1dc00ee4c540754e15ca820"
+    },
+    {
+      "path": "src/cad_recovery/head_source_context_v1.py",
+      "sha256": "3fb18c92a41a6c02457a66892f72f26086b7487a036cdf9c8638c45bc0d458f9"
+    },
+    {
+      "path": "src/cad_recovery/head_support_ownership_v1.py",
+      "sha256": "fbb3d8536b3eab3de8715c024212cdb516b678886e78615cedacd5a93ff72ec1"
+    },
+    {
+      "path": "src/cad_recovery/head_width_contract_v1.py",
+      "sha256": "8c006ade0b2db34786a521baacc2effc20c2eaf3111a19d4f313304a3e447556"
+    },
+    {
+      "path": "src/cad_recovery/instance_geometry.py",
+      "sha256": "5d0b01c0267743551857e433bc173471ed1bdf74ebb5caf0ea20e2add324047c"
+    },
+    {
+      "path": "src/cad_recovery/intake.py",
+      "sha256": "17e2e8842655208475b71499c7034a587c0a49f9ff190d824f99073106d15716"
+    },
+    {
+      "path": "src/cad_recovery/interval_roles_v1.py",
+      "sha256": "1bc5df1a984fd3d7a84fd63f1afd41ddaafbcb408f2bbab1053050ae41ff775a"
+    },
+    {
+      "path": "src/cad_recovery/interval_scale_v1.py",
+      "sha256": "7c2880d021f5c6d89603560c903d287e47413377239005a798fec5c81c6341fb"
+    },
+    {
+      "path": "src/cad_recovery/joint_cv_profile_v1.py",
+      "sha256": "699005023fbe2ffd481af1c4680ab4ed1f5219864fc30f104ea2ed37477bc569"
+    },
+    {
+      "path": "src/cad_recovery/joint_dimension_roles_v1.py",
+      "sha256": "caace6ff77d2643086650a84d48097e5c01e6abb308f238be34a0e70d06531e7"
+    },
+    {
+      "path": "src/cad_recovery/joint_dimension_roles_v2.py",
+      "sha256": "9e7c0bb436517a46f98bfff70974059fd47e68355dd59ba279452e9823095cc9"
+    },
+    {
+      "path": "src/cad_recovery/joint_dimension_roles_v3.py",
+      "sha256": "86c55e52cad8b607f532ec83da561f5fd9a8e519a1c898c94a8e6d856bab434d"
+    },
+    {
+      "path": "src/cad_recovery/joint_dimension_roles_v4.py",
+      "sha256": "c473c6b6964202db094c3c6ea26de6f04e14f785950bd5149743f0c62a02c0f7"
+    },
+    {
+      "path": "src/cad_recovery/joint_dimension_roles_v5.py",
+      "sha256": "113ce5d10bb6fb61cbe77ce82d6808c143b2e0d0138c1a525bd8a3a948eb5a06"
+    },
+    {
+      "path": "src/cad_recovery/joint_dimension_roles_v6.py",
+      "sha256": "c694ffbe56a58609610f9402f311421900b581896013c35dc0eec3f377b2f500"
+    },
+    {
+      "path": "src/cad_recovery/joint_region_audit_v1.py",
+      "sha256": "aad5b849958166c4b84d98c0ab490a6192034b281c228178a55522c2cc7c3f54"
+    },
+    {
+      "path": "src/cad_recovery/joint_region_comparison_v1.py",
+      "sha256": "1a2addf747d34765de8911f1d08973243f0b995b5244d98a3e587adfca6ee34c"
+    },
+    {
+      "path": "src/cad_recovery/joint_region_evaluation_v2.py",
+      "sha256": "50d8bd56f6ebf741cb8f00830789483b8a81a9043e8cc92bfaba4ce1f95d2477"
+    },
+    {
+      "path": "src/cad_recovery/joint_role_metrics_v1.py",
+      "sha256": "78852b731ef43d834783f04957a5f76d8780bedaeff44440e97ffd44f26c14ce"
+    },
+    {
+      "path": "src/cad_recovery/joint_shape_v1.py",
+      "sha256": "fb5c1bafcb3b75cc567a77326f782c71796e816b56d3f782ae47eb98e6aa4f0b"
+    },
+    {
+      "path": "src/cad_recovery/junction_localization_v1.py",
+      "sha256": "272d4e5775c0f27d7e9981599dec35d3f078e4cac17d68497d7c94c1b8941448"
+    },
+    {
+      "path": "src/cad_recovery/junction_metrics_v1.py",
+      "sha256": "92fed0e63edd5c468a70134dfd9cf6b7cf5543212eec225e168a87d86c37ab4a"
+    },
+    {
+      "path": "src/cad_recovery/junction_observations_v1.py",
+      "sha256": "f42e4275b70a4695bbd76552aa3a8de122f7022f5192ad71adc552e083c9a7d2"
+    },
+    {
+      "path": "src/cad_recovery/junction_source_index_v1.py",
+      "sha256": "1f0888bd43926136c8b9a31c5a91d42eaaf9d1ee682cbf03c622c16e5bab3a02"
+    },
+    {
+      "path": "src/cad_recovery/junction_topology_v1.py",
+      "sha256": "5dab635deee5f468684181620af2df4bb8e1c94a4910de4954f66c1a2a3d7cc3"
+    },
+    {
+      "path": "src/cad_recovery/junction_topology_v2.py",
+      "sha256": "72b51cc179516ca7f7b384d80c871e769b5b235bd0e10a7f25904fea3e3d6d8b"
+    },
+    {
+      "path": "src/cad_recovery/label_corpus_v1.py",
+      "sha256": "876f04a0d75302ed0ed46098c07ef7309be24c90a1d0a8c1278edd6c6126c1fb"
+    },
+    {
+      "path": "src/cad_recovery/label_release_v1.py",
+      "sha256": "ba6447ff6bdf9c1181e62cb42fee1e45cf310dc2082f0e919af2f2598ca489f9"
+    },
+    {
+      "path": "src/cad_recovery/label_schema_v1.py",
+      "sha256": "926c7770abe20caad3d4fd4783d943dd32f15180053d9b18367e77e753380822"
+    },
+    {
+      "path": "src/cad_recovery/large_png_input_v1.py",
+      "sha256": "b4b9518eee2a795f0a8e4900e43df7077003cbd34a2dbe6c3b3cc0b2cff80da7"
+    },
+    {
+      "path": "src/cad_recovery/large_raster.py",
+      "sha256": "6c66275f10ce09035c8c6f2be5066289441221e0d0ba8958734074bb6e24fc89"
+    },
+    {
+      "path": "src/cad_recovery/layout_region_labels_v1.py",
+      "sha256": "2c5dada5c7559f64cfa8f2074475c92235067b6d22d68974f2101dcb919fea78"
+    },
+    {
+      "path": "src/cad_recovery/layout_review.py",
+      "sha256": "3eedca5bc63d9e777b623ab6cc400605733dff139f70b51fe54a47d2ae554522"
+    },
+    {
+      "path": "src/cad_recovery/leader_contact_evidence_v1.py",
+      "sha256": "d70d378a9c864fb8dc835686caf6b4864ebbcdc6f0450f9ba59caf00ad55d31b"
+    },
+    {
+      "path": "src/cad_recovery/leader_head_contact_v1.py",
+      "sha256": "d32aa6d3a7838fdd2f853691c802e72278b15407fd0246ec44a1d1b3bf3c0824"
+    },
+    {
+      "path": "src/cad_recovery/leader_junction_v1.py",
+      "sha256": "40e157e314a8f74eed577825da441c1a929809c70216691d9271f49bc01986de"
+    },
+    {
+      "path": "src/cad_recovery/line_crossing_context_v1.py",
+      "sha256": "a8d137dd28e85ceb0a5c9c59d75a6c24059fb8cc8872f949d4dc16fb5f724ce7"
+    },
+    {
+      "path": "src/cad_recovery/local_axis_heads_v1.py",
+      "sha256": "6681c119fed54bb8a5c0e99905bcd2010720b42f6595f41624ed6dca7569f2f9"
+    },
+    {
+      "path": "src/cad_recovery/local_axis_heads_v2.py",
+      "sha256": "b8000e71231fcdc2592ba6b635c474863a199d44a5184c651a6d131c2161cea1"
+    },
+    {
+      "path": "src/cad_recovery/local_axis_ownership_v1.py",
+      "sha256": "988a99c1d7f60fd981aac4ddac8cb9a0632b79f29819223e3dc3ddd6215fec0a"
+    },
+    {
+      "path": "src/cad_recovery/local_chain_evidence_v1.py",
+      "sha256": "20cb5987dd89ff55a48c037e48514cf1ec6d4edd1094d554aabb09ab128e9c8c"
+    },
+    {
+      "path": "src/cad_recovery/local_chain_evidence_v2.py",
+      "sha256": "dfb84bc0174d7f8cfbcb0666cf6ffd555b19fc7f48beac6d93d0ac08ad5b3565"
+    },
+    {
+      "path": "src/cad_recovery/local_contour_probes_v1.py",
+      "sha256": "12c440d7b71ea7287af0bd515dec1b726530e4c12ef73caac3c77521ebcc5734"
+    },
+    {
+      "path": "src/cad_recovery/local_contour_profiles_v1.py",
+      "sha256": "4cc5cfce24014cf86a4e8ef808002cf36f6bff476a39945345a7f783e869b4a0"
+    },
+    {
+      "path": "src/cad_recovery/local_contour_profiles_v2.py",
+      "sha256": "8b74fc3499d349647f262e7ae04b96404d09b12ee5e6e5d9a81488eed2d5ab9e"
+    },
+    {
+      "path": "src/cad_recovery/local_contour_witness_v1.py",
+      "sha256": "48a43950eba771ce511ce960b33962c27ecffd91616743b0764f3d76c85f9b24"
+    },
+    {
+      "path": "src/cad_recovery/local_contour_witness_v2.py",
+      "sha256": "9f31a24ca9d09de6818909a416e0a2b431242f94eb8ab4bbdd00dc4e4925a00c"
+    },
+    {
+      "path": "src/cad_recovery/local_contour_witness_v3.py",
+      "sha256": "9754fa52a1bc3feb3c38f6479372ca554c008d109c1766d4daccfbd5c18c76f8"
+    },
+    {
+      "path": "src/cad_recovery/local_head_axis_profiles_v1.py",
+      "sha256": "b6a6c8407c146e95f887f4cf598eead50d8c2ea0ae06b2193946cb7c98ef4623"
+    },
+    {
+      "path": "src/cad_recovery/local_head_axis_profiles_v2.py",
+      "sha256": "234970a2076776cdc37fe360a94a1e22523302185e9315d9b0939001bee53600"
+    },
+    {
+      "path": "src/cad_recovery/local_head_axis_support_v1.py",
+      "sha256": "bf837d852899654482a5663c54cd18e506a1f1633562b9097f1797bc1f32a8b4"
+    },
+    {
+      "path": "src/cad_recovery/local_head_axis_support_v2.py",
+      "sha256": "e581805c3b83b324647b498f7a8212ec9f57ac8f7c82fc481d265e19cc12c47e"
+    },
+    {
+      "path": "src/cad_recovery/local_head_context_v1.py",
+      "sha256": "cc7132c9ea229a343f7b80adc38104fe35c4c59cfcbfeb1262341393b33021c9"
+    },
+    {
+      "path": "src/cad_recovery/local_head_context_v2.py",
+      "sha256": "3b7177a14176909a3705d68d1a2c3e46a92dc8b47d7a9d4e9700c8aaec830f6a"
+    },
+    {
+      "path": "src/cad_recovery/local_head_parallel_field_v1.py",
+      "sha256": "28de2f1fd2abb03a86ae0e1860b637965537a32e9e45549ee4efc1d59f9c9c96"
+    },
+    {
+      "path": "src/cad_recovery/local_head_parallel_field_v2.py",
+      "sha256": "bffcb7423545067f59ca067fe66ccb3976ef85f371a1c43096d7f5e2fdb528a6"
+    },
+    {
+      "path": "src/cad_recovery/local_negative_context_v1.py",
+      "sha256": "11620d57120641d080cc8dc30ab946bd59d1d34ab7c3f33656f33b36525bd573"
+    },
+    {
+      "path": "src/cad_recovery/local_role_guard_v1.py",
+      "sha256": "d9994ca655a7ecc1ef1273cec791960e357bef698621830f05cf53f6c887c5db"
+    },
+    {
+      "path": "src/cad_recovery/local_role_guard_v2.py",
+      "sha256": "5b5482cc0b2485d92c5b58ec83366048f877a56f165608a0a9179c82bbc9064c"
+    },
+    {
+      "path": "src/cad_recovery/local_role_guard_v3.py",
+      "sha256": "92fb752af51a461b46ed8db74084808d82aa9644ad72e0292dd2d5ddc9b7de00"
+    },
+    {
+      "path": "src/cad_recovery/local_shared_contacts_v1.py",
+      "sha256": "9bb92dbe14c4a60db45bd51ad402e1572b171268a523caaa60f40cdee4fed9a1"
+    },
+    {
+      "path": "src/cad_recovery/local_shared_contacts_v2.py",
+      "sha256": "62c8a88ab4111a3d1133cd5302d6ebdf3c0ae1bfd888ff8ec91e4e9c1e97f50e"
+    },
+    {
+      "path": "src/cad_recovery/local_shared_contacts_v3.py",
+      "sha256": "4087b6498ef2eaf8858a6d0fc73c2b0470231476ef1729b4f620fe6a7e736861"
+    },
+    {
+      "path": "src/cad_recovery/local_stroke_evidence_v1.py",
+      "sha256": "3908eec7fb938f414cb0b79aa40b3eea678d60316d4c4df7b1c839e12f741f33"
+    },
+    {
+      "path": "src/cad_recovery/local_width_heads_v1.py",
+      "sha256": "6d7fa7cada9186b785e25fffeb7fe4677832451cf100b31e6b6140533645cef2"
+    },
+    {
+      "path": "src/cad_recovery/material_contour_witness_v1.py",
+      "sha256": "ba17a5e331aa9f59c58be504407e9c1d925a4c33648a197d392bd2796b0ea249"
+    },
+    {
+      "path": "src/cad_recovery/material_contour_witness_v2.py",
+      "sha256": "fd8a7a8051954d91d039a09c711a00a8317b1232391b78f380416a63c42641c1"
+    },
+    {
+      "path": "src/cad_recovery/material_contours_v1.py",
+      "sha256": "f5c598e0bd5ba3ea6bb904fd2fbb9a03b3c167ee1142ff3bcf4663899e5ed234"
+    },
+    {
+      "path": "src/cad_recovery/material_contours_v2.py",
+      "sha256": "bdeabc9ec98bb759fcb8f700dbfadc349f205dafffb29c512cddab916d67c9cb"
+    },
+    {
+      "path": "src/cad_recovery/mtext_zero_height.py",
+      "sha256": "4825419cac9ebe45667fa16f8c824606913f817d995eff9c718ce6c1fedf1a41"
+    },
+    {
+      "path": "src/cad_recovery/native_annotation_export_v1.py",
+      "sha256": "2112b170e49e93d9309856ee5fafae6b0242ef4520b1b383b4e7585d1c6e5aac"
+    },
+    {
+      "path": "src/cad_recovery/native_annotation_export_v2.py",
+      "sha256": "8c73db023d30382f0b37f1bbf1d7c6b9e9c31a98a7d9d2df1c437e1cd52486fa"
+    },
+    {
+      "path": "src/cad_recovery/native_annotation_inputs_v1.py",
+      "sha256": "0f1d0bd8f534c212f5c211518167c2cdaa8f544e327d40eb320ea9d3fd393258"
+    },
+    {
+      "path": "src/cad_recovery/native_annotation_plan_v1.py",
+      "sha256": "03220fd9594e35df71d1a25cff1d1cf2dae0906e55095e9b0a5273125c981aa9"
+    },
+    {
+      "path": "src/cad_recovery/native_arc_extension_contact_v1.py",
+      "sha256": "f303c14d07b6c9acba416f77ef431a7271e4a29377a31fe8a089948e10285b7b"
+    },
+    {
+      "path": "src/cad_recovery/native_arc_part_prior_v1.py",
+      "sha256": "3eb7a6143bb3f3b8c022a9f197e469f2e5d47dfeeb098875a2e7d898fe5ac500"
+    },
+    {
+      "path": "src/cad_recovery/native_cad_candidate_v1.py",
+      "sha256": "46479583296688cfe844f5acde9970013fd678d1e3e78c53d7c60d5b4607b8e9"
+    },
+    {
+      "path": "src/cad_recovery/native_cad_layers_candidate_v1.py",
+      "sha256": "eeac59a74f2e5422ff953b1d843ee3907db02e6515c197c2caf50975b7c7daa6"
+    },
+    {
+      "path": "src/cad_recovery/native_comparison_v1.py",
+      "sha256": "43e48c88bbcb97fb1c34a64f13ae6c27616cb5cb5218c6e753344d829457af3a"
+    },
+    {
+      "path": "src/cad_recovery/native_corner_input_v1.py",
+      "sha256": "8dc4fd07b63672b2326662a4fc99988d925604d3d41d9869c257212ed9ad14d4"
+    },
+    {
+      "path": "src/cad_recovery/native_cv_profile_v1.py",
+      "sha256": "71b323aa9ae31104e9d229857b382bc1fe1cedccb2614ad2696a5f2843ca429e"
+    },
+    {
+      "path": "src/cad_recovery/native_cv_profile_v2.py",
+      "sha256": "970bde0188bf93b4be1ac2b59541a22475b83e83ae14578b13efb80af7aede98"
+    },
+    {
+      "path": "src/cad_recovery/native_cv_profile_v3.py",
+      "sha256": "26b3f24f23742a9664168f68d1c4a87480c78fa9f6c9526b4a66580c26dd11f5"
+    },
+    {
+      "path": "src/cad_recovery/native_cv_profile_v4.py",
+      "sha256": "fa5c2a6185ea2424c1fbe2b270294af35e764c432211da42a79f1a46ef4537c7"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_arc_v1.py",
+      "sha256": "37d1678217020cec9cb2715c04977edf8fbc6ee1460726cb7cdd9a6af8d92686"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_arc_v2.py",
+      "sha256": "078394addf5605d4f7239a8031a8247d8117939ba5f53a27c97fe49d92610588"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_chain_v1.py",
+      "sha256": "ef62a5200d956af8d9a9ed79e6420c264d549769d33755660c34d39fc70169ed"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_competitors_v1.py",
+      "sha256": "e48af6ad1cf6da27849c53cc36a4ec518711386e1996f8dfaf0b966750214e53"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_context_v1.py",
+      "sha256": "ffe9c5c1b9f26fc2d3c3eefa179f526c45c24b469e8bc0c381ee7b71bbfd852f"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_context_v2.py",
+      "sha256": "bbd058e02dde2a208658b56bc8a5b2aa2a00eecdede1b01db0dc13321370ede9"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_context_v3.py",
+      "sha256": "a3be89317bab934d9e13b08eb5917035c6a622701b98cd6b63257c85f2d51b14"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_owner_v1.py",
+      "sha256": "071a11a09425a9e5730c37f6228fe61a0b112148ce65f3d3dbfc0b1ca945faa4"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v1.py",
+      "sha256": "92029a61835f71d6d5e3a9d8aa9c5b6fc5464d59552a36f1509e220eaa7c7b85"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v10.py",
+      "sha256": "d4d1c785ce6ce870e43bd6f4cf725b1294c6db91f1b73728daeaa751a1c7e152"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v11.py",
+      "sha256": "929d36efb6ae26671f5d2a861701b0c5a3705d47f8ed3a036357887b3fd937af"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v2.py",
+      "sha256": "3e235b30e37c96f133a2394d4c02871d8629a2e15d91eda6ccab144d335975cd"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v3.py",
+      "sha256": "67f805663d0178d28ec2f4d6049675aeb2f67d7039d58585da72f13d7c99b277"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v4.py",
+      "sha256": "317921d8aab8dccc914d644a52be623149e3e129b946e9435be93b7465fa8c18"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v5.py",
+      "sha256": "2729a4976721e8d8ad76ddc0b72b94d82aeefcee486723431736b09c88e61b3f"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v6.py",
+      "sha256": "e504b2442d7768f88a342b4ef84ad55320f0f968189118517ed5373b225cb427"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v7.py",
+      "sha256": "061597c7c9372596f23455ca168c6e7f9466bfcbd5d866eb246b557b2985e712"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v8.py",
+      "sha256": "57e1e97f7bc9f556b1aa0671e45aa88e16c3add081d7cd1b1e8886cb1cbb5375"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_roles_v9.py",
+      "sha256": "35bdb1cee3af84aeb8b1fc2c567225191788787390166dc7f1c40d5e4bf7f2b3"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_source_partition_v1.py",
+      "sha256": "2d7974a57eafc16d104eacb197f2c085c290cfb76e656eed2cdde5599fb2c0c4"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_strokes_v1.py",
+      "sha256": "0acb608601be1920017e88fa4fc3d7393d85212861c52fcb460f168307ba375f"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_transfer_v1.py",
+      "sha256": "3c7aac9f96aa18c0f3225327d4fa9ce1f5cda6a1e5ed13eede08bdd4a555d319"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_transfer_v2.py",
+      "sha256": "73c62d703c49df5ab1933bacf487661373568501e7290356ad805d9dacc77ff4"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_transfer_v3.py",
+      "sha256": "ced8d1fc4266df275687f069f9a7f14ffa5346ac93748b0396cba3af72ce0f03"
+    },
+    {
+      "path": "src/cad_recovery/native_dimension_transfer_v4.py",
+      "sha256": "31883885d0532105e824a258515c85d109039d3b36a2c278eda2fcc61e9446ee"
+    },
+    {
+      "path": "src/cad_recovery/native_external_linear_v1.py",
+      "sha256": "c3ed63f3a0e9a7d6d0ed8f3e23f77bbfda2dfab262c93fa6f89eaad89b3c9b38"
+    },
+    {
+      "path": "src/cad_recovery/native_filled_head_protection_v1.py",
+      "sha256": "fc1db3c9be54da859bc03101bd5fae7be332b57bcef55d24e29d40a0aeb81570"
+    },
+    {
+      "path": "src/cad_recovery/native_frame_clip_v1.py",
+      "sha256": "8e99d100d14c970ed2cbff249132d159893e7574a47ab62829f7fbe42d8c4968"
+    },
+    {
+      "path": "src/cad_recovery/native_frame_v1.py",
+      "sha256": "075ca85b6d019a70f76235427c0bf074e420ef008c63617e0b486f906451b133"
+    },
+    {
+      "path": "src/cad_recovery/native_frame_v2.py",
+      "sha256": "b967b8849d6836f3c1536c28482a9ec1de4a62f4ae90f5024e0dbacd62017c31"
+    },
+    {
+      "path": "src/cad_recovery/native_head_admission_v1.py",
+      "sha256": "bb6b69065e90fa788fe3dfcb0b2292c67b096b0b00a5ebb7a765fb9386422634"
+    },
+    {
+      "path": "src/cad_recovery/native_head_admission_v2.py",
+      "sha256": "0d6736ff9b0ae4d0c5351c770a7481441de81e2afed29dc2802d14a41b6d5656"
+    },
+    {
+      "path": "src/cad_recovery/native_head_arc_context_v1.py",
+      "sha256": "502fb5afb662fe6fd7e67e4f7f317c3054c19c90ac64ab96282a62c269199280"
+    },
+    {
+      "path": "src/cad_recovery/native_head_bounds_v1.py",
+      "sha256": "ad998b8d85c25087a7f6a0e58e1c614471cb4ccf7f06be07c9c0d0fd0b061912"
+    },
+    {
+      "path": "src/cad_recovery/native_head_bridge_v1.py",
+      "sha256": "40afaf20ee9724ca5fb01be695150a013bccbd066ccfd5d6fa6e2ccc48b6d557"
+    },
+    {
+      "path": "src/cad_recovery/native_head_ink_v1.py",
+      "sha256": "d342864bb9f95246e712e4861f2cf9189b4c7e7eb6691ff2478b51fea6b63652"
+    },
+    {
+      "path": "src/cad_recovery/native_head_membership_dxf_v1.py",
+      "sha256": "d80696ee0f65156cc75689f70fe08eedf24d076f86a4f91557fb20b00fbfbc2e"
+    },
+    {
+      "path": "src/cad_recovery/native_head_membership_v1.py",
+      "sha256": "6634e6ce3e0c36e88b0b84180c377181324153fac0cd64e3a7e030c62297a0b2"
+    },
+    {
+      "path": "src/cad_recovery/native_head_protection_v1.py",
+      "sha256": "7babd5c71e76b1306dfb655f9def76a22c39e98bb61a2e0f3079ce95e66b4804"
+    },
+    {
+      "path": "src/cad_recovery/native_head_shape_v1.py",
+      "sha256": "2ef72c25a48f1892bea35a5788a25181610dc594fe2176e81a517912fc8de3d3"
+    },
+    {
+      "path": "src/cad_recovery/native_input_v2.py",
+      "sha256": "a01d4d0ba939fc438ab51122ab00470119faded28415e443120bdf5650e3162a"
+    },
+    {
+      "path": "src/cad_recovery/native_merge_v1.py",
+      "sha256": "4a2a3e7ed4c66fd45eb65958f5ae0a05a37699e30be6243abd3ba7dcc6b749d4"
+    },
+    {
+      "path": "src/cad_recovery/native_part_roles_v1.py",
+      "sha256": "747312db43a0c826b79e571dd9c48ac184398d38acdb13bf5ad56418f8c9b73f"
+    },
+    {
+      "path": "src/cad_recovery/native_patch_clip_v1.py",
+      "sha256": "bc0671328411f65ae41e06e435b0babc78547589a2f126ef10d20618c3557332"
+    },
+    {
+      "path": "src/cad_recovery/native_profile_kernel_v2.py",
+      "sha256": "9746d91c9dd3f0f0ec52006bc4789e2bc026434e354b8c1b8b99038e07c58eb6"
+    },
+    {
+      "path": "src/cad_recovery/native_role_region_v1.py",
+      "sha256": "643a658715bcd0fa81710be2123071ab9f42ac30082cbba81eaca03c192245a3"
+    },
+    {
+      "path": "src/cad_recovery/native_role_support_v1.py",
+      "sha256": "5c59087b9bf92e5a75d25ec0f21fa49463f3e07d63705984d9225b9b7b5d8081"
+    },
+    {
+      "path": "src/cad_recovery/native_role_support_v2.py",
+      "sha256": "6ef4ff4ada618c363c0dc23ef9a11153d4ca847eab8cc22a3f11fe00b6f9c9c1"
+    },
+    {
+      "path": "src/cad_recovery/native_section_roles_v1.py",
+      "sha256": "52b0a7748d8769ecfad71b6660f7695c6da997c16f3f63e4d2d1f86d21afe3c2"
+    },
+    {
+      "path": "src/cad_recovery/native_short_arc_evidence_v1.py",
+      "sha256": "78cd7cc4c57ca606d2060483aad561620d32cd1ac511e2a42ff0f3ad7449d80b"
+    },
+    {
+      "path": "src/cad_recovery/native_short_linear_v1.py",
+      "sha256": "98bc0c456bb3f0d90153e75c2f575fdca3f1abb79ae4187abdee59f9916919e8"
+    },
+    {
+      "path": "src/cad_recovery/native_subcell_export_v1.py",
+      "sha256": "05e19e461023976aea8524f8ae7366840a91d8c2d3c20e3a3a49bb04dd7e5c2b"
+    },
+    {
+      "path": "src/cad_recovery/native_table_roles_v1.py",
+      "sha256": "702b6a9d88f3c502105153488267ba3a612e8e1456e8c54ff8b5f07cec14083e"
+    },
+    {
+      "path": "src/cad_recovery/native_tiled_metrics_v1.py",
+      "sha256": "a0b44c698461115c5102065fbe21035cff1e4e46d6be89a6e762e699c42dc199"
+    },
+    {
+      "path": "src/cad_recovery/native_tiled_v1.py",
+      "sha256": "c14d5790b52dde04dc1b64db247025be00c7a4bd31a5a55643a70e49e1865d77"
+    },
+    {
+      "path": "src/cad_recovery/native_window_completeness_v1.py",
+      "sha256": "9c823866a28f3301b5cf0d587e32a3d922a6becd5691e91c9bedad1bd16d98f3"
+    },
+    {
+      "path": "src/cad_recovery/negative_source_graph_v1.py",
+      "sha256": "021a5eaae000a158ba36bfe87f866fdafcd81b69bf9d85815875e58cfe193ecf"
+    },
+    {
+      "path": "src/cad_recovery/noise_baseline_v1.py",
+      "sha256": "5e8f65c72a1ebfe5ceddbd5c5007f426d2c49436738ceaa1985dde179b8a07b0"
+    },
+    {
+      "path": "src/cad_recovery/notation.py",
+      "sha256": "6b562d4856199ba93f20ba6106faa298ab3d7460e9dec039b5f8241028ebd8e0"
+    },
+    {
+      "path": "src/cad_recovery/notation_recovery_guard_v1.py",
+      "sha256": "16ddb38e02a375406b0fcbf4f984e7c5e31017820f8177548e93d9cd093ec40a"
+    },
+    {
+      "path": "src/cad_recovery/notation_recovery_metrics_v1.py",
+      "sha256": "ff36afe6651bd93876bba488ab0e1c107b7e9d674ec9774a0fdb71f4c0fd1c0c"
+    },
+    {
+      "path": "src/cad_recovery/notation_recovery_v1.py",
+      "sha256": "cd63d6ca3801231eed0b433739e88953ae1da8b2afac455f616cd5c5861e5786"
+    },
+    {
+      "path": "src/cad_recovery/object_corpus_review.py",
+      "sha256": "6a8cadd054f4979b0dfc0955848fbb7a6aed64be13617538be2d9bceb3530a9c"
+    },
+    {
+      "path": "src/cad_recovery/object_review.py",
+      "sha256": "9a6401383fd2c12d180f6c27f63cccf3395f5cbb77179d84953b9219b9e83b6e"
+    },
+    {
+      "path": "src/cad_recovery/object_review_case.py",
+      "sha256": "8e494957b3d37a08b0379b2d50a147dc313d97efcaeb0a4795f1494f8cde23f4"
+    },
+    {
+      "path": "src/cad_recovery/object_supervision_protocol_v1.py",
+      "sha256": "895e92c7e49472b0ef550e5569b120878c49e0e38195dfd1180580464e9b08e7"
+    },
+    {
+      "path": "src/cad_recovery/observation_completeness_v1.py",
+      "sha256": "608c7af8be9e6703dd257c5d4f64086e4edd9a863d58a31992bd8280e9ce8281"
+    },
+    {
+      "path": "src/cad_recovery/observation_graph_v1.py",
+      "sha256": "c400ef442e7e9788a71c836e16f31fbd6206419a9cf832b3c1d1a2ce4f8a15b1"
+    },
+    {
+      "path": "src/cad_recovery/observed_geometry_qa_v2.py",
+      "sha256": "64e4940ae6b174b3b520be83ba502fca391ac7493d6accb3684e9791d165a782"
+    },
+    {
+      "path": "src/cad_recovery/ocr.py",
+      "sha256": "49c8db830b7d98cbff9226fd7415daa6cfd0c0a18a997b54e577c6e67c1a86c0"
+    },
+    {
+      "path": "src/cad_recovery/ocr_baseline_metrics_v1.py",
+      "sha256": "b7cd06d984e34db9caeaa2c7dfa66b1f811a93b9abec30c62be9a68adc9358f3"
+    },
+    {
+      "path": "src/cad_recovery/ocr_baseline_metrics_v2.py",
+      "sha256": "fa2f4543d08af47c74a3e46494bdd5c3911b5cf4e3cd6717e545c7e23c5e0014"
+    },
+    {
+      "path": "src/cad_recovery/ocr_baseline_metrics_v3.py",
+      "sha256": "a1e3e3d7d8cc0bb96016109e96a9106c536df7d3b856cc1ea5688138771839a2"
+    },
+    {
+      "path": "src/cad_recovery/ocr_baseline_metrics_v4.py",
+      "sha256": "e0a4816d252db312f7fb67e21aa24ef4c91669ee8e7c4287513919214536da13"
+    },
+    {
+      "path": "src/cad_recovery/ocr_baseline_v1.py",
+      "sha256": "7faccddab2e3e19515657d3d6ad0636f897a7cb0a509a99432fa23238a3c4d6b"
+    },
+    {
+      "path": "src/cad_recovery/ocr_baseline_v2.py",
+      "sha256": "939de5ca62e8b99c04d456f0d0d55a4480dd7fb7746171fd1e2417b252be908d"
+    },
+    {
+      "path": "src/cad_recovery/ocr_baseline_v3.py",
+      "sha256": "b524be77cd7fdcffed3cfeb8eaade98cdcf54a24f3266d2a5958eabbfae527cd"
+    },
+    {
+      "path": "src/cad_recovery/ocr_baseline_v4.py",
+      "sha256": "82231791aedae684c14119361018255299e7732d5d064338828c909bf49850be"
+    },
+    {
+      "path": "src/cad_recovery/ocr_batchnorm_policy_v1.py",
+      "sha256": "2e0b33be25de62df63e1e53876b850dcd39eebfcd34e54325637bbe8de62c92b"
+    },
+    {
+      "path": "src/cad_recovery/ocr_control_line_schema_v2.py",
+      "sha256": "9b95cb90d20c429578c3c7d2d30429e78834a6ff37e58f1d374dba9808e5668b"
+    },
+    {
+      "path": "src/cad_recovery/ocr_control_relations_v2.py",
+      "sha256": "1fb20b701a1b6c5dfc400deb0f619922e39a0e1a03d3cb1528f3fdd7f4118b8e"
+    },
+    {
+      "path": "src/cad_recovery/ocr_control_release_v1.py",
+      "sha256": "11d423dd73c750aa63e0d683e554fba5087ca3ba18ceae4e4b66c2e289eebdad"
+    },
+    {
+      "path": "src/cad_recovery/ocr_control_release_v2.py",
+      "sha256": "8f8762c31756a0c524f4f24a8742350a3b6171ab1df52cb860a305f9acfc8520"
+    },
+    {
+      "path": "src/cad_recovery/ocr_control_review_v1.py",
+      "sha256": "7dbd26799ae051a8e004bb9b5471af81655f8cdcf64270b20f0cf3f6769e6c1e"
+    },
+    {
+      "path": "src/cad_recovery/ocr_control_scope_v3.py",
+      "sha256": "97d5d0a6380953a7959ec222581fc42238d9a0c48e9ad73d800c08350e3fd433"
+    },
+    {
+      "path": "src/cad_recovery/ocr_control_selection_v1.py",
+      "sha256": "9d861c531632d81a1d3c75f8a2c71d7008b8cdd264145d63c5786579e25e9bfb"
+    },
+    {
+      "path": "src/cad_recovery/ocr_control_selection_v2.py",
+      "sha256": "b8859e0d53ece4270452b51042083ecefc072a0d2206f5052e8a293003404c39"
+    },
+    {
+      "path": "src/cad_recovery/ocr_current_release_v1.py",
+      "sha256": "178b169eb8bb9c83c898dca6e8056695876a2b88fdf316b34e784ce16d276e6d"
+    },
+    {
+      "path": "src/cad_recovery/ocr_engine.py",
+      "sha256": "c9e3c624262f2cbf32814296ef4bd5e83ed550fc2b2d2f50dfe245fae1a0e4cf"
+    },
+    {
+      "path": "src/cad_recovery/ocr_first_training_v1.py",
+      "sha256": "e8c58e62064ffd1612564bc0db5c6a710c9d44ecc25bfd5b2c5bbb7b39474b85"
+    },
+    {
+      "path": "src/cad_recovery/ocr_fresh_evaluation_v1.py",
+      "sha256": "ce6039cc37dd7fe65cc94541226ebc7ec91c96d0ff8c8ce033a13cc37faffed6"
+    },
+    {
+      "path": "src/cad_recovery/ocr_fresh_holdout_v1.py",
+      "sha256": "17bce3e0f7af6c8f10182a15c934dead4e29480c2f8bbd58605044f9ccf5f65c"
+    },
+    {
+      "path": "src/cad_recovery/ocr_fresh_selection_v1.py",
+      "sha256": "68f7a772da0ab02671752becfbf76bf03e466c33cb13cd4a8a333a2ecb00cc15"
+    },
+    {
+      "path": "src/cad_recovery/ocr_frozen_bn_experiment_v1.py",
+      "sha256": "071f4729d5c3002e669223dbb21e6c19df64b1573a6a23fe5ad7601639047f4b"
+    },
+    {
+      "path": "src/cad_recovery/ocr_frozen_bn_run_v1.py",
+      "sha256": "684865f3393999075c33e74599fc755d79bc2a3b4f2d50fa0c41c46134ab4c16"
+    },
+    {
+      "path": "src/cad_recovery/ocr_label_schema_v1.py",
+      "sha256": "dfedb851fac38ddadecef69da3819891229a57756c4bc8220ff1e347f9cd3e1b"
+    },
+    {
+      "path": "src/cad_recovery/ocr_label_schema_v2.py",
+      "sha256": "d688791943cf4d2c2478cb78e03e0bd6cdaa1afcd776692d1828bea0200c211b"
+    },
+    {
+      "path": "src/cad_recovery/ocr_line_schema_v3.py",
+      "sha256": "e0136eff8c18662a0c5ed9c81dfba35393a2aa05553002b5564e0b92fb6c3e1d"
+    },
+    {
+      "path": "src/cad_recovery/ocr_lineage_v1.py",
+      "sha256": "ea7f718b329484874dd7c14f126d717ad57228a791d2a07402bc5d1e3e42c759"
+    },
+    {
+      "path": "src/cad_recovery/ocr_model_comparison_evaluation_v1.py",
+      "sha256": "773f209d723d13ee1a9bfe672192c25679b1b3037a14f839179a12688d79ef82"
+    },
+    {
+      "path": "src/cad_recovery/ocr_model_comparison_execution_v1.py",
+      "sha256": "1d8dd20b7fc19cdabf4f34b19dc0b2c9b190b63b02c0fe2ba409c4faf4d905d0"
+    },
+    {
+      "path": "src/cad_recovery/ocr_model_comparison_execution_v2.py",
+      "sha256": "9626cee064d7435f18ba52696f271761f6fe3af7619fbbb0f27f6f94cae1836e"
+    },
+    {
+      "path": "src/cad_recovery/ocr_model_comparison_protocol_v1.py",
+      "sha256": "fa796f484d2f65cb7dab6bf87b1d4561c3c45a89a574dd2b4bb2378aad99163a"
+    },
+    {
+      "path": "src/cad_recovery/ocr_model_comparison_replay_v1.py",
+      "sha256": "c802cb02b030b8d3ce3424e0e4e895bf255435c2a603d2e55ae7965b50ba6f96"
+    },
+    {
+      "path": "src/cad_recovery/ocr_model_comparison_runtime_v1.py",
+      "sha256": "cb53291dc22afc2a90ec9262232e5cb1c7adcc52fc4ffadc35e39aad44ce4c39"
+    },
+    {
+      "path": "src/cad_recovery/ocr_model_comparison_transport_v2.py",
+      "sha256": "5aaf106e843b5ed804ad29aa63c49d82b3d5e0511c7f9ea0d224cd903cff3667"
+    },
+    {
+      "path": "src/cad_recovery/ocr_recognition_baseline_v1.py",
+      "sha256": "5f67dfc3bd3488ea218d56ccba88203d8488e5185454573d32f75d4ab214e2a0"
+    },
+    {
+      "path": "src/cad_recovery/ocr_recognition_core_v1.py",
+      "sha256": "10b9ad6cc65b82772c883c7811e8c9de05f3efa1989fb4631e18af77c6c3bf55"
+    },
+    {
+      "path": "src/cad_recovery/ocr_recognition_metrics_v1.py",
+      "sha256": "934f7bdd9e88c7de6ae8dfa0b6bb39e7e98b5e150d74b41145978aa16a341ba1"
+    },
+    {
+      "path": "src/cad_recovery/ocr_regression_v1.py",
+      "sha256": "6ae58e7dfc9814200a10553e28dd278f84d4dd839af5ba2e999fa7da4fce37fe"
+    },
+    {
+      "path": "src/cad_recovery/ocr_release_v2.py",
+      "sha256": "9f6b4afd8e7c78e3158cd6b603a001a12c780ccb9fb1ddeb381a2ebe562375b9"
+    },
+    {
+      "path": "src/cad_recovery/ocr_release_v3.py",
+      "sha256": "b140bb08c10e243244aca1b2a8ac5ed23eb92a0add639721ea4c91f78f969ebe"
+    },
+    {
+      "path": "src/cad_recovery/ocr_training_assets_v1.py",
+      "sha256": "03e7c6e942ab652ae756e5f84872587f6205f7bdeac58d42d5d6b2285004870e"
+    },
+    {
+      "path": "src/cad_recovery/ocr_training_experiment_v1.py",
+      "sha256": "4c9ac03d5752b43e6ad2d96d344057760e5c292095cd7f09795b05ff91270194"
+    },
+    {
+      "path": "src/cad_recovery/ocr_training_preparation_v1.py",
+      "sha256": "b926478a16a15e694fe9840c20faa61ff6322b4d35f669ae67e845b986a12b0d"
+    },
+    {
+      "path": "src/cad_recovery/ocr_training_runtime_v1.py",
+      "sha256": "c21e5f79180568cd4086376b4df1470435980cf16e4ffc7fee5b48e7f6b6c244"
+    },
+    {
+      "path": "src/cad_recovery/ocr_validation_expansion_v1.py",
+      "sha256": "7f1e644f2b3e7f7f6b5bcffd449638da4d7a92c06ea1615c9bd1c9c8dc77b01c"
+    },
+    {
+      "path": "src/cad_recovery/opaque_rgba.py",
+      "sha256": "2f1d7eace42c673ab17f8b20a23f953a163ba20bccd57fee94bcc970ba886ff4"
+    },
+    {
+      "path": "src/cad_recovery/open_arc_search_v1.py",
+      "sha256": "37db4562213098669e4a52f3aa68a2b9af16854e47679b79eda41ab14a9f3308"
+    },
+    {
+      "path": "src/cad_recovery/open_arc_search_v2.py",
+      "sha256": "98a2b8c341cc33a785ec1ba7882e7061dd08bbac38578a49face8018a97d9370"
+    },
+    {
+      "path": "src/cad_recovery/open_arc_search_v3.py",
+      "sha256": "77982ea5bc2b09afdde74e019879a165852e1b307ba25346b583c46e872da538"
+    },
+    {
+      "path": "src/cad_recovery/open_arc_search_v4.py",
+      "sha256": "1b18175bbad65fefb3ad0654a8d71bf56a8e8e3b555776a5730faaa80459324b"
+    },
+    {
+      "path": "src/cad_recovery/open_contour_joint_metrics_v1.py",
+      "sha256": "7d04d233e18c4b2692b58d14b19bf7b193e9b31adfa6025557f1baed2fb5e099"
+    },
+    {
+      "path": "src/cad_recovery/open_contour_joint_v1.py",
+      "sha256": "449865709232cdd2e5e97f81526df68b9143834ea4cdfc319fdb6e744f6d9b12"
+    },
+    {
+      "path": "src/cad_recovery/open_contour_joint_v2.py",
+      "sha256": "e019f82ed76ec2d60408d41b8f9799b3bafedd682cf48bcc18952d1bc6825536"
+    },
+    {
+      "path": "src/cad_recovery/open_contour_joint_v3.py",
+      "sha256": "7136c5ab7891da58bf26d75f07fd733234e35c26244f0ca2771c10122d893579"
+    },
+    {
+      "path": "src/cad_recovery/open_contour_joint_v4.py",
+      "sha256": "59f9d47fda871793b20ce27a14c6c788c4bc0ac36f9a4fbc53021d741a1be79a"
+    },
+    {
+      "path": "src/cad_recovery/open_contour_joint_v5.py",
+      "sha256": "0fe74b07656c6cfe46212b8a239d42b13b454910191ebe837d01a354806d0e58"
+    },
+    {
+      "path": "src/cad_recovery/open_contour_recovery_v1.py",
+      "sha256": "ca0d2d9a3085e9752c1fa400ce917fa8dbbfff98bea47a42e703910074bf5bec"
+    },
+    {
+      "path": "src/cad_recovery/open_reference_chains_v1.py",
+      "sha256": "c3e46e33840c74ca40cdc486241523bc131129b6fe5865a107cf90d6646bbe6f"
+    },
+    {
+      "path": "src/cad_recovery/open_reference_chains_v2.py",
+      "sha256": "d6ac2ff688855f01adc9eeea2b627dfb317f4c7685dd277f86a466a92345726e"
+    },
+    {
+      "path": "src/cad_recovery/open_reference_context_v1.py",
+      "sha256": "b16c8da108196fdedd0e6e9622c9695d41006e2b080d17bea05a80e29a3817f2"
+    },
+    {
+      "path": "src/cad_recovery/open_reference_context_v2.py",
+      "sha256": "14780faba7c3486555d5caa794941b9256ab6c3626836983c257dd60bc9c5d97"
+    },
+    {
+      "path": "src/cad_recovery/open_section_coverage_v1.py",
+      "sha256": "f6bea24f9b227058bb5fc8ab5bd8947b82f35e7a8f80201f9cff3b47ea3d0416"
+    },
+    {
+      "path": "src/cad_recovery/open_section_coverage_v2.py",
+      "sha256": "f015967c6a27e74db376fbc6e4c320b3aa399267d3a6b6affadd15b0e79aff32"
+    },
+    {
+      "path": "src/cad_recovery/open_section_coverage_v3.py",
+      "sha256": "d995b2b2dada824c3883dec4b480d57ba68f37e5531b5e6f8c2427074c8e8ce6"
+    },
+    {
+      "path": "src/cad_recovery/open_section_coverage_v4.py",
+      "sha256": "590635696762e227c5708807da9c52f1c836b7f8f910a163afff1cb8d7b6a1f7"
+    },
+    {
+      "path": "src/cad_recovery/open_section_source_linear_v1.py",
+      "sha256": "4572d7b15dee69aa13dd80e82640c0b1eceffb191224f64dc811ab999cf2b152"
+    },
+    {
+      "path": "src/cad_recovery/open_section_source_linear_v2.py",
+      "sha256": "d0c25d404c6ace6af4ad64b4b578ead2deac30113d25c265616af8621d57d406"
+    },
+    {
+      "path": "src/cad_recovery/open_section_source_walk_v1.py",
+      "sha256": "77c6e396ce9ff9bdc617b5acd62fb7f916be7d8d5dab9119c5dad449ebad3704"
+    },
+    {
+      "path": "src/cad_recovery/open_section_source_walk_v2.py",
+      "sha256": "5cec6b8cd968994d433b69b79f5a5cb00e3b9fde25b9fe42b4b49c380bf02f5f"
+    },
+    {
+      "path": "src/cad_recovery/open_section_witness_v1.py",
+      "sha256": "9707d9430fc2bee617d73657bfb90db4c1eac0e723fda4843a9ad449caa6953f"
+    },
+    {
+      "path": "src/cad_recovery/open_section_witness_v2.py",
+      "sha256": "f0ea2894613c132a0428120107ad7c2ebc507b55cf6277cf07154e67a4b6fb1a"
+    },
+    {
+      "path": "src/cad_recovery/open_section_witness_v3.py",
+      "sha256": "e49ff407d59feccc64108c6ba44bb3afbf5c70451eab60db48c8d1bbb8f77b8e"
+    },
+    {
+      "path": "src/cad_recovery/open_section_witness_v4.py",
+      "sha256": "535639f0a668e162a9106dced8143f60eda4d26909e221f4e09cbbd1759895fd"
+    },
+    {
+      "path": "src/cad_recovery/open_section_witness_v5.py",
+      "sha256": "2127021befb22b5925a1510370165bd0b17a717499ad86def9e7fd7873aa0078"
+    },
+    {
+      "path": "src/cad_recovery/open_source_continuation_v1.py",
+      "sha256": "44dab1fd08d5afc560b69d8bfdc66cf41bd138b7108da5a19aca35097aa8e6b8"
+    },
+    {
+      "path": "src/cad_recovery/open_stroke_core_v1.py",
+      "sha256": "02f93086ddf3d94dc7bb63bcf70986f6109c5a2f7c6e9c1be4be3220dd4ba922"
+    },
+    {
+      "path": "src/cad_recovery/ownership_artifacts_v1.py",
+      "sha256": "b80a4ec8036d887478b048a0d7c75ce1a514c3e31949f3ec57af4864f100eebc"
+    },
+    {
+      "path": "src/cad_recovery/ownership_contours_v1.py",
+      "sha256": "26e43e14c5c3d750c038591cbb1e34a3c914386c4334a9f714de93b82777697f"
+    },
+    {
+      "path": "src/cad_recovery/page_frame_context_v1.py",
+      "sha256": "7e0fab427267754885a6bc598af8822bbcae53d5d307f210b7c8ff92010108c1"
+    },
+    {
+      "path": "src/cad_recovery/page_frame_context_v2.py",
+      "sha256": "1cd168eb5ae641bbfffd952289c7cbcdf4f4298c96710e28e1865c411134e91a"
+    },
+    {
+      "path": "src/cad_recovery/page_frame_context_v3.py",
+      "sha256": "8e30edc83cfa5e526ae3d714b1b5c085e3c7cce63d33d9fce767aa6950a7bd90"
+    },
+    {
+      "path": "src/cad_recovery/page_frame_context_v4.py",
+      "sha256": "e128a68bd716135f4ec2fcfd1ce0548f2e22d36e229b0663fcc94d9f2692c2b6"
+    },
+    {
+      "path": "src/cad_recovery/page_frame_context_v5.py",
+      "sha256": "0079f378bdb1de8d8edf20284e411a42dd662aa2808d47a8fd03baced3ed8afe"
+    },
+    {
+      "path": "src/cad_recovery/page_frame_semantics_v1.py",
+      "sha256": "43df6889669b0b4ffd4a6be64df995f27111997cbba988bb67fb866e5c99a393"
+    },
+    {
+      "path": "src/cad_recovery/page_grid_attachment_projection_v1.py",
+      "sha256": "80abb6b5bff3a1af13f2e372b47bdb881adb3712954e22078f86ecfbb3b6057a"
+    },
+    {
+      "path": "src/cad_recovery/page_grid_attachment_v1.py",
+      "sha256": "25d2ff29298aa0b4871b403e1c29ce6e13ae734fda63528d1834f0a06ed005c4"
+    },
+    {
+      "path": "src/cad_recovery/page_grid_source_masks_v1.py",
+      "sha256": "286cc50268022f554dae8dd5820d5ce4873df89dd9518005cd87776b4ea0998f"
+    },
+    {
+      "path": "src/cad_recovery/page_region_release_v1.py",
+      "sha256": "3ae1a76fcca4a2a52dd30a93e845777a191df15886cf1fd7b80da65e343fd8c1"
+    },
+    {
+      "path": "src/cad_recovery/page_region_review_v1.py",
+      "sha256": "6c277086e525a280427a368db5775a76bb3368a10f801e74975c7fc34050e23e"
+    },
+    {
+      "path": "src/cad_recovery/page_view_binding_v1.py",
+      "sha256": "8d906bb60fea93ea4bbb53c6fef93b9f512e4f493df3c0a9d996954650117ef9"
+    },
+    {
+      "path": "src/cad_recovery/pair_update_v2_validation.py",
+      "sha256": "416af0649a11262d159b9ff0d516c72ca90bbb465e4c5720b2dab0d3d416f737"
+    },
+    {
+      "path": "src/cad_recovery/pair_update_v3_validation.py",
+      "sha256": "c5fb0e25af3b4e3e97b94875764a342074f250cc379ec98a5b4dd071f005a6a9"
+    },
+    {
+      "path": "src/cad_recovery/pair_update_validation.py",
+      "sha256": "b6164e9f5d3074d6bf7d3b48888a59be3580b10324b573be62d4c8ac85fa3a9e"
+    },
+    {
+      "path": "src/cad_recovery/paired_ocr_v1.py",
+      "sha256": "fe44d72f8315a7aeb29380a3fc7f133624b5b3117da257d8e525f2cadf19a24b"
+    },
+    {
+      "path": "src/cad_recovery/pairing.py",
+      "sha256": "f7b934ae866c5bc3d43405a737053929150de99082b3a050d2463cebf4ecaf86"
+    },
+    {
+      "path": "src/cad_recovery/part_admission_v1.py",
+      "sha256": "c6c064104f9e2213f3732ba7b8bb60d2443f879992ce509174f7d4fa4ad10c43"
+    },
+    {
+      "path": "src/cad_recovery/part_contact_v1.py",
+      "sha256": "2a655471c0fa6fad09dd94ea1b99ac206d260fc0f4b3a03404e92f8cc585722b"
+    },
+    {
+      "path": "src/cad_recovery/part_contact_v2.py",
+      "sha256": "ca9789cca74abaea902a46fa5ff8071d0b843c1bfda3af795f61ac0eec0a6489"
+    },
+    {
+      "path": "src/cad_recovery/partial_ocr_consistency_v1.py",
+      "sha256": "7c9b2b519005b00239890ecb4d6118ac93fa10d64407e6b9a129ede745205cc6"
+    },
+    {
+      "path": "src/cad_recovery/pipeline.py",
+      "sha256": "80fcc4cd0a4e9a6fb2d9805b897c31c2701a4df9e059236d8d7fa69aad79198a"
+    },
+    {
+      "path": "src/cad_recovery/pipeline_dependency_trace_v1.py",
+      "sha256": "2ce454b8edee45b4c5ed57ed5cf876530e573573ace035aec72cce57d2c8eeb4"
+    },
+    {
+      "path": "src/cad_recovery/pixel_layer_export_v1.py",
+      "sha256": "b7488613ccbe5d7700c7cccad92b3cb11cbd7a34b1302be16e3925204e149b83"
+    },
+    {
+      "path": "src/cad_recovery/pixel_layer_validation_v1.py",
+      "sha256": "08d0be67fd3490dc38d37b9272dc275d1088de20720c088f8eb38a5ad6357246"
+    },
+    {
+      "path": "src/cad_recovery/pixel_role_draft_v1.py",
+      "sha256": "72f04789e15e94a0bbb1e5e212c1e0dcdb5171b9e4b44ee2304c61dfd6a9223a"
+    },
+    {
+      "path": "src/cad_recovery/pixel_role_expansion_v1.py",
+      "sha256": "904f8741b6ce1bedf1ea878c49389f03c59681d0e7d23e71891fa713081357e6"
+    },
+    {
+      "path": "src/cad_recovery/pixel_role_release_v1.py",
+      "sha256": "34c837f2c3c01b27cf1ae0aa0b0b8ac502fa622092308a12b106d985385a51cb"
+    },
+    {
+      "path": "src/cad_recovery/png_container_repair.py",
+      "sha256": "40d783135172e5acea2d166cba9207311ddd5482bc07688b0819e07e7f4f8dbd"
+    },
+    {
+      "path": "src/cad_recovery/png_stream.py",
+      "sha256": "6de9bab3618c17f0b83b62309086e351285fd4a92475327ca51ff793a63bd2f1"
+    },
+    {
+      "path": "src/cad_recovery/positive_grid_witness_v1.py",
+      "sha256": "2747b9c1b2890c2c4b959eeca4fcec6df1ff3b863a97a5f9a3ecffd1d19683c2"
+    },
+    {
+      "path": "src/cad_recovery/positive_grid_witness_v2.py",
+      "sha256": "25059f4ce063e87a46383ee704931deacbaca1e82804533157fc44a473997b33"
+    },
+    {
+      "path": "src/cad_recovery/positive_grid_witness_v3.py",
+      "sha256": "4dbe92857db59c02c866fd04ba8d302e08f0135f43af654065bec82d36cb631c"
+    },
+    {
+      "path": "src/cad_recovery/prepared_batch_validation.py",
+      "sha256": "ce7fc44d5ffc4f2f3b69517c42b297676dfd4d88cb78d373d7cfc343fbdb801f"
+    },
+    {
+      "path": "src/cad_recovery/preprocessing.py",
+      "sha256": "e43500d7be31d4d4c10217a7e71036362a3a4d5c1ddfc834cf02f075f22e6e3a"
+    },
+    {
+      "path": "src/cad_recovery/primary_contour_io_v1.py",
+      "sha256": "ad752ae48c759022b19d1d59152b18673c573c951d522be4b2cb3cfd299aa042"
+    },
+    {
+      "path": "src/cad_recovery/primary_contour_io_v2.py",
+      "sha256": "3d799ba412e98e854c9e7824736aa51458da3a23f893d2825f3d8a842e04d951"
+    },
+    {
+      "path": "src/cad_recovery/primary_contour_io_v3.py",
+      "sha256": "dec3279ccf8491743bcda2b7983aaea2453777e5087bf1d8aaea9248fe57932f"
+    },
+    {
+      "path": "src/cad_recovery/primary_contour_metrics_v1.py",
+      "sha256": "6c41b8e42d79507a3d2bbea83e8b4094a12020135145233677b5fc56d7331b0d"
+    },
+    {
+      "path": "src/cad_recovery/primary_contour_v1.py",
+      "sha256": "f4eefd252e1ab1077e914683904aaa9f058d0fe97ba4b0d93f7681a75b713455"
+    },
+    {
+      "path": "src/cad_recovery/primary_contour_v2.py",
+      "sha256": "dfb4dd0568a07b97fe15d80be2ecf72feae3312de81911f2aab336b6541276c6"
+    },
+    {
+      "path": "src/cad_recovery/primary_contour_v3.py",
+      "sha256": "4c77c5527c86b1a1a8778c7b62ef56a08e68808c1037e2fcdcfca67110ec6c05"
+    },
+    {
+      "path": "src/cad_recovery/primary_role_veto_v1.py",
+      "sha256": "9052ecf241a477c4de83a9b8f3448d624adf0ea361be627278a39908ff0ad4e8"
+    },
+    {
+      "path": "src/cad_recovery/primary_stroke_guard_v1.py",
+      "sha256": "bae0551f6682252e726ac3d405eaade10b5b8db56b435e7d46167457ac01cb0e"
+    },
+    {
+      "path": "src/cad_recovery/primitive_graph_qa_v1.py",
+      "sha256": "48a50e8d089aef42e88696ef5ac90f1a835186b23c8080696a52b9516b4034b7"
+    },
+    {
+      "path": "src/cad_recovery/primitive_ownership_io_v1.py",
+      "sha256": "a6b567dcea00a003be08a22a12e7eeec49be2e11f49447815e66b36a285beaef"
+    },
+    {
+      "path": "src/cad_recovery/primitive_ownership_v1.py",
+      "sha256": "5888b35283ff37ef6a6d6f561fdf5bd357a0ea3543b14f8060aa311b7808f16d"
+    },
+    {
+      "path": "src/cad_recovery/primitive_role_guard_v1.py",
+      "sha256": "a82c1398575889829fe8568594c93dae9ad871830c95ab413f63d50da15e6996"
+    },
+    {
+      "path": "src/cad_recovery/process_lineage_budget_v1.py",
+      "sha256": "b4199a0fe79087b8b32d71a716cc7e121c99b3a347fe221549634b45cfddc5a9"
+    },
+    {
+      "path": "src/cad_recovery/profile_contract_v1.py",
+      "sha256": "f2244b233f0552fc51ea90d12cc77a2fb4521c7ad8094554ca7ed203e9c7b6c5"
+    },
+    {
+      "path": "src/cad_recovery/profile_contract_v2.py",
+      "sha256": "29ae577332872bf91b3a99806dce36f766640e98a6cb8160c6363c20e842ce67"
+    },
+    {
+      "path": "src/cad_recovery/profile_contract_v3.py",
+      "sha256": "f86133c3f5454a43812975746352e083b018e767980ea92aa5a1da122d87f397"
+    },
+    {
+      "path": "src/cad_recovery/profile_contract_v4.py",
+      "sha256": "5b854ed6f23291857eb2cf3fa198777b7bc8fcec52febd5c6d5ddec39c3bec41"
+    },
+    {
+      "path": "src/cad_recovery/profile_pipeline_v1.py",
+      "sha256": "0762ae6f678246c90f29fd4230a8500458c97c8a810d58c9e1e3f59378fcd02d"
+    },
+    {
+      "path": "src/cad_recovery/profile_pipeline_v2.py",
+      "sha256": "f45b8b9e539e93d0bc897490b822a9b3dba643d8db559fb1b40bad02be4fb528"
+    },
+    {
+      "path": "src/cad_recovery/profile_pipeline_v3.py",
+      "sha256": "a9ca891690d28d7703e437f54df2ca2fde5144436c0378eee6434a01392aef81"
+    },
+    {
+      "path": "src/cad_recovery/profile_pipeline_v4.py",
+      "sha256": "157ae2ed9fa83e588509313117b95fd341d9f6e7fb35de7d93a9db49dce1b467"
+    },
+    {
+      "path": "src/cad_recovery/proxy_resource_audit_v1.py",
+      "sha256": "cbfb18292681de4b092d585f4d502bf6b20a4b6056ed01529c94502c3dbe8dd4"
+    },
+    {
+      "path": "src/cad_recovery/proxy_resource_review_v1.py",
+      "sha256": "80e61dd7466c714c2afb0f423b042a211b978fe86e0a74a6cb6fd0dedbd983f0"
+    },
+    {
+      "path": "src/cad_recovery/raster_anchor_evidence.py",
+      "sha256": "6735550b74fdd1f4717b07f60459dc246764de840e272f556f78ef38ea977e72"
+    },
+    {
+      "path": "src/cad_recovery/raster_endpoints.py",
+      "sha256": "6e620ac19c6998082117fa752d2c73c08da03a3d833f5592e0b43ad81968451e"
+    },
+    {
+      "path": "src/cad_recovery/raster_junctions.py",
+      "sha256": "3a865047858ae4f32e139dfeb75399125db754314718a58ab8abbfedc4f8aadf"
+    },
+    {
+      "path": "src/cad_recovery/raster_point_comparison.py",
+      "sha256": "a47cb58f629d3e7bd3eaa9fcf0205b829c2175c2f84cbf805f8b2cf8b11d3147"
+    },
+    {
+      "path": "src/cad_recovery/raster_point_references.py",
+      "sha256": "6082b7eea47a43f092faabc5bcd3eceeb39bb207234b30a16dda3690adf00e5d"
+    },
+    {
+      "path": "src/cad_recovery/raster_quality_review_v1.py",
+      "sha256": "161a016ba9190b39b07852f706dc87fb177127a87b336f1b8557f6461f033033"
+    },
+    {
+      "path": "src/cad_recovery/raster_quality_v1.py",
+      "sha256": "1bb9fd6f7902a0b26e31324bb157f7c3f7aab19659af80b4113e16bb355876bc"
+    },
+    {
+      "path": "src/cad_recovery/raster_regions.py",
+      "sha256": "f29087da1b2a43001c2160f004805365a10a50f7828e31a9a510c93cebc2cb4b"
+    },
+    {
+      "path": "src/cad_recovery/real_angular_v1.py",
+      "sha256": "5e19d7b7a2cf3e19dd7d07a96e46955020e73bfb8a3bc44fbac3ef6b66a12a8a"
+    },
+    {
+      "path": "src/cad_recovery/real_chain_metrics_v1.py",
+      "sha256": "e4bda1aec565dd336198be15f576549c6da2e91df64ff4a5c483b4276c999175"
+    },
+    {
+      "path": "src/cad_recovery/reference_completeness.py",
+      "sha256": "2a41b42b19197ddd360f963c1f80b7bdca6d3d625cfb5641f569852b6da025d3"
+    },
+    {
+      "path": "src/cad_recovery/reference_resources.py",
+      "sha256": "c3340d833ea21491dfcc216e19ada3ba49c572e034fef9a7672dd0f8a15f67db"
+    },
+    {
+      "path": "src/cad_recovery/repaired_raster_batch.py",
+      "sha256": "6e38a1567c2244a6078a5990cd0a0e6427d75aa9212bacbb57f329f89897d3de"
+    },
+    {
+      "path": "src/cad_recovery/residual_split_ownership_v1.py",
+      "sha256": "408b05fdbfea38da97590e4d896f9fd1a4da368e1f76ac73a1a8ddf23d419636"
+    },
+    {
+      "path": "src/cad_recovery/resource_disposition.py",
+      "sha256": "4cb60a31a81cf915c13a5996c3132bbe70c2dfa36b481a8043023dd21224e0c9"
+    },
+    {
+      "path": "src/cad_recovery/resource_native_inventory.py",
+      "sha256": "cd776b85531d1bbbaeed7ce9c289448efb9b0ccbf50a2152c6335a502edd8b2f"
+    },
+    {
+      "path": "src/cad_recovery/reviewed_observation_adapter_v1.py",
+      "sha256": "2c51c82206362702399897836a42f72a7756cb2b8059ff14da31ac92b62dd1cd"
+    },
+    {
+      "path": "src/cad_recovery/rib_mini_review_v1.py",
+      "sha256": "46b0ad448e0e46097fef00e89dcf10ef53470fd3018f70aaf6c23b08be2f1469"
+    },
+    {
+      "path": "src/cad_recovery/rib_ocr_release_v1.py",
+      "sha256": "7f363b7b78af8a958d3acc464d24a49e49f4a7d4b6189b4124fdd2a1fe33f907"
+    },
+    {
+      "path": "src/cad_recovery/rib_ring_readout_v1.py",
+      "sha256": "765fe9e3354f5e1de0d803e41f7205648ba6e24f2d550d64235492713592de49"
+    },
+    {
+      "path": "src/cad_recovery/robust_graph_qa_v1.py",
+      "sha256": "7c00d64a4e15d88523c82bee87d2001cb621da43eb307a4730f992e86e5a2886"
+    },
+    {
+      "path": "src/cad_recovery/robust_topology_v1.py",
+      "sha256": "69e6de74a16336ead1783f5fe1c3329f0f497dfdb73bc3e5f8b70a56ce5bda0a"
+    },
+    {
+      "path": "src/cad_recovery/robust_topology_v2.py",
+      "sha256": "acad746a6c16d2df366ccb31804d49afdfecea983523a367690d3a66317b05c4"
+    },
+    {
+      "path": "src/cad_recovery/role_admission_native_v1.py",
+      "sha256": "f41a7322c6ae2ac1d47d34cfe070832d771f557ef48453458c97acdacf099de8"
+    },
+    {
+      "path": "src/cad_recovery/role_admission_release_v1.py",
+      "sha256": "42d1bbc26861e3d73def2abaf4b93107b21aa5dad4af8a4c3456adb81f5df2d1"
+    },
+    {
+      "path": "src/cad_recovery/role_context_mlp_v1.py",
+      "sha256": "9d357f55e9a14a17f0676f3a455dda23770825b34c1a25cf1be805204590b01c"
+    },
+    {
+      "path": "src/cad_recovery/role_context_v1.py",
+      "sha256": "4dd6d76e390b4b80b57175ade5987c5920e6d037e84b28c80c5245777387accc"
+    },
+    {
+      "path": "src/cad_recovery/role_interval_dataset_v1.py",
+      "sha256": "243812f8a1ffae08a862ae690a98679aa122b5ea9a5e3fea59d9bbb738b2997e"
+    },
+    {
+      "path": "src/cad_recovery/role_interval_fold_loader_v1.py",
+      "sha256": "a40c165ab55ebd09ea1624d0399c1aa6d5ddc0830ec1bc002e8b9a7bf193a838"
+    },
+    {
+      "path": "src/cad_recovery/role_interval_folds_v1.py",
+      "sha256": "4c213c6389ee570a62a2743985e73dcb7723e2f5b785312b572618cb79115892"
+    },
+    {
+      "path": "src/cad_recovery/role_interval_loader_v1.py",
+      "sha256": "ad89b143c4104f77d80c1a0924b120b551bc4f31e4e599ee02edca655a538083"
+    },
+    {
+      "path": "src/cad_recovery/role_interval_softmax_v1.py",
+      "sha256": "207a0f94a4b1af74590f83ec20354e496021ab2f0c522f0bf48baf6776292749"
+    },
+    {
+      "path": "src/cad_recovery/role_relation_preparation_v1.py",
+      "sha256": "5a21c78655b59642da06fc4f8590794b82ea0a6da088af9c0183b81c59f0933a"
+    },
+    {
+      "path": "src/cad_recovery/role_relation_release_v1.py",
+      "sha256": "221c0e6d82a8f48ce4e57116bd01994940c4e7e948925b82b732d36e45e11b72"
+    },
+    {
+      "path": "src/cad_recovery/role_source_expansion_v1.py",
+      "sha256": "5abfa92eaa5cbb08aa139ed4a94eec1dcfd9ff50d6cbf18b3be679041165c242"
+    },
+    {
+      "path": "src/cad_recovery/sampled_chain_verification_v1.py",
+      "sha256": "7d91e27c3828d4eea6130d3019ad129722938f68e48a7a88787f1f48b6bdfdac"
+    },
+    {
+      "path": "src/cad_recovery/scaled_arrow_detection_v1.py",
+      "sha256": "2be31931085c1380c0385460eeb1571ff92e5dedfd4c30ef32e3ad78ccf83804"
+    },
+    {
+      "path": "src/cad_recovery/scaled_arrow_detection_v2.py",
+      "sha256": "91210fd0d42d719d2bfd58323cda1340cfe2c2c8ae0a4bd3f72cedc41b04f9c2"
+    },
+    {
+      "path": "src/cad_recovery/scaled_arrow_pipeline_v1.py",
+      "sha256": "53430cd21b4e5ba9cccfd5c3fbe0e26a4a60b0a1ba9d0f8356814c14159a4239"
+    },
+    {
+      "path": "src/cad_recovery/schema.py",
+      "sha256": "22447805bcf3e844e942702e0574b3c475b1daa8feeb6420ccf44825264795b1"
+    },
+    {
+      "path": "src/cad_recovery/segformer_comparison_v1.py",
+      "sha256": "761b3495acf3b1ea2ef24323081bcbc9b188abfd0a83f7782c6493fab2b720d9"
+    },
+    {
+      "path": "src/cad_recovery/segformer_model_v1.py",
+      "sha256": "f4a6639592e81d6434a6b7533d9329ecbdb0eea0211415eb015e9008e1bfc24f"
+    },
+    {
+      "path": "src/cad_recovery/segformer_protocol_v1.py",
+      "sha256": "dcd406473712ec9074f1a6e402bfd766449339770b778819e63266b8522389dd"
+    },
+    {
+      "path": "src/cad_recovery/segformer_training_v1.py",
+      "sha256": "bdb842d81910cd07c62a7441a801c526ba631b55147c55f38e423299e4fb82dd"
+    },
+    {
+      "path": "src/cad_recovery/segmentation_acceptance_inventory_v1.py",
+      "sha256": "684ae40b27bb34f9ffa470eee782fe5ac3ed0b716574ea8e7c3cc57bcc76e156"
+    },
+    {
+      "path": "src/cad_recovery/segmentation_acceptance_v1.py",
+      "sha256": "264fa58d770b2e99fc3d3582383efc1f1d5db91e0aea5dce2d5d0acfb9a07025"
+    },
+    {
+      "path": "src/cad_recovery/segmentation_experiment_v1.py",
+      "sha256": "7a42f9ab73f6909aac62ba72a51e96a0a06f073956462e19e65af4eab44e106c"
+    },
+    {
+      "path": "src/cad_recovery/segmentation_revision_v1.py",
+      "sha256": "670be8927c69490f19a6a8d8f3e3aeba5737b308bd1f93f729a688b3697b2ef1"
+    },
+    {
+      "path": "src/cad_recovery/semantic_context_intake_v1.py",
+      "sha256": "2f4b7862f8417ffb1979e906f7beb81e03adbef0a692b2cd37fc54b48457c8a3"
+    },
+    {
+      "path": "src/cad_recovery/semantic_context_pixel_qa_v1.py",
+      "sha256": "23a723af502dc15bb7c4b9f68abad16b118adbd9d01df9a3284e8ef79da0a5d0"
+    },
+    {
+      "path": "src/cad_recovery/semantic_region_experiment_v1.py",
+      "sha256": "3f73a155ad599dc2b937057a555d21bd091c1ae2b51536a49c88d2b4e661fc3e"
+    },
+    {
+      "path": "src/cad_recovery/semantic_region_replay_v1.py",
+      "sha256": "dd2f68bc99ec7b13b0ddb8878f4f847fc8d71f8e75a0405ab73ff321c9a86016"
+    },
+    {
+      "path": "src/cad_recovery/semantic_regions_v1.py",
+      "sha256": "9ec1b7d61a57bebf91850c110f94071d78f5283c9cadc99aada37c8b4d3d9e0b"
+    },
+    {
+      "path": "src/cad_recovery/semantic_role_release_v1.py",
+      "sha256": "d4dc02af4b28097c3e1fe7fbd5b90a8b72731fdd1d26de0c5c6acf5b500ca77d"
+    },
+    {
+      "path": "src/cad_recovery/semantic_role_release_v2.py",
+      "sha256": "33b44c96ced4ef9a0d5fb2e1a3b5b69f4b48352dc6ba8c1229ccdeeff2b58008"
+    },
+    {
+      "path": "src/cad_recovery/service_demo_v1/__init__.py",
+      "sha256": "f1785ab8541d92af277e05ea461ce0189d973d4361f5e2f5453c038a05f49f99"
+    },
+    {
+      "path": "src/cad_recovery/service_demo_v1/api.py",
+      "sha256": "272531aa72326b4b1c27c11b3364f3f19993f0500e0a0911be5876a530e49498"
+    },
+    {
+      "path": "src/cad_recovery/service_demo_v1/config.py",
+      "sha256": "b7a19c2faa40812b129993afd9afe5a0d294ffa4aea5e5a3ef3743cb8764951a"
+    },
+    {
+      "path": "src/cad_recovery/service_demo_v1/worker.py",
+      "sha256": "b9451771223e3cfb57d9d25feb1473150373c9551b620154ca03ba36067943f9"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v1/__init__.py",
+      "sha256": "49ce2184379848721547f681fbbe2ed0a9933c745a66bb70d95bdfae88bdef4c"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v1/app.py",
+      "sha256": "014cac5a1d29aa0b9eb92e0f29d303e357815c2c56d4ac1069a21fc6fc0c133d"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v1/queue.py",
+      "sha256": "587b5adb479d0764b2adab0b9d41611d5e438592b42af0be23cebeedcdb5045f"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v1/worker.py",
+      "sha256": "adefaa88adde4ef392f446a327d49add01cc07db4bc5edc77c717fe8b3b4f70b"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v2/__init__.py",
+      "sha256": "0a7a21e42908a83b194d860caae2cd67f8b97530f85d8b496619ebe75dddb270"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v2/api.py",
+      "sha256": "b3451025772720046887c17b11d3c4c1c5e76b1e73f464b8caff45805b0bc5de"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v2/budget.py",
+      "sha256": "d934cdd42aa871e80b0952bc65ff6c005a2fab7f5abc09b61031107a30433323"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v2/config.py",
+      "sha256": "28a9b9df40ac346647fc5a5a9b87e7d3b85929ee65acb7a35eb0044c63f6f750"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v2/queue.py",
+      "sha256": "c4674e191a81e10a480f4ff205c8301b3b30aa9fbee75ae5d389d807b95480d7"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v2/storage.py",
+      "sha256": "0e3f676bc597f573c05348784a3d47c3c53c4f43a7ed8fecae36f696450db3e3"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v2/worker.py",
+      "sha256": "ce829774d921d55ec2c33a268c99bf74c759c8b94eab3131dfc6c5f51e4e47b1"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v3/__init__.py",
+      "sha256": "10b8139df08b5c50b6465da0ad19fa48e9461b4a3a85bcf69bf350a9be99f3ac"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v3/api.py",
+      "sha256": "e5932521b0366e376301bc2899c3af7d5c59cdca153a584749484960856502f0"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v3/inspection.py",
+      "sha256": "712001df2fbb4ef302c4e6b37793ed885aa12eab84ef03b0d39744bc7cfeac74"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v4/__init__.py",
+      "sha256": "9020e755953da7ee3e52aa3ef2c4f6cc69fd8a57a280e55acdda468ab4933a45"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v4/api.py",
+      "sha256": "fa0f61e38aac9a4b130b4043e20c3d91d65d9060ffc2a20a3bf0c054044a6a27"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v5/__init__.py",
+      "sha256": "ebe9c5274fc71e30505f079ccab8369f22d66989bc0a9c21aec5b8f31c37dd65"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v5/api.py",
+      "sha256": "e5f6d78854efefdc5975851f376f0d14e7cf0f8c119b330bc39a7619dee251e9"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v6/__init__.py",
+      "sha256": "0f24c364d282471ad4ff691428687a5873ac1d9c407aca2551b58143a8d00ccb"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v6/api.py",
+      "sha256": "507d0f8f954de4f3e6af523402c1b69833ac7b9a663e75675425602eb34f2d47"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v7/__init__.py",
+      "sha256": "1b6b05274d0c6bf14f7dd71e74c82559698653c710233e70f16017bb1e7ddc41"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v7/api.py",
+      "sha256": "fbcfe0477cb8cd16651e259493302e8e9edb893883174e94e2500931e3670330"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v8/__init__.py",
+      "sha256": "2920de2a79d8e024b99b1790729a7c7bef3129c2ffe97ec5277778f51b4a1483"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v8/api.py",
+      "sha256": "1189380423f37f54cc3324f35478175493748dac50cdf47101fedc666520be72"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v8/queue.py",
+      "sha256": "7bd4c10e4282ba0cae8f7916a9c5b853c7e525f5d1f16813983cef1b6eb05e8b"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v8/worker.py",
+      "sha256": "170e9c154e50cd920b5a5dab36c29e59f717970621a2f2ff900c60150474fe8e"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v9/__init__.py",
+      "sha256": "0a6ded039f7cbca6480d3bb6002bf50ac0748273bd783722c2dde6b8278b68c8"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v9/api.py",
+      "sha256": "bd41a1070368fc1fbf8de554d8ed6fbfa2adfe537d7d5a930ae840c05b7323bf"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v9/queue.py",
+      "sha256": "8db2b782e17ba02a1225489f4b9545a7745bf5249ed595d13f95064085458de6"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v9/storage.py",
+      "sha256": "89ef09d62d68e396c99dadefdeeee1387592ecf477215776041e69626ea236ab"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v9/worker.py",
+      "sha256": "6ea3bb3b5e9c113ade6f10177d6d88d0aec774c9e50433e1feb20fe2ddf1fa02"
+    },
+    {
+      "path": "src/cad_recovery/service_v1/__init__.py",
+      "sha256": "c920f13a3d71387109ede4bd6bcb1e5d019f0a4bf7b396b7f2841f723b22cc7d"
+    },
+    {
+      "path": "src/cad_recovery/service_v1/api.py",
+      "sha256": "917622d01735427546178677ea3a8da205e72dc79380b9e32197e636dd81f93b"
+    },
+    {
+      "path": "src/cad_recovery/service_v1/config.py",
+      "sha256": "318dd0302f97fe5b0353756be173dc7888b3d16ac6b017a23e190734f8da87ae"
+    },
+    {
+      "path": "src/cad_recovery/service_v1/process.py",
+      "sha256": "80ebdeaf09af0d20740a7392681b8d35e5022fdb260c3ba0e03719d0cf777644"
+    },
+    {
+      "path": "src/cad_recovery/service_v1/queue.py",
+      "sha256": "2f2dbeb9ef83ba902bbdb9f129b9ffb7e8d677656b2cb611a13847a96ecb34a4"
+    },
+    {
+      "path": "src/cad_recovery/service_v1/storage.py",
+      "sha256": "5b78bfcf04152d3810a10e3000f96a43568b431400cb180e706f98b0906204f7"
+    },
+    {
+      "path": "src/cad_recovery/service_v1/worker.py",
+      "sha256": "ec9a59706fa002492df2aba5dc782f62a5d15e48bb85b503f8e47f034ce75cf9"
+    },
+    {
+      "path": "src/cad_recovery/shared_stroke_ownership_v1.py",
+      "sha256": "a91924e9b9ec063bfe3af22f1689650c06d2694d89e4f43af46c24870ed71a37"
+    },
+    {
+      "path": "src/cad_recovery/short_arc_boundary_v1.py",
+      "sha256": "c2a2d7221a686fc2d7490fb328895ced347ba127b4085b6c8253371c952c3901"
+    },
+    {
+      "path": "src/cad_recovery/short_arc_boundary_v2.py",
+      "sha256": "797c42d9b13c7f8c132d8bd8b2e3280998de4c11741c1ce0bd60a0ed9718699b"
+    },
+    {
+      "path": "src/cad_recovery/simplification_qa_v1.py",
+      "sha256": "6f91e12f57fa39b94e567518e47d7b9e0a300627eba849ec9621ea558d1cfea9"
+    },
+    {
+      "path": "src/cad_recovery/small_sign_evidence_v1.py",
+      "sha256": "12371cf26fba786f053aa41aadfec16d91b88dbace82ba42f8ee509f5c27b7d9"
+    },
+    {
+      "path": "src/cad_recovery/small_text_localization_v1.py",
+      "sha256": "bd3a2dc60a70a3d5151d0a9e475c3c5755dcec05972b4cbc6ae9b0fc8212d42e"
+    },
+    {
+      "path": "src/cad_recovery/source_arrow_junction_v1.py",
+      "sha256": "d7c0e3241f3a9964197bd78d4badba438427b5e14e7a4b8e33e3b765d4795a59"
+    },
+    {
+      "path": "src/cad_recovery/source_arrow_observation_v1.py",
+      "sha256": "d083251d4ba96dda74177b135854a12f1437cc847c1038d93be8dacdde45738c"
+    },
+    {
+      "path": "src/cad_recovery/source_arrow_observation_v2.py",
+      "sha256": "c41a633d098aae75cfd72b3cd3c047624e7d1a4d88814c1c62e82f4efa4feb79"
+    },
+    {
+      "path": "src/cad_recovery/source_arrow_taper_v1.py",
+      "sha256": "d772b3455ce1668d4e39da397434371bf766303410e6b2dd0385d30265fe567e"
+    },
+    {
+      "path": "src/cad_recovery/source_chain_profile_v1.py",
+      "sha256": "69baefd55a8c71cfe5e0747b884f3f069c67006bad446d4678f10dba9fa36d4e"
+    },
+    {
+      "path": "src/cad_recovery/source_chain_profile_v2.py",
+      "sha256": "805a18a8f8b0936518d649c86e8f9eef381437025a400f594bb3f9e7b7fb107d"
+    },
+    {
+      "path": "src/cad_recovery/source_chain_routes_v1.py",
+      "sha256": "1701787c7ccacaff89af421797b4bc7dc5f2843ab93fe236eeef3d37d7c2f56c"
+    },
+    {
+      "path": "src/cad_recovery/source_coallocation_v1.py",
+      "sha256": "46a72c2b4b7c94fbdb755b4ae169c6eef7155088bec7db3d23cc44b3a25139e1"
+    },
+    {
+      "path": "src/cad_recovery/source_context_admission_io_v1.py",
+      "sha256": "e71ed5a45dc6b29204421f8bfc069205dc2a0a34ca779462c013d11042f884fb"
+    },
+    {
+      "path": "src/cad_recovery/source_context_admission_io_v2.py",
+      "sha256": "8b5192c31e00e342eb4a23d572dda8b990cce6b9523405cc620386bafb03e843"
+    },
+    {
+      "path": "src/cad_recovery/source_context_admission_io_v3.py",
+      "sha256": "2f00910a7378321b6378d84561d95c7fadbe013102ca3189f28fd93021122867"
+    },
+    {
+      "path": "src/cad_recovery/source_context_admission_io_v4.py",
+      "sha256": "7264c7cb0442593405e18636a06dd72a7c8f7f7a27e4459ec4491714562a9d60"
+    },
+    {
+      "path": "src/cad_recovery/source_context_admission_v1.py",
+      "sha256": "2d23ae91016b5adca5e924542d0b58b7354bf13c33e45a941bf8182bd8d12a8f"
+    },
+    {
+      "path": "src/cad_recovery/source_context_admission_v2.py",
+      "sha256": "4f0e55f9c2f97c828f25f15c1377ee56f7447f25e6b7b7033d3ce378a546d82f"
+    },
+    {
+      "path": "src/cad_recovery/source_context_admission_v3.py",
+      "sha256": "cb6f26a24c487ee327e456b56f0b553fbeb7b5cc5d5ceb0c374d4c500aa85b62"
+    },
+    {
+      "path": "src/cad_recovery/source_context_admission_v4.py",
+      "sha256": "110c0a347710172bd9203f6fb64545f3e42b10a8b49ac760b997eea4341b9d46"
+    },
+    {
+      "path": "src/cad_recovery/source_corner_rules_v1.py",
+      "sha256": "7e632ed253db9a6456ef74065fe268709f3de3ce273bc710deddc4b3356dd64e"
+    },
+    {
+      "path": "src/cad_recovery/source_corner_rules_v2.py",
+      "sha256": "2d6c920a708a1a99b9ab5ac5895a70a9487acd8368ed3b26ef15716332a0b258"
+    },
+    {
+      "path": "src/cad_recovery/source_domain_certificate_v1.py",
+      "sha256": "00d8f48cebe0c6cb942997a5cf02f59b311b34ab028319bfa3a2ecb72b81b0a8"
+    },
+    {
+      "path": "src/cad_recovery/source_frame_sides_v1.py",
+      "sha256": "921b7b3b6e46931dd87959dfd7f52b10d2abbf7bdd12017f5dfc5453a9c68e03"
+    },
+    {
+      "path": "src/cad_recovery/source_interval_context_v1.py",
+      "sha256": "8c26a9ba93c7a72ab558b89f3c6b39913bb439f4f334bac75bdb115deab3fc0c"
+    },
+    {
+      "path": "src/cad_recovery/source_line_extension_v1.py",
+      "sha256": "f5c4cfa4f82eeb83a70d4cd09b88551129850074c2b829105f26ce2ec5d9a92c"
+    },
+    {
+      "path": "src/cad_recovery/source_observations_v2.py",
+      "sha256": "4ee822f2a17728a3ed6eb0ad3ba29008a9a5919db73468a509ef8c50e31efef1"
+    },
+    {
+      "path": "src/cad_recovery/source_region_roles_v1.py",
+      "sha256": "b5c0ddd03417255048fc00ae8ad6826abf6b9bf7221682f655192205161bb531"
+    },
+    {
+      "path": "src/cad_recovery/source_region_roles_v2.py",
+      "sha256": "18484c570397f34c66477de86868f59fe7856379b6aaf2946b725e016daa15be"
+    },
+    {
+      "path": "src/cad_recovery/source_stamp_context_v1.py",
+      "sha256": "3d75145f88ddb499bc44f2281e4bb02f8ea8388644d7042997fc8c02c590909b"
+    },
+    {
+      "path": "src/cad_recovery/sparse_head_regions_v1.py",
+      "sha256": "047ceae611c6e2abbf3891ff1b4cd949fde0a54ca1d77541729dc23c448b3993"
+    },
+    {
+      "path": "src/cad_recovery/sparse_local_heads_v1.py",
+      "sha256": "bb70ef572427ed96fc2c7d9d9e1c47e13eb9c885e7d092ef73d87b55b7fe2b69"
+    },
+    {
+      "path": "src/cad_recovery/splits.py",
+      "sha256": "f73a952d36e6d94a3b188711fb3d3e17a1afda45cc2fb5951dcf3474899774cd"
+    },
+    {
+      "path": "src/cad_recovery/stamp_role_projection_v1.py",
+      "sha256": "0f8ada6cbf41f7db44d76a9f7bf4faa49d7328540ad9895c53a9eff0427f4c3d"
+    },
+    {
+      "path": "src/cad_recovery/stamp_window_ownership_v1.py",
+      "sha256": "209d0600b878530f2c2e2c8b2dec4799d72489542fa3be6aed2a9ed7dd368d0f"
+    },
+    {
+      "path": "src/cad_recovery/stamp_window_plan_v1.py",
+      "sha256": "f0a4514722efa4adcc3b1c346a0590009be95ae942bed066fc9e56dfb41dcf35"
+    },
+    {
+      "path": "src/cad_recovery/stamp_window_plan_v2.py",
+      "sha256": "0b0cd086a0fa3362b7c2cc9681cc4e7f73e6d4d460f02c08e4460e7862734853"
+    },
+    {
+      "path": "src/cad_recovery/streamed_head_profiles_v1.py",
+      "sha256": "9b069751d91d9adb06d72aa117bab4f9454ce93a77d514964f887997b1ea5be9"
+    },
+    {
+      "path": "src/cad_recovery/streamed_local_heads_v1.py",
+      "sha256": "7711c70644fdc3b6e89b36038c6f10d04b6bbadf1916aa925c0fd41ef8ceb626"
+    },
+    {
+      "path": "src/cad_recovery/stroke_contact_guard_v1.py",
+      "sha256": "0ff4f3c17745c8a850e6d68bef90042f3fbeff53e8c559430143c80927ea83ae"
+    },
+    {
+      "path": "src/cad_recovery/stroke_curve_control_v1.py",
+      "sha256": "f5f2b6435dfd162c77e30e75abc2d5badafeeefc870c67cfedfb6410487114e7"
+    },
+    {
+      "path": "src/cad_recovery/stroke_evidence.py",
+      "sha256": "6e7bf4f1456740534f6c7fa2b678179e37c92a741c791529ebb3e955ec6d443b"
+    },
+    {
+      "path": "src/cad_recovery/stroke_ownership_metrics_v1.py",
+      "sha256": "e8b2ec952d050b0b5c1a180fba2334279f6d82680ed54b678e539cbe95e45f18"
+    },
+    {
+      "path": "src/cad_recovery/stroke_ownership_v1.py",
+      "sha256": "07a1e55cae91391fb330c80ac3fd67f260450e853427b202f7a86c4e7dc8f4ae"
+    },
+    {
+      "path": "src/cad_recovery/stroke_role_metrics_v1.py",
+      "sha256": "e673a0384b0aa1508f276db4bc8fcc74986bb5351286f0101d96207b7d1ee9de"
+    },
+    {
+      "path": "src/cad_recovery/stroke_roles_v1.py",
+      "sha256": "1a1dbe46f5f3e1b300a7f1d72d24a0ce0dc330dc5bf51297d231413f00783178"
+    },
+    {
+      "path": "src/cad_recovery/stroke_roles_v2.py",
+      "sha256": "dbd3eb935fbff4c2a79af705625164d5aa7cfe3a707f7ef5cbb06a205406d1db"
+    },
+    {
+      "path": "src/cad_recovery/supported_role_overlay_v1.py",
+      "sha256": "890046d78d2b519c50d2c5fdaa9b4c42a428f2bab5d8071e277f0df2add9700d"
+    },
+    {
+      "path": "src/cad_recovery/text_chain_ownership_v1.py",
+      "sha256": "88cc4aaf746562994182c3414ab60b09aeb624f0376092d4e66f5f0be6bae3aa"
+    },
+    {
+      "path": "src/cad_recovery/text_chain_pipeline_v1.py",
+      "sha256": "ccdee84693b9037e31b1ac45ed70c2736507ea1ef54e4aa8bb400ac4b96f1a54"
+    },
+    {
+      "path": "src/cad_recovery/tiled_stamp_context_v1.py",
+      "sha256": "28d2bc08ca3463621c8c0a4dacdc77ae4add265687c37177897ebecb259e063c"
+    },
+    {
+      "path": "src/cad_recovery/title_recognition.py",
+      "sha256": "5898371948aa3dee4b53a4d236890b131c8c360669f977b08509a9bcf714d886"
+    },
+    {
+      "path": "src/cad_recovery/tolerances.py",
+      "sha256": "1d5dad23717855a89a2bf450300ccf47b89c23111d74112a2f14361cd07f6b4d"
+    },
+    {
+      "path": "src/cad_recovery/topology_build_memo_v1.py",
+      "sha256": "755f022e62eeb87e90ef35a6c50b63ac591158a7c1b6585febcd4b32246efe27"
+    },
+    {
+      "path": "src/cad_recovery/topology_v2.py",
+      "sha256": "12654789309a3396669af35c9d187cab4042c627509beda5378c601f8594846d"
+    },
+    {
+      "path": "src/cad_recovery/training_target_policy.py",
+      "sha256": "8d523501b708f90ab7d8d39aadcad45ceecb18a42e32c5ecff46e11ac4fdd3f9"
+    },
+    {
+      "path": "src/cad_recovery/triangle_sampling_v1.py",
+      "sha256": "cc7a83c218a1ed0dafa3821fe5d851f3daa26932a7b28b4271cb412cf7771c64"
+    },
+    {
+      "path": "src/cad_recovery/typed_graph_packet_v1.py",
+      "sha256": "159c4ec522c3510208b105b2ce6ccd9a8adc2c901f362e5e5dfada4c08c08f15"
+    },
+    {
+      "path": "src/cad_recovery/typed_graph_solver_v1.py",
+      "sha256": "23f870aa15c85b333593ec9800d32bde68320544b42b4a9b5ffc3401de283e1e"
+    },
+    {
+      "path": "src/cad_recovery/updated_raster_batch.py",
+      "sha256": "a2af4fa83dca56759edbba5662cc5db499a16565af8d4d5d1709628c75c0f724"
+    },
+    {
+      "path": "src/cad_recovery/variant_decision.py",
+      "sha256": "43d8b66d2b45b19d0eec003f9cd126694b1fa517c08f0e87aaa862780bfe0639"
+    },
+    {
+      "path": "src/cad_recovery/variant_native.py",
+      "sha256": "e06f50bf3a5b4ef6feb403853ed8d6d2fa01cb7219e3bacde7f624cda4841741"
+    },
+    {
+      "path": "src/cad_recovery/variant_review.py",
+      "sha256": "175a16de945112b6284985fef4e23a3050dd05b8c6f6f21487b6811503c06552"
+    },
+    {
+      "path": "src/cad_recovery/vlm_adapter_v1.py",
+      "sha256": "b028aa67fdc4c587d634614fe640c6cf5ef7359952423dd3d09584eb32c51aa5"
+    },
+    {
+      "path": "src/cad_recovery/vlm_comparison_v1.py",
+      "sha256": "0b7fc40e93ad582f6e7d1d1028e1b1ee4dbf88a56153b31d0c46fd92cd0e6459"
+    },
+    {
+      "path": "src/cad_recovery/vlm_protocol_v1.py",
+      "sha256": "b2511f317819f20797ea1485a3485448f8afae62908e5c0803743a7e9862890e"
+    },
+    {
+      "path": "src/cad_recovery/vlm_runtime_v1.py",
+      "sha256": "614bea33a370dd6111084536eab50a2daa3d58cf75d3b37276f61fce7037b423"
+    },
+    {
+      "path": "src/cad_recovery/vlm_verification_v1.py",
+      "sha256": "505f0088de71f11b4f40ca81a8ec6724911418822e4f32341098fd5aa1d13a75"
+    },
+    {
+      "path": "src/cad_recovery/web_correction_build_v1.py",
+      "sha256": "2fd493f9bbffdf0567953084a24ac99a112ebaace2fe39e32b9ac5f8e6ee3649"
+    },
+    {
+      "path": "src/cad_recovery/web_correction_contract_v1.py",
+      "sha256": "b936b3a78d197e3d6192f156393f19b379f7628dc9fec67bdf9583f7d6495aee"
+    },
+    {
+      "path": "src/cad_recovery/web_correction_store_v1.py",
+      "sha256": "0f7f3d15edcb51a2a91b716380d10735b05df0d2145c7f0fdaeeb6d058720e92"
+    },
+    {
+      "path": "src/cad_recovery/web_correction_worker_v1.py",
+      "sha256": "b5bc66099e173cd56a9c37f5f13600a9d60190b1045510aa0e16eafa7a13ed07"
+    },
+    {
+      "path": "src/cad_recovery/web_demo_v1/__init__.py",
+      "sha256": "f1785ab8541d92af277e05ea461ce0189d973d4361f5e2f5453c038a05f49f99"
+    },
+    {
+      "path": "src/cad_recovery/web_demo_v1/app.py",
+      "sha256": "8387f23f237bf654adf1d6d03e8207831228ae771b37b7fbbd5996b5f11c5830"
+    },
+    {
+      "path": "src/cad_recovery/web_v1/__init__.py",
+      "sha256": "d16f8b5256f6ce5f390d9a042eab6c3fa8f0cbb315c84d4e24f206d039ca07e9"
+    },
+    {
+      "path": "src/cad_recovery/web_v1/app.py",
+      "sha256": "78e176d2d195e3f29c0f9dc7761050ea3d3aef3974cd73f35aa9aa4cbf070d43"
+    },
+    {
+      "path": "src/cad_recovery/web_v1/reviews.py",
+      "sha256": "61269458c0351865d537b2a22fd61b1c1e60f7a24dc393cce4e06caa7ed53625"
+    },
+    {
+      "path": "src/cad_recovery/wheel_environment_v1.py",
+      "sha256": "6974fa30d5821a3a38e5c740f1ef36ae8f6611f9a842bda9b350d0b476d1ba91"
+    },
+    {
+      "path": "src/cad_recovery/whole_primitive_qa_v1.py",
+      "sha256": "fe2dcfc7f7a07623869d3576cb06b6fab80b3d861850f37635e97d12432ef8b4"
+    },
+    {
+      "path": "src/cad_recovery/yolox_comparison_v1.py",
+      "sha256": "7b011a25292f698613e94896875554a5a301942bcebc031ba529f105c0f1bc44"
+    },
+    {
+      "path": "src/cad_recovery/yolox_inference_v1.py",
+      "sha256": "117b54498353b3a1269d1e8efd1c3681ae3f7a174ac54d7104e71675bfaa4655"
+    },
+    {
+      "path": "src/cad_recovery/yolox_metrics_v1.py",
+      "sha256": "de7e0f06597fa9ccad7b5174362d8fbc3d4c4cfb393fef3c37381d5de6d51602"
+    },
+    {
+      "path": "src/cad_recovery/yolox_model_v1.py",
+      "sha256": "b70ccb12ffc9849d60278d73b4f5d696ad567a28486a66eeb3202d01cddc12f8"
+    },
+    {
+      "path": "src/cad_recovery/yolox_protocol_v1.py",
+      "sha256": "b56053b0069bbd8193f315741f8f6323d6eeaa7fba50d91b6008299bc0251f19"
+    },
+    {
+      "path": "src/cad_recovery/yolox_runtime_v1.py",
+      "sha256": "abd51f65df89ccf691d2bda256d4cad4dce020c20a027182bbb3482fc7467dc8"
+    },
+    {
+      "path": "src/cad_recovery/yolox_training_v1.py",
+      "sha256": "0b0a189b9018d2b9f427778c80c1fb563a27ee1f43b548e4e238599e2abe1bf3"
+    },
+    {
+      "path": "scripts/run_native_cad_layers_candidate_v1.py",
+      "sha256": "db5e51af9d239f34778994160aaf1a9264fc063ff099897e88de1b2953b66d1c"
+    }
+  ],
+  "options": {
+    "profile": "native_cad_draft",
+    "render_dpi": 120.0,
+    "image_dpi": null,
+    "rotation_deg": 0
+  },
+  "binding": {
+    "schema_version": "processing-profile/4.0",
+    "name": "native_cad_draft",
+    "definition": {
+      "revision": "4.0",
+      "prepare": "always",
+      "geometry": true,
+      "ocr": true,
+      "arrows": true,
+      "association": "contour-association-v3",
+      "input_reduction": true,
+      "export": "native_objects_TEXT_MTEXT_DIMENSION_draft",
+      "cv": "joint_shape+joint_heads+no_part+native_mid",
+      "cv_max_pixels": 4000000,
+      "cv_max_side": 2000,
+      "automatic_roles_verified": false,
+      "production_admitted": false,
+      "quality_gate_override": "user_requested_CAD_demo_2026-11-17",
+      "annotations": "source_bound_components_and_unitless_dimensions",
+      "native_frame": "working_pixel_centres",
+      "review_example": false
+    },
+    "code": {
+      "src/cad_recovery/native_annotation_export_v1.py": "2112b170e49e93d9309856ee5fafae6b0242ef4520b1b383b4e7585d1c6e5aac",
+      "src/cad_recovery/native_annotation_inputs_v1.py": "0f1d0bd8f534c212f5c211518167c2cdaa8f544e327d40eb320ea9d3fd393258",
+      "src/cad_recovery/native_annotation_plan_v1.py": "03220fd9594e35df71d1a25cff1d1cf2dae0906e55095e9b0a5273125c981aa9",
+      "src/cad_recovery/anchored_curve_fit_v1.py": "74f3427dc29a270ccb7ea13353b1d58ab8a1908f2f384bbf141683cd68aad3c0",
+      "src/cad_recovery/annotation_style_v1.py": "9a6814a0223cc54228ed76c25793f487011c3c476d6541854cc6b0417fa78f2e",
+      "src/cad_recovery/cad_object_assembly_v1.py": "9eb7cb27fb9fe0924af033c152906999ddf8eef4f2589f12b4c2fe9c74de5b65",
+      "src/cad_recovery/cad_object_export_v1.py": "c3479d482324a956f6de150dd868f874846b8ec96465785bc7c8d84daae7e257",
+      "src/cad_recovery/cad_object_inputs_v1.py": "e1cc3573266aaac6ab3ddfe066c570780cfcdadfe71671bae10cc428a9b653ab",
+      "src/cad_recovery/curve_graph_metrics_v1.py": "dc5136ce2370ee4b98ab2e4c45bc157e9ef69aa399d5192db82b71a9fdec7e79",
+      "src/cad_recovery/curve_graph_v1.py": "cd2e81898d5f527262c60abe31a9387905cb61b1e483b60cbfe7395e2aa98ac7",
+      "src/cad_recovery/demo_export_v1.py": "6c87e58d8434bcc4ed4beff253db4fef7e3c2c58e06d764a4158397d5091272d",
+      "src/cad_recovery/experimental_export_v1.py": "ded3a8345bfd1163dfb9b24b840fae71bde3aba61052b22c81241199596cacdc",
+      "src/cad_recovery/profile_contract_v4.py": "5b854ed6f23291857eb2cf3fa198777b7bc8fcec52febd5c6d5ddec39c3bec41",
+      "src/cad_recovery/profile_pipeline_v4.py": "157ae2ed9fa83e588509313117b95fd341d9f6e7fb35de7d93a9db49dce1b467",
+      "src/cad_recovery/native_comparison_v1.py": "43e48c88bbcb97fb1c34a64f13ae6c27616cb5cb5218c6e753344d829457af3a",
+      "src/cad_recovery/service_profiles_v9/__init__.py": "0a6ded039f7cbca6480d3bb6002bf50ac0748273bd783722c2dde6b8278b68c8",
+      "src/cad_recovery/service_profiles_v9/api.py": "bd41a1070368fc1fbf8de554d8ed6fbfa2adfe537d7d5a930ae840c05b7323bf",
+      "src/cad_recovery/service_profiles_v9/queue.py": "8db2b782e17ba02a1225489f4b9545a7745bf5249ed595d13f95064085458de6",
+      "src/cad_recovery/service_profiles_v9/worker.py": "6ea3bb3b5e9c113ade6f10177d6d88d0aec774c9e50433e1feb20fe2ddf1fa02",
+      "src/cad_recovery/service_profiles_v9/storage.py": "89ef09d62d68e396c99dadefdeeee1387592ecf477215776041e69626ea236ab",
+      "scripts/service_profile_pipeline_v4.py": "49ad50944434056edee15d3a1eb1671179f2c0eefa6dd7e4daaa6ca8988e814d",
+      "scripts/run_profiles_v11.py": "cf6bbf75b3ef9cd21027b26b7413c2d78af4e0039861966c3d05951f992cdb1c"
+    },
+    "registry_sha256": "99ba13c64b32a1ab8b2fdefd51d3436e0979d71bc422522694fd2cb3329cc6af",
+    "annotation_release": {
+      "path": "artifacts/native-annotations-release-v1.json",
+      "sha256": "7b77dedfd1904d1ed30e46e2441ab9dd4da677037eff234d77b25df17a8cfec7"
+    },
+    "review_example": null,
+    "legacy_binding_sha256": "59f97f2a70b357f471d5746b8e4c3594d23e0967b27454ab13d9472db1b6a3d7",
+    "ocr": {
+      "id": "rapidocr-3.9.2-ppocr-v5-eslav-mobile-v1",
+      "manifest_sha256": "130988cb6a0d7a3600ed79c74111b29bd63d992cdffe6525322ace459835ed5f",
+      "models": [
+        {
+          "filename": "ch_PP-OCRv5_det_mobile.onnx",
+          "role": "det",
+          "sha256": "4d97c44a20d30a81aad087d6a396b08f786c4635742afc391f6621f5c6ae78ae"
+        },
+        {
+          "filename": "eslav_PP-OCRv5_rec_mobile.onnx",
+          "role": "rec",
+          "sha256": "08705d6721849b1347d26187f15a5e362c431963a2a62bfff4feac578c489aab"
+        },
+        {
+          "filename": "ch_PP-LCNet_x0_25_textline_ori_cls_mobile.onnx",
+          "role": "cls",
+          "sha256": "54379ae5174d026780215fc748a7f31910dee36818e63d49e17dc598ecc82df7"
+        }
+      ],
+      "provider": "CPUExecutionProvider"
+    },
+    "dependencies": {
+      "PyMuPDF": "1.26.7",
+      "ezdxf": "1.4.5",
+      "numpy": "2.5.4",
+      "onnxruntime": "1.31.0",
+      "opencv-python": "5.0.0.93",
+      "pillow": "13.0.0",
+      "pydantic": "2.14.1",
+      "pypdf": "6.21.1",
+      "pypdfium2": "5.14.0",
+      "rapidocr": "3.9.2"
+    },
+    "annotation_font": {
+      "file": "cambria.ttc",
+      "sha256": "84e70ccc1664482f4a960442c7a166c91a1b2cf98ff88c33cb73f79403f66d7b",
+      "glyph_coverage_verified": true
+    },
+    "physical_geometry_approved": false,
+    "production_admitted": false,
+    "sha256": "ad8c2ebf143eb8dda0b5e4684c81229a545ad5ec47791be818213dfec4a9eb8b"
+  },
+  "limits": {
+    "seconds": 180,
+    "memory_MiB": 1024
+  },
+  "unchanged_frame_thresholds": true,
+  "scoring_inputs_forwarded": false,
+  "independent": false,
+  "web_changed": false
+}

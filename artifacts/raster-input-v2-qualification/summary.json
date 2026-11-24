@@ -1,0 +1,130 @@
+{
+  "all_stream_integrity_required": true,
+  "cases": [
+    {
+      "case": {
+        "id": "largest-real-RGB",
+        "source": {
+          "path": "dataset/valid_png/28.PNG",
+          "sha256": "d6149036dcde239f97f026308bcceff3af44512273cc68a3e613f549a7a7264c"
+        }
+      },
+      "process": {
+        "budget_pass": true,
+        "budget_rss_MiB": 1024,
+        "budget_seconds": 180,
+        "command": [
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\.venv\\Scripts\\python.exe",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\scripts\\qualify_raster_input_v2.py",
+          "--child",
+          "0"
+        ],
+        "exit_code": 0,
+        "failure": null,
+        "memory_method": "sum of observed per-PID OS lifetime working-set peaks in guarded process tree; conservative upper bound, 50 ms polling; not simultaneous RSS",
+        "memory_sampling_limit": "Short-lived processes exiting between polls might be missed; OS parent-PID snapshots also cover descendants started before job assignment.",
+        "observed_process_count": 2,
+        "peak_rss_MiB": 118.7890625,
+        "walltime_seconds": 8.348728700002539
+      }
+    },
+    {
+      "case": {
+        "id": "largest-real-indexed",
+        "source": {
+          "path": "dataset/valid_png/113.png",
+          "sha256": "cd3cf584418f7402195b296e12950f17512a5c8ff31c581920be8a95bf3cb99d"
+        }
+      },
+      "process": {
+        "budget_pass": true,
+        "budget_rss_MiB": 1024,
+        "budget_seconds": 180,
+        "command": [
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\.venv\\Scripts\\python.exe",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\scripts\\qualify_raster_input_v2.py",
+          "--child",
+          "1"
+        ],
+        "exit_code": 0,
+        "failure": null,
+        "memory_method": "sum of observed per-PID OS lifetime working-set peaks in guarded process tree; conservative upper bound, 50 ms polling; not simultaneous RSS",
+        "memory_sampling_limit": "Short-lived processes exiting between polls might be missed; OS parent-PID snapshots also cover descendants started before job assignment.",
+        "observed_process_count": 2,
+        "peak_rss_MiB": 119.015625,
+        "walltime_seconds": 4.153074400004698
+      }
+    },
+    {
+      "case": {
+        "id": "synthetic600MP-alpha",
+        "source": {
+          "path": "artifacts/raster-input-v2-qualification/synthetic600MP-alpha.png",
+          "sha256": "199d335d02efb716618d915b307c39dfa918f62920522a27552542f5e2830db7"
+        }
+      },
+      "process": {
+        "budget_pass": true,
+        "budget_rss_MiB": 1024,
+        "budget_seconds": 180,
+        "command": [
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\.venv\\Scripts\\python.exe",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\scripts\\qualify_raster_input_v2.py",
+          "--child",
+          "2"
+        ],
+        "exit_code": 0,
+        "failure": null,
+        "memory_method": "sum of observed per-PID OS lifetime working-set peaks in guarded process tree; conservative upper bound, 50 ms polling; not simultaneous RSS",
+        "memory_sampling_limit": "Short-lived processes exiting between polls might be missed; OS parent-PID snapshots also cover descendants started before job assignment.",
+        "observed_process_count": 2,
+        "peak_rss_MiB": 148.86328125,
+        "walltime_seconds": 12.523817900000722
+      }
+    },
+    {
+      "case": {
+        "id": "synthetic600MP-JPEG",
+        "source": {
+          "path": "artifacts/raster-input-v2-qualification/synthetic600MP-orientation.jpg",
+          "sha256": "2719a76a2ab7c9f07cd0af3e4756681c5b7f0b612fc37ea08b79bc00b142e70e"
+        }
+      },
+      "process": {
+        "budget_pass": true,
+        "budget_rss_MiB": 1024,
+        "budget_seconds": 180,
+        "command": [
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\.venv\\Scripts\\python.exe",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\scripts\\qualify_raster_input_v2.py",
+          "--child",
+          "3"
+        ],
+        "exit_code": 0,
+        "failure": null,
+        "memory_method": "sum of observed per-PID OS lifetime working-set peaks in guarded process tree; conservative upper bound, 50 ms polling; not simultaneous RSS",
+        "memory_sampling_limit": "Short-lived processes exiting between polls might be missed; OS parent-PID snapshots also cover descendants started before job assignment.",
+        "observed_process_count": 2,
+        "peak_rss_MiB": 97.22265625,
+        "walltime_seconds": 0.34632360000978224
+      }
+    }
+  ],
+  "decoder_qualified": true,
+  "full_sheet_quality_accepted": false,
+  "header_sources": 151,
+  "header_sources_over100MP": 104,
+  "models_or_GT_executed": false,
+  "native_JPEG_PDF_tiling_qualified": false,
+  "policy": {
+    "decoder": "raster-strips/2.0",
+    "max_bytes": 52428800,
+    "max_chunks": 10000,
+    "max_exif_bytes": 65536,
+    "max_pixels": 600000000,
+    "max_side": 32768,
+    "strip_rows": 64
+  },
+  "task": "11.1.1",
+  "test_opened": false
+}

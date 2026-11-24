@@ -1,0 +1,64 @@
+{
+  "code": [
+    {
+      "path": "src/cad_recovery/cad_source_binding_guard_v1.py",
+      "sha256": "f9ece2510c02eb8fcd4d8478833526c900f2b7aaf23592f8768396e16b9f20de"
+    },
+    {
+      "path": "src/cad_recovery/native_cad_layers_candidate_v2.py",
+      "sha256": "994712c220b2767a11248213fa12120b58cbd5fdfdae2bf84026ec9785ff5dbb"
+    },
+    {
+      "path": "src/cad_recovery/profile_contract_v7.py",
+      "sha256": "713cedc5472d0896e7a21025a048d708a9d2f52e32cc20bbb3d40ff47e93b696"
+    },
+    {
+      "path": "src/cad_recovery/profile_pipeline_v7.py",
+      "sha256": "9843d4e990642b6681031942a957b442a4b4b3c0f43fe60d793c64d98055e944"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v19/__init__.py",
+      "sha256": "9a584d713f230f915d8400a50b8c7a95f4856685e0ee50c113df56b7f7d6c17b"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v19/api.py",
+      "sha256": "02bd920fb57d96131f384fdbf4171a88c7edaaad10ce32866e6d012b07d1f1eb"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v19/queue.py",
+      "sha256": "bf36d5f66e7444f1d741344a19182c78829043b1fcebe14dce9092b9630d2d44"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v16/worker.py",
+      "sha256": "a0e68cea9e9f4945c3933bd2f2fcd5b7edd79920f6b8fb220100972f5974389a"
+    },
+    {
+      "path": "scripts/service_profile_diagnostic_v5.py",
+      "sha256": "62718f12c24e87a297c1ceb42a431fc5795f4183b6cf8eb58328b30ddc2068bd"
+    },
+    {
+      "path": "scripts/run_profiles_v23.py",
+      "sha256": "6d7851c331add4039f5eeb35bb57ec238b3d19d0eeb54c44460495f3da96206d"
+    },
+    {
+      "path": "scripts/start_profiles_v23.py",
+      "sha256": "a0866d4ba5b7fa6c82cc7a05b622c364d5693ad99bc97f68feb1578fc7ce2a67"
+    }
+  ],
+  "guard": "source-binding/1.0",
+  "qualification": [
+    {
+      "path": "artifacts/cold-joint-control-v1/export-recovery-plan.json",
+      "sha256": "e290452608e84694fa760e8249ff55b149fed6efcd089d792a093df7a15c84ea"
+    },
+    {
+      "path": "artifacts/cold-joint-control-v1/export-recovery-results.json",
+      "sha256": "d9fd32596a06bc6f3dbf911145ef80c26172df5266fe2384d228bac882cdd2bf"
+    },
+    {
+      "path": "artifacts/cold-joint-control-v1/common-export-fixed-evaluation/summary.json",
+      "sha256": "b4b545f3c41855affd053b342d662792dfdf2039bde31b5cdbe9fa1eaef81292"
+    }
+  ],
+  "scope": "Technical export safety only; no C1/CV/OCR model promotion"
+}

@@ -1,0 +1,78 @@
+{
+  "C1_parameters_changed": false,
+  "applied_to": [
+    "baseline",
+    "candidate"
+  ],
+  "change": "Withhold invalid source interval objects before FRAME/native ownership; preserve raster residual",
+  "code": [
+    {
+      "path": "src/cad_recovery/cad_source_binding_guard_v1.py",
+      "sha256": "f9ece2510c02eb8fcd4d8478833526c900f2b7aaf23592f8768396e16b9f20de"
+    },
+    {
+      "path": "scripts/recover_cold_joint_export_v1.py",
+      "sha256": "0956f571e6d71c3625c7ca8cff01d3361943f67ef88aaf377517f14d55daf8dc"
+    },
+    {
+      "path": "tests/test_cad_source_binding_guard_v1.py",
+      "sha256": "53b788f74e085b8f3f98a34e1e4a4693ea09e724177ebbfb7590cb51e3799af4"
+    }
+  ],
+  "date": "2026-11-22",
+  "initial_failures_retained": true,
+  "initial_protocol": {
+    "path": "artifacts/cold-joint-control-v1/plan.json",
+    "sha256": "ef6b342df83e79d5d40dca4a7ea0c9f08517fc2aee6a6414c57954e8f4450027"
+  },
+  "initial_results": {
+    "path": "artifacts/cold-joint-control-v1/results.json",
+    "sha256": "53bb8c6db6e792a41e6e5ad275ea281e8e105498f0304b5a8b1421ec1554992c"
+  },
+  "jobs": [
+    {
+      "path": "artifacts/cold-joint-control-v1/runs/0074/result.json",
+      "sha256": "ce61d67e87afd0ec3c07afe22031e35000269022dbf2350694d0661c606d7c71"
+    },
+    {
+      "path": "artifacts/cold-joint-control-v1/runs/0079/result.json",
+      "sha256": "14780227672fd951821d6b5c4c77599e17aaf7c43149244009a1407433759e58"
+    },
+    {
+      "path": "artifacts/cold-joint-control-v1/runs/0104/result.json",
+      "sha256": "338df27b9deac8f7e7854572963b3bad74dbe4fbb88067ee96ec2bdd9c5bb05b"
+    },
+    {
+      "path": "artifacts/cold-joint-control-v1/runs/0108/result.json",
+      "sha256": "93b31927f0e9a71e24dab6529339c46afedbc30842b16787582b66dc7df5315e"
+    }
+  ],
+  "quality_admission_from_repair_automatic": false,
+  "repair_total_seconds": 1200,
+  "same_C1_CV_policy": {
+    "downsample_vote": "all contributing pixels",
+    "frame_and_competing_role_margin_px": 1,
+    "grid_anchors": "unchanged connect_supported_runs",
+    "known_roles_immutable": true,
+    "max_pixels": 4000000,
+    "max_side": 2000,
+    "max_views": 2,
+    "new_roles": [
+      1,
+      8
+    ],
+    "part_owner_anchors": "unchanged observed_part_core accepted>=32 and >=70%",
+    "physical_geometry_approved": false,
+    "version": "cold-joint-role/1"
+  },
+  "same_job_budgets": {
+    "files": 256,
+    "job_seconds": 180,
+    "output_MiB": 512,
+    "rss_MiB": 1024,
+    "seed": 0,
+    "threads": 1,
+    "total_seconds": 7200
+  },
+  "source_member_indices_repaired": false
+}

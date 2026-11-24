@@ -1,0 +1,67 @@
+{
+  "code": [
+    {
+      "path": "src/cad_recovery/raster_stream_v2.py",
+      "sha256": "2a67fa84c6ee56b75082fdb4c01762c5a2755477dd1e32e1663991ecb4136401"
+    },
+    {
+      "path": "src/cad_recovery/raster_input_v2.py",
+      "sha256": "7a17ef1ec3fbcf0dd871f66ed0fbfe8a3bf7e319ea712c8a70d22c4e82ddd87d"
+    },
+    {
+      "path": "src/cad_recovery/profile_contract_v6.py",
+      "sha256": "7fa4483c91aa7cc854088c90af88e43d4b45fd0db3a4ec2b23940e8155e7c365"
+    },
+    {
+      "path": "src/cad_recovery/profile_pipeline_v6.py",
+      "sha256": "7bdc1632d0e34842dba4956f5593b98ef7ddc97d230762ea7bee8d7ddad10fd8"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v11/__init__.py",
+      "sha256": "8ab58e8a88373b61e4fe52f87890c9f268e9b045d8d6c9e856853d38a2c4ec81"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v11/api.py",
+      "sha256": "ba6598711b29a6a59b858b7dc5ae8111d2eca33981e009b2d0fb6bf50715bc65"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v11/queue.py",
+      "sha256": "6088298c25d2f19bf93dc7c6fab9ac711239b0486e6a31a3463118d7c655318c"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v11/worker.py",
+      "sha256": "a772083be1ad8d59da2eac421bd6cd526cea947ef435a6c4fba82ab377bbd46f"
+    },
+    {
+      "path": "scripts/service_profile_pipeline_v6.py",
+      "sha256": "3ca5b4998d96c0c77d41ba90c1b8927aaa5674ca510d2fe995d7b945641e4e65"
+    },
+    {
+      "path": "scripts/run_profiles_v13.py",
+      "sha256": "276210d976983aaef3ad810489d20d9bef901e8c1a17067cf0e57a895b959a62"
+    },
+    {
+      "path": "scripts/convert_raster_v2.py",
+      "sha256": "9d165103ed6dd97470a760da6ea1859f3427c6607ac970da931ec5e46fc083c6"
+    },
+    {
+      "path": "scripts/prepare_raster_runtime_v2.py",
+      "sha256": "2e4c3e0ff21067705d77388fcc55437d28685e0cf0d5bb7013c345d2cc4585e1"
+    }
+  ],
+  "full_resolution_quality_accepted": false,
+  "old_profiles_unchanged": true,
+  "policy": {
+    "decoder": "raster-strips/2.0",
+    "max_bytes": 52428800,
+    "max_chunks": 10000,
+    "max_exif_bytes": 65536,
+    "max_pixels": 600000000,
+    "max_side": 32768,
+    "strip_rows": 64
+  },
+  "qualification": {
+    "path": "artifacts/raster-input-v2-qualification/summary.json",
+    "sha256": "1061634cefe4c8ecec7353a17ae9216fa08161c12ae779582664771e3e219b11"
+  }
+}

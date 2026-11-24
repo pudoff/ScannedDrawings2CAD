@@ -1,0 +1,1392 @@
+{
+  "task": "9.1.2",
+  "cases": [
+    {
+      "source": {
+        "path": "dataset/clear_sum_dataset/vse_png/звездочка.png",
+        "sha256": "30fb4c7ec23d654e70feebea783faddd6c6a8c3b9923b9fdfdb1ec45be808def"
+      },
+      "process": {
+        "command": [
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\.venv\\Scripts\\python.exe",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\scripts\\run_native_cad_layers_candidate_v1.py",
+          "--child",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\artifacts\\native-cad-layers-candidate-v1\\01-C\\request.json"
+        ],
+        "exit_code": 0,
+        "walltime_seconds": 132.48137239999778,
+        "peak_rss_MiB": 680.828125,
+        "failure": null,
+        "budget_seconds": 180,
+        "budget_rss_MiB": 1024,
+        "memory_method": "sum of observed per-PID OS lifetime working-set peaks in guarded process tree; conservative upper bound, 50 ms polling; not simultaneous RSS",
+        "observed_process_count": 2,
+        "memory_sampling_limit": "Short-lived processes exiting between polls might be missed; OS parent-PID snapshots also cover descendants started before job assignment.",
+        "budget_pass": true
+      },
+      "success": true,
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/01-C/output/candidate/page-001.dxf",
+        "sha256": "63a508ce282924520364292fd511f606998e36eadd6c737c26ac0cbbd22902f8"
+      },
+      "native_models_and_membership_exact": true,
+      "annotations_exact": true,
+      "source_masks_exact": true,
+      "changes": [],
+      "audit_errors": 0,
+      "audit_fixes": 0,
+      "only_unknown_LINE_to_FRAME": true,
+      "frame_partition": {
+        "policy": {
+          "version": "geometry-preserving-role-export/1.0",
+          "maximum_objects": 16384,
+          "numerical_parameter_epsilon": 1e-09,
+          "refit_performed": false,
+          "source_geometry_changed": false,
+          "physical_geometry_approved": false
+        },
+        "input_models": 262,
+        "output_objects": 262,
+        "frozen_model_partition_exact": true,
+        "source_membership_exact": true,
+        "baseline_assembly_sha256": "6e4a9911b32bcfeb56737c435810150405e898a67921ec717a2ca318956fa191",
+        "changed_role_or_partition": [],
+        "geometry_refits": 0,
+        "moved_models": 0
+      },
+      "detector_complete": true
+    },
+    {
+      "source": {
+        "path": "dataset/test_png/чертеж131.png",
+        "sha256": "40d1e87714f37886efd732a55964b78a22df5762e705c787c514c3e380260094"
+      },
+      "process": {
+        "command": [
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\.venv\\Scripts\\python.exe",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\scripts\\run_native_cad_layers_candidate_v1.py",
+          "--child",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\artifacts\\native-cad-layers-candidate-v1\\02-C\\request.json"
+        ],
+        "exit_code": 0,
+        "walltime_seconds": 131.52828330000193,
+        "peak_rss_MiB": 1022.67578125,
+        "failure": null,
+        "budget_seconds": 180,
+        "budget_rss_MiB": 1024,
+        "memory_method": "sum of observed per-PID OS lifetime working-set peaks in guarded process tree; conservative upper bound, 50 ms polling; not simultaneous RSS",
+        "observed_process_count": 3,
+        "memory_sampling_limit": "Short-lived processes exiting between polls might be missed; OS parent-PID snapshots also cover descendants started before job assignment.",
+        "budget_pass": true
+      },
+      "success": true,
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/02-C/output/candidate/page-001.dxf",
+        "sha256": "564a36c8eb856d76d08e697d60ee91890e0c1ff4be53ad036552287aa31d04a7"
+      },
+      "native_models_and_membership_exact": true,
+      "annotations_exact": true,
+      "source_masks_exact": true,
+      "changes": [
+        {
+          "object_id": "cad-primitive/0772cecbfd39a6ae7c02febd",
+          "before": "THIN_GEOMETRY_DRAFT",
+          "after": "FRAME_CV",
+          "before_role": 255,
+          "role": 7,
+          "handle": "63C",
+          "model": {
+            "type": "LINE",
+            "start": [
+              1974.0,
+              24.0
+            ],
+            "end": [
+              1874.0,
+              24.0
+            ]
+          },
+          "evidence": {
+            "assigned_role": 7,
+            "covered_fraction": 0.0,
+            "decision": "whole_page_frame_side_confirmed",
+            "export_layer": "FRAME_CV",
+            "frame_context_sha256": "619501654e8a51cc69322bd5224a61ef49ac80db83f2acabebd5774b86f9ea3e",
+            "largest_unknown_span_px": 100.0,
+            "maximum_unknown_gap_px": 3.8284271247461903,
+            "observed_fraction": 0.0,
+            "observed_role_counts": {
+              "255": 101
+            },
+            "previous_role": 255,
+            "previous_role_map_decision": "insufficient_or_conflicting_support",
+            "source_points": 101,
+            "whole_page_frame_evidence": [
+              {
+                "frame_index": 0,
+                "largest_unsupported_span_px": 0.0,
+                "maximum_unsupported_span_px": 4.82842712474619,
+                "sampling_bound_px": 2.6404040145235275,
+                "side_index": 2,
+                "source_fraction": 1.0,
+                "walk_fraction": 1.0
+              },
+              {
+                "frame_index": 1,
+                "largest_unsupported_span_px": 0.0,
+                "maximum_unsupported_span_px": 4.82842712474619,
+                "sampling_bound_px": 2.414213562373777,
+                "side_index": 2,
+                "source_fraction": 1.0,
+                "walk_fraction": 1.0
+              }
+            ]
+          }
+        },
+        {
+          "object_id": "cad-primitive/20d86ea1b93aa7717761b8ae",
+          "before": "THIN_GEOMETRY_DRAFT",
+          "after": "FRAME_CV",
+          "before_role": 255,
+          "role": 7,
+          "handle": "747",
+          "model": {
+            "type": "LINE",
+            "start": [
+              63.0,
+              24.0
+            ],
+            "end": [
+              1085.0,
+              24.0
+            ]
+          },
+          "evidence": {
+            "assigned_role": 7,
+            "covered_fraction": 0.0,
+            "decision": "whole_page_frame_side_confirmed",
+            "export_layer": "FRAME_CV",
+            "frame_context_sha256": "619501654e8a51cc69322bd5224a61ef49ac80db83f2acabebd5774b86f9ea3e",
+            "largest_unknown_span_px": 1022.0,
+            "maximum_unknown_gap_px": 3.8284271247461903,
+            "observed_fraction": 0.0,
+            "observed_role_counts": {
+              "255": 1023
+            },
+            "previous_role": 255,
+            "previous_role_map_decision": "insufficient_or_conflicting_support",
+            "source_points": 1023,
+            "whole_page_frame_evidence": [
+              {
+                "frame_index": 0,
+                "largest_unsupported_span_px": 0.0,
+                "maximum_unsupported_span_px": 4.82842712474619,
+                "sampling_bound_px": 2.6404040145235275,
+                "side_index": 2,
+                "source_fraction": 1.0,
+                "walk_fraction": 1.0
+              }
+            ]
+          }
+        }
+      ],
+      "audit_errors": 0,
+      "audit_fixes": 0,
+      "only_unknown_LINE_to_FRAME": true,
+      "frame_partition": {
+        "policy": {
+          "version": "geometry-preserving-role-export/1.0",
+          "maximum_objects": 16384,
+          "numerical_parameter_epsilon": 1e-09,
+          "refit_performed": false,
+          "source_geometry_changed": false,
+          "physical_geometry_approved": false
+        },
+        "input_models": 654,
+        "output_objects": 654,
+        "frozen_model_partition_exact": true,
+        "source_membership_exact": true,
+        "baseline_assembly_sha256": "b64be6e07111cbbb2a14f931087373e4c5083983d9608c9aa8e7f3dc73355b83",
+        "changed_role_or_partition": [
+          {
+            "parent_object_id": "cad-primitive/0772cecbfd39a6ae7c02febd",
+            "kind": "line",
+            "parent_model_sha256": "051f84656969557acc7ebf00df9d3c63c89152f232fb5c17aa22145d20e8681b",
+            "output_object_ids": [
+              "cad-primitive/0772cecbfd39a6ae7c02febd"
+            ],
+            "normalized_model_intervals": [
+              [
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "parent_object_id": "cad-primitive/20d86ea1b93aa7717761b8ae",
+            "kind": "line",
+            "parent_model_sha256": "053ab8b3daeb53666e5df6f77fc1e20f8d5c19cdd59a58ef54f7682b34bb0496",
+            "output_object_ids": [
+              "cad-primitive/20d86ea1b93aa7717761b8ae"
+            ],
+            "normalized_model_intervals": [
+              [
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        ],
+        "geometry_refits": 0,
+        "moved_models": 0
+      },
+      "detector_complete": true,
+      "local": {
+        "regions": [
+          {
+            "id": "part-flange",
+            "role": "PART",
+            "expected_type": "LINE",
+            "box": [
+              339,
+              508,
+              348,
+              556
+            ],
+            "reference_handle": "153",
+            "reference_part_path": [],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "7DD": {
+                "handle": "7DD",
+                "type": "LINE",
+                "layer": "GEOMETRY_DRAFT",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.015464995649765001,
+                "p95_DXF": 0.10910472635294825,
+                "same_type": true,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "7DD",
+              "type": "LINE",
+              "layer": "GEOMETRY_DRAFT",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.015464995649765001,
+              "p95_DXF": 0.10910472635294825,
+              "same_type": true,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "slot-arc",
+            "role": "PART",
+            "expected_type": "ARC",
+            "box": [
+              195,
+              321,
+              250,
+              348
+            ],
+            "reference_handle": "15C",
+            "reference_part_path": [],
+            "union_ref_coverage": 0.9066666666666666,
+            "options": {},
+            "match": null,
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "hole",
+            "role": "PART",
+            "expected_type": "CIRCLE",
+            "box": [
+              203,
+              200,
+              242,
+              217
+            ],
+            "reference_handle": "157",
+            "reference_part_path": [],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "804": {
+                "handle": "804",
+                "type": "ARC",
+                "layer": "THIN_GEOMETRY_DRAFT",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.14134236803178216,
+                "p95_DXF": 0.25698549838319573,
+                "same_type": false,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "804",
+              "type": "ARC",
+              "layer": "THIN_GEOMETRY_DRAFT",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.14134236803178216,
+              "p95_DXF": 0.25698549838319573,
+              "same_type": false,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "dimension-above",
+            "role": "DIMENSION",
+            "expected_type": "LINE",
+            "box": [
+              156,
+              79,
+              192,
+              86
+            ],
+            "reference_handle": "1E9C",
+            "reference_part_path": [
+              2
+            ],
+            "union_ref_coverage": 0.06944444444444445,
+            "options": {},
+            "match": null,
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "extension-above",
+            "role": "EXTENSION",
+            "expected_type": "LINE",
+            "box": [
+              140,
+              88,
+              149,
+              101
+            ],
+            "reference_handle": "1E9C",
+            "reference_part_path": [
+              0
+            ],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "75C": {
+                "handle": "75C",
+                "type": "LINE",
+                "layer": "TITLE_GRID_CV",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.18579480323301567,
+                "p95_DXF": 0.3108705485909526,
+                "same_type": true,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "75C",
+              "type": "LINE",
+              "layer": "TITLE_GRID_CV",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.18579480323301567,
+              "p95_DXF": 0.3108705485909526,
+              "same_type": true,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "leader-fold",
+            "role": "LEADER",
+            "expected_type": "LINE",
+            "box": [
+              1100,
+              291,
+              1164,
+              300
+            ],
+            "reference_handle": "1AB6",
+            "reference_part_path": [
+              0
+            ],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "2D0": {
+                "handle": "2D0",
+                "type": "LINE",
+                "layer": "THIN_GEOMETRY_DRAFT",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.15550270405657898,
+                "p95_DXF": 0.287823354482976,
+                "same_type": true,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "2D0",
+              "type": "LINE",
+              "layer": "THIN_GEOMETRY_DRAFT",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.15550270405657898,
+              "p95_DXF": 0.287823354482976,
+              "same_type": true,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "frame-right",
+            "role": "FRAME",
+            "expected_type": "LINE",
+            "box": [
+              1181,
+              330,
+              1188,
+              452
+            ],
+            "reference_handle": "AB3",
+            "reference_part_path": [
+              1
+            ],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "69C": {
+                "handle": "69C",
+                "type": "LINE",
+                "layer": "PART_CV",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.45382847546920857,
+                "p95_DXF": 0.516304862123695,
+                "same_type": true,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "69C",
+              "type": "LINE",
+              "layer": "PART_CV",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.45382847546920857,
+              "p95_DXF": 0.516304862123695,
+              "same_type": true,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "stamp-horizontal",
+            "role": "GRID",
+            "expected_type": "LINE",
+            "box": [
+              710,
+              773,
+              811,
+              779
+            ],
+            "reference_handle": "A71",
+            "reference_part_path": [
+              4
+            ],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "7FB": {
+                "handle": "7FB",
+                "type": "LINE",
+                "layer": "TITLE_GRID_CV",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.4526233535104097,
+                "p95_DXF": 0.5161340374461495,
+                "same_type": true,
+                "correct_layer": true
+              }
+            },
+            "match": {
+              "handle": "7FB",
+              "type": "LINE",
+              "layer": "TITLE_GRID_CV",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.4526233535104097,
+              "p95_DXF": 0.5161340374461495,
+              "same_type": true,
+              "correct_layer": true
+            },
+            "full_object_geometry_approved": false
+          }
+        ],
+        "eligible_regions": 8,
+        "one_to_one_local_matches": 6,
+        "same_type_matches": 5,
+        "correct_layer_matches": 1,
+        "unsupported_path_types": {},
+        "separate_observations": [],
+        "full_page_precision": null
+      },
+      "local_layers_before": 1
+    },
+    {
+      "source": {
+        "path": "dataset/test_png/чертеж133.png",
+        "sha256": "bfa0e7c46579e304643f7cf3512c6f7c5971b265183da7128527e8afaddd992e"
+      },
+      "process": {
+        "command": [
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\.venv\\Scripts\\python.exe",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\scripts\\run_native_cad_layers_candidate_v1.py",
+          "--child",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\artifacts\\native-cad-layers-candidate-v1\\03-C\\request.json"
+        ],
+        "exit_code": 0,
+        "walltime_seconds": 118.49276490000193,
+        "peak_rss_MiB": 1017.17578125,
+        "failure": null,
+        "budget_seconds": 180,
+        "budget_rss_MiB": 1024,
+        "memory_method": "sum of observed per-PID OS lifetime working-set peaks in guarded process tree; conservative upper bound, 50 ms polling; not simultaneous RSS",
+        "observed_process_count": 3,
+        "memory_sampling_limit": "Short-lived processes exiting between polls might be missed; OS parent-PID snapshots also cover descendants started before job assignment.",
+        "budget_pass": true
+      },
+      "success": true,
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/03-C/output/candidate/page-001.dxf",
+        "sha256": "16d6dc5eccc2eb98d02e737e81090b10f9aeb28a816902d9f1ddea20bae52cf9"
+      },
+      "native_models_and_membership_exact": true,
+      "annotations_exact": true,
+      "source_masks_exact": true,
+      "changes": [
+        {
+          "object_id": "cad-primitive/1ee6d402e2ff2cd5c671d69b",
+          "before": "GEOMETRY_DRAFT",
+          "after": "FRAME_CV",
+          "before_role": 255,
+          "role": 7,
+          "handle": "615",
+          "model": {
+            "type": "LINE",
+            "start": [
+              1975.0,
+              187.0
+            ],
+            "end": [
+              1975.0,
+              173.0
+            ]
+          },
+          "evidence": {
+            "assigned_role": 7,
+            "covered_fraction": 0.0,
+            "decision": "whole_page_frame_side_confirmed",
+            "export_layer": "FRAME_CV",
+            "frame_context_sha256": "4673207f3cd4458c5e75df8558344a1c66c3e71629531aa074d0702a063040c6",
+            "largest_unknown_span_px": 14.0,
+            "maximum_unknown_gap_px": 5.82842712474619,
+            "observed_fraction": 0.0,
+            "observed_role_counts": {
+              "255": 15
+            },
+            "previous_role": 255,
+            "previous_role_map_decision": "insufficient_or_conflicting_support",
+            "source_points": 15,
+            "whole_page_frame_evidence": [
+              {
+                "frame_index": 0,
+                "largest_unsupported_span_px": 0.0,
+                "maximum_unsupported_span_px": 5.82842712474619,
+                "sampling_bound_px": 3.1441226295223594,
+                "side_index": 1,
+                "source_fraction": 1.0,
+                "walk_fraction": 1.0
+              },
+              {
+                "frame_index": 1,
+                "largest_unsupported_span_px": 0.0,
+                "maximum_unsupported_span_px": 5.82842712474619,
+                "sampling_bound_px": 2.914213562373777,
+                "side_index": 1,
+                "source_fraction": 1.0,
+                "walk_fraction": 1.0
+              }
+            ]
+          }
+        },
+        {
+          "object_id": "cad-primitive/874e367e9a3e50517a2779a5",
+          "before": "THIN_GEOMETRY_DRAFT",
+          "after": "FRAME_CV",
+          "before_role": 255,
+          "role": 7,
+          "handle": "687",
+          "model": {
+            "type": "LINE",
+            "start": [
+              1974.0,
+              24.0
+            ],
+            "end": [
+              1873.0,
+              24.0
+            ]
+          },
+          "evidence": {
+            "assigned_role": 7,
+            "covered_fraction": 0.0,
+            "decision": "whole_page_frame_side_confirmed",
+            "export_layer": "FRAME_CV",
+            "frame_context_sha256": "4673207f3cd4458c5e75df8558344a1c66c3e71629531aa074d0702a063040c6",
+            "largest_unknown_span_px": 101.0,
+            "maximum_unknown_gap_px": 3.8284271247461903,
+            "observed_fraction": 0.0,
+            "observed_role_counts": {
+              "255": 102
+            },
+            "previous_role": 255,
+            "previous_role_map_decision": "insufficient_or_conflicting_support",
+            "source_points": 102,
+            "whole_page_frame_evidence": [
+              {
+                "frame_index": 0,
+                "largest_unsupported_span_px": 0.0,
+                "maximum_unsupported_span_px": 4.82842712474619,
+                "sampling_bound_px": 2.6404040145235275,
+                "side_index": 2,
+                "source_fraction": 1.0,
+                "walk_fraction": 1.0
+              },
+              {
+                "frame_index": 1,
+                "largest_unsupported_span_px": 0.0,
+                "maximum_unsupported_span_px": 4.82842712474619,
+                "sampling_bound_px": 2.414213562373777,
+                "side_index": 2,
+                "source_fraction": 1.0,
+                "walk_fraction": 1.0
+              }
+            ]
+          }
+        },
+        {
+          "object_id": "cad-primitive/06a19e0f384ce15cdd70dc3a",
+          "before": "THIN_GEOMETRY_DRAFT",
+          "after": "FRAME_CV",
+          "before_role": 255,
+          "role": 7,
+          "handle": "7B9",
+          "model": {
+            "type": "LINE",
+            "start": [
+              63.0,
+              24.0
+            ],
+            "end": [
+              1085.0,
+              24.0
+            ]
+          },
+          "evidence": {
+            "assigned_role": 7,
+            "covered_fraction": 0.0,
+            "decision": "whole_page_frame_side_confirmed",
+            "export_layer": "FRAME_CV",
+            "frame_context_sha256": "4673207f3cd4458c5e75df8558344a1c66c3e71629531aa074d0702a063040c6",
+            "largest_unknown_span_px": 1022.0,
+            "maximum_unknown_gap_px": 3.8284271247461903,
+            "observed_fraction": 0.0,
+            "observed_role_counts": {
+              "255": 1023
+            },
+            "previous_role": 255,
+            "previous_role_map_decision": "insufficient_or_conflicting_support",
+            "source_points": 1023,
+            "whole_page_frame_evidence": [
+              {
+                "frame_index": 0,
+                "largest_unsupported_span_px": 0.0,
+                "maximum_unsupported_span_px": 4.82842712474619,
+                "sampling_bound_px": 2.6404040145235275,
+                "side_index": 2,
+                "source_fraction": 1.0,
+                "walk_fraction": 1.0
+              }
+            ]
+          }
+        }
+      ],
+      "audit_errors": 0,
+      "audit_fixes": 0,
+      "only_unknown_LINE_to_FRAME": true,
+      "frame_partition": {
+        "policy": {
+          "version": "geometry-preserving-role-export/1.0",
+          "maximum_objects": 16384,
+          "numerical_parameter_epsilon": 1e-09,
+          "refit_performed": false,
+          "source_geometry_changed": false,
+          "physical_geometry_approved": false
+        },
+        "input_models": 689,
+        "output_objects": 689,
+        "frozen_model_partition_exact": true,
+        "source_membership_exact": true,
+        "baseline_assembly_sha256": "db7d906104b8bbddf6f6bf155248bd2ff52f3f484d0e30deb956845b0cefe5c8",
+        "changed_role_or_partition": [
+          {
+            "parent_object_id": "cad-primitive/1ee6d402e2ff2cd5c671d69b",
+            "kind": "line",
+            "parent_model_sha256": "45a12bf0494348d790a7b9ca975eb013754638163e4eb7d9fb9980e0af09d616",
+            "output_object_ids": [
+              "cad-primitive/1ee6d402e2ff2cd5c671d69b"
+            ],
+            "normalized_model_intervals": [
+              [
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "parent_object_id": "cad-primitive/874e367e9a3e50517a2779a5",
+            "kind": "line",
+            "parent_model_sha256": "8dc20e30319d385f5c6c3744ecf0805dd3cc34551163acf5eeffa22724c1c689",
+            "output_object_ids": [
+              "cad-primitive/874e367e9a3e50517a2779a5"
+            ],
+            "normalized_model_intervals": [
+              [
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          {
+            "parent_object_id": "cad-primitive/06a19e0f384ce15cdd70dc3a",
+            "kind": "line",
+            "parent_model_sha256": "053ab8b3daeb53666e5df6f77fc1e20f8d5c19cdd59a58ef54f7682b34bb0496",
+            "output_object_ids": [
+              "cad-primitive/06a19e0f384ce15cdd70dc3a"
+            ],
+            "normalized_model_intervals": [
+              [
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        ],
+        "geometry_refits": 0,
+        "moved_models": 0
+      },
+      "detector_complete": true,
+      "local": {
+        "regions": [
+          {
+            "id": "part-reduced-view",
+            "role": "PART",
+            "expected_type": "LINE",
+            "box": [
+              351,
+              466,
+              506,
+              474
+            ],
+            "reference_handle": "35B",
+            "reference_part_path": [],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "4B9": {
+                "handle": "4B9",
+                "type": "LINE",
+                "layer": "TITLE_GRID_CV",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.20135553385390495,
+                "p95_DXF": 0.2504153334002941,
+                "same_type": true,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "4B9",
+              "type": "LINE",
+              "layer": "TITLE_GRID_CV",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.20135553385390495,
+              "p95_DXF": 0.2504153334002941,
+              "same_type": true,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "hole-aux-view",
+            "role": "PART",
+            "expected_type": "CIRCLE",
+            "box": [
+              870,
+              270,
+              891,
+              281
+            ],
+            "reference_handle": "5FD",
+            "reference_part_path": [],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "810": {
+                "handle": "810",
+                "type": "ARC",
+                "layer": "THIN_GEOMETRY_DRAFT",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.2385309275998102,
+                "p95_DXF": 0.34498918587766414,
+                "same_type": false,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "810",
+              "type": "ARC",
+              "layer": "THIN_GEOMETRY_DRAFT",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.2385309275998102,
+              "p95_DXF": 0.34498918587766414,
+              "same_type": false,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "inner-axis",
+            "role": "AXIS",
+            "expected_type": "LINE",
+            "box": [
+              212,
+              409,
+              285,
+              418
+            ],
+            "reference_handle": "1235",
+            "reference_part_path": [],
+            "union_ref_coverage": 1.0,
+            "options": {},
+            "match": null,
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "leader-fold",
+            "role": "LEADER",
+            "expected_type": "LINE",
+            "box": [
+              261,
+              610,
+              320,
+              620
+            ],
+            "reference_handle": "189A",
+            "reference_part_path": [
+              0
+            ],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "51C": {
+                "handle": "51C",
+                "type": "LINE",
+                "layer": "THIN_GEOMETRY_DRAFT",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.45548908005986843,
+                "p95_DXF": 0.5129506558565756,
+                "same_type": true,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "51C",
+              "type": "LINE",
+              "layer": "THIN_GEOMETRY_DRAFT",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.45548908005986843,
+              "p95_DXF": 0.5129506558565756,
+              "same_type": true,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "dimension-lower",
+            "role": "DIMENSION",
+            "expected_type": "LINE",
+            "box": [
+              209,
+              805,
+              315,
+              815
+            ],
+            "reference_handle": "D9B",
+            "reference_part_path": [
+              2
+            ],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "68D": {
+                "handle": "68D",
+                "type": "LINE",
+                "layer": "THIN_GEOMETRY_DRAFT",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.24146508334087002,
+                "p95_DXF": 0.26415050754301067,
+                "same_type": true,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "68D",
+              "type": "LINE",
+              "layer": "THIN_GEOMETRY_DRAFT",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.24146508334087002,
+              "p95_DXF": 0.26415050754301067,
+              "same_type": true,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "frame-right",
+            "role": "FRAME",
+            "expected_type": "LINE",
+            "box": [
+              1181,
+              334,
+              1188,
+              462
+            ],
+            "reference_handle": "1899",
+            "reference_part_path": [
+              1
+            ],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "6B4": {
+                "handle": "6B4",
+                "type": "LINE",
+                "layer": "GEOMETRY_DRAFT",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.18698926269115873,
+                "p95_DXF": 0.26860928492150216,
+                "same_type": true,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "6B4",
+              "type": "LINE",
+              "layer": "GEOMETRY_DRAFT",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.18698926269115873,
+              "p95_DXF": 0.26860928492150216,
+              "same_type": true,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          }
+        ],
+        "eligible_regions": 6,
+        "one_to_one_local_matches": 5,
+        "same_type_matches": 4,
+        "correct_layer_matches": 0,
+        "unsupported_path_types": {},
+        "separate_observations": [],
+        "full_page_precision": null
+      },
+      "local_layers_before": 0
+    },
+    {
+      "source": {
+        "path": "dataset/test_png/чертеж180.png",
+        "sha256": "e36fb57959478e8775b31f7ec5cef1cbd7e4b3d3654cce8661864484b25e8237"
+      },
+      "process": {
+        "command": [
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\.venv\\Scripts\\python.exe",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\scripts\\run_native_cad_layers_candidate_v1.py",
+          "--child",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\artifacts\\native-cad-layers-candidate-v1\\04-C\\request.json"
+        ],
+        "exit_code": 0,
+        "walltime_seconds": 130.22204659999989,
+        "peak_rss_MiB": 1022.375,
+        "failure": null,
+        "budget_seconds": 180,
+        "budget_rss_MiB": 1024,
+        "memory_method": "sum of observed per-PID OS lifetime working-set peaks in guarded process tree; conservative upper bound, 50 ms polling; not simultaneous RSS",
+        "observed_process_count": 3,
+        "memory_sampling_limit": "Short-lived processes exiting between polls might be missed; OS parent-PID snapshots also cover descendants started before job assignment.",
+        "budget_pass": true
+      },
+      "success": true,
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/04-C/output/candidate/page-001.dxf",
+        "sha256": "17cb85d234c3c99b279846c06da6be5955d3922bc2ca2fbaef1b411e2240e9b8"
+      },
+      "native_models_and_membership_exact": true,
+      "annotations_exact": true,
+      "source_masks_exact": true,
+      "changes": [
+        {
+          "object_id": "cad-primitive/7cd7b3653474d42e02a4243e",
+          "before": "THIN_GEOMETRY_DRAFT",
+          "after": "FRAME_CV",
+          "before_role": 255,
+          "role": 7,
+          "handle": "4A1",
+          "model": {
+            "type": "LINE",
+            "start": [
+              1970.0,
+              24.0
+            ],
+            "end": [
+              1937.0,
+              23.0
+            ]
+          },
+          "evidence": {
+            "assigned_role": 7,
+            "covered_fraction": 0.0,
+            "decision": "whole_page_frame_side_confirmed",
+            "export_layer": "FRAME_CV",
+            "frame_context_sha256": "7365c22b092219107ff12465318acbddc391d32b99a1eb67d316bc65885ae515",
+            "largest_unknown_span_px": 33.41421356237309,
+            "maximum_unknown_gap_px": 3.8284271247461903,
+            "observed_fraction": 0.0,
+            "observed_role_counts": {
+              "255": 34
+            },
+            "previous_role": 8,
+            "previous_role_map_decision": "insufficient_or_conflicting_support",
+            "source_points": 34,
+            "whole_page_frame_evidence": [
+              {
+                "frame_index": 0,
+                "largest_unsupported_span_px": 0.0,
+                "maximum_unsupported_span_px": 4.82842712474619,
+                "sampling_bound_px": 2.4142135623735497,
+                "side_index": 2,
+                "source_fraction": 1.0,
+                "walk_fraction": 1.0
+              },
+              {
+                "frame_index": 1,
+                "largest_unsupported_span_px": 0.0,
+                "maximum_unsupported_span_px": 4.82842712474619,
+                "sampling_bound_px": 2.41421356237329,
+                "side_index": 2,
+                "source_fraction": 1.0,
+                "walk_fraction": 1.0
+              }
+            ]
+          }
+        }
+      ],
+      "audit_errors": 0,
+      "audit_fixes": 0,
+      "only_unknown_LINE_to_FRAME": true,
+      "frame_partition": {
+        "policy": {
+          "version": "geometry-preserving-role-export/1.0",
+          "maximum_objects": 16384,
+          "numerical_parameter_epsilon": 1e-09,
+          "refit_performed": false,
+          "source_geometry_changed": false,
+          "physical_geometry_approved": false
+        },
+        "input_models": 448,
+        "output_objects": 448,
+        "frozen_model_partition_exact": true,
+        "source_membership_exact": true,
+        "baseline_assembly_sha256": "6fabc4e0bb997834c7cb0e98d4e8c62875e98a2fb87035ca47ef8d824045d86e",
+        "changed_role_or_partition": [
+          {
+            "parent_object_id": "cad-primitive/7cd7b3653474d42e02a4243e",
+            "kind": "line",
+            "parent_model_sha256": "2f2bbda568ca930b00aa0de1ac15077f68aa9d1f2e931a8ffd05b6e3e4f8c7f5",
+            "output_object_ids": [
+              "cad-primitive/7cd7b3653474d42e02a4243e"
+            ],
+            "normalized_model_intervals": [
+              [
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        ],
+        "geometry_refits": 0,
+        "moved_models": 0
+      },
+      "detector_complete": true,
+      "local": {
+        "regions": [
+          {
+            "id": "part-fold-vertical",
+            "role": "PART",
+            "expected_type": "LINE",
+            "box": [
+              257,
+              203,
+              265,
+              257
+            ],
+            "reference_handle": "3007C3",
+            "reference_part_path": [],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "4C5": {
+                "handle": "4C5",
+                "type": "LINE",
+                "layer": "THIN_GEOMETRY_DRAFT",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.2954324823349822,
+                "p95_DXF": 0.30225655142706415,
+                "same_type": true,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "4C5",
+              "type": "LINE",
+              "layer": "THIN_GEOMETRY_DRAFT",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.2954324823349822,
+              "p95_DXF": 0.30225655142706415,
+              "same_type": true,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "part-fold-bottom",
+            "role": "PART",
+            "expected_type": "LINE",
+            "box": [
+              346,
+              719,
+              432,
+              728
+            ],
+            "reference_handle": "3007EB",
+            "reference_part_path": [],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "42C": {
+                "handle": "42C",
+                "type": "LINE",
+                "layer": "THIN_GEOMETRY_DRAFT",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.06627633261099959,
+                "p95_DXF": 0.23360704287497724,
+                "same_type": true,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "42C",
+              "type": "LINE",
+              "layer": "THIN_GEOMETRY_DRAFT",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.06627633261099959,
+              "p95_DXF": 0.23360704287497724,
+              "same_type": true,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "angle-dimension",
+            "role": "DIMENSION",
+            "expected_type": "ARC",
+            "box": [
+              286,
+              190,
+              329,
+              211
+            ],
+            "reference_handle": "3007CC",
+            "reference_part_path": [
+              0
+            ],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "180": {
+                "handle": "180",
+                "type": "LWPOLYLINE",
+                "layer": "THIN_GEOMETRY_DRAFT",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.2814434637303407,
+                "p95_DXF": 0.39465513159388804,
+                "same_type": false,
+                "correct_layer": false
+              }
+            },
+            "match": {
+              "handle": "180",
+              "type": "LWPOLYLINE",
+              "layer": "THIN_GEOMETRY_DRAFT",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.2814434637303407,
+              "p95_DXF": 0.39465513159388804,
+              "same_type": false,
+              "correct_layer": false
+            },
+            "full_object_geometry_approved": false
+          },
+          {
+            "id": "bottom-dimension",
+            "role": "DIMENSION",
+            "expected_type": "LINE",
+            "box": [
+              250,
+              488,
+              322,
+              499
+            ],
+            "reference_handle": "3007F2",
+            "reference_part_path": [
+              2
+            ],
+            "union_ref_coverage": 1.0,
+            "options": {
+              "318": {
+                "handle": "318",
+                "type": "LINE",
+                "layer": "DIMENSION_LINES_CV",
+                "ref_coverage": 1.0,
+                "DXF_coverage": 1.0,
+                "p95_ref": 0.16508571901080132,
+                "p95_DXF": 0.2973890641730839,
+                "same_type": true,
+                "correct_layer": true
+              }
+            },
+            "match": {
+              "handle": "318",
+              "type": "LINE",
+              "layer": "DIMENSION_LINES_CV",
+              "ref_coverage": 1.0,
+              "DXF_coverage": 1.0,
+              "p95_ref": 0.16508571901080132,
+              "p95_DXF": 0.2973890641730839,
+              "same_type": true,
+              "correct_layer": true
+            },
+            "full_object_geometry_approved": false
+          }
+        ],
+        "eligible_regions": 4,
+        "one_to_one_local_matches": 4,
+        "same_type_matches": 3,
+        "correct_layer_matches": 1,
+        "unsupported_path_types": {},
+        "separate_observations": [
+          {
+            "id": "table-separator",
+            "role": "TABLE_RULE",
+            "reason": "separate_observation_no_approved_role_truth"
+          },
+          {
+            "id": "fold-convention",
+            "role": "UNKNOWN",
+            "reason": "separate_observation_no_approved_role_truth"
+          }
+        ],
+        "full_page_precision": null
+      },
+      "local_layers_before": 1
+    },
+    {
+      "source": {
+        "path": "IMG_20261109_160629_212.jpg",
+        "sha256": "d3baaca90795c9ccb85e3bcfa71245bb2182996c74132bc410e3ce2653e4ca14"
+      },
+      "process": {
+        "command": [
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\.venv\\Scripts\\python.exe",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\scripts\\run_native_cad_layers_candidate_v1.py",
+          "--child",
+          "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\artifacts\\native-cad-layers-candidate-v1\\05-C\\request.json"
+        ],
+        "exit_code": 0,
+        "walltime_seconds": 22.140912399998342,
+        "peak_rss_MiB": 305.69140625,
+        "failure": null,
+        "budget_seconds": 180,
+        "budget_rss_MiB": 1024,
+        "memory_method": "sum of observed per-PID OS lifetime working-set peaks in guarded process tree; conservative upper bound, 50 ms polling; not simultaneous RSS",
+        "observed_process_count": 2,
+        "memory_sampling_limit": "Short-lived processes exiting between polls might be missed; OS parent-PID snapshots also cover descendants started before job assignment.",
+        "budget_pass": true
+      },
+      "success": true,
+      "dxf": {
+        "path": "artifacts/native-cad-layers-candidate-v1/05-C/output/candidate/page-001.dxf",
+        "sha256": "7b3718e7daab383684ce4f320df372058414f4dea6456f7d2cb9bc664c84d5ce"
+      },
+      "native_models_and_membership_exact": true,
+      "annotations_exact": true,
+      "source_masks_exact": true,
+      "changes": [],
+      "audit_errors": 0,
+      "audit_fixes": 0,
+      "only_unknown_LINE_to_FRAME": true,
+      "frame_partition": {
+        "policy": {
+          "version": "geometry-preserving-role-export/1.0",
+          "maximum_objects": 16384,
+          "numerical_parameter_epsilon": 1e-09,
+          "refit_performed": false,
+          "source_geometry_changed": false,
+          "physical_geometry_approved": false
+        },
+        "input_models": 762,
+        "output_objects": 762,
+        "frozen_model_partition_exact": true,
+        "source_membership_exact": true,
+        "baseline_assembly_sha256": "49883ac386aa4a094ebd6fb8fe046d2fe70142b69a8a9ef30e4d2a81f677a184",
+        "changed_role_or_partition": [],
+        "geometry_refits": 0,
+        "moved_models": 0
+      },
+      "detector_complete": true
+    }
+  ],
+  "independent": false,
+  "web_changed": false,
+  "all_new_assignments_review_required": true,
+  "scoring_code": {
+    "path": "scripts/score_native_cad_layers_candidate_v1.py",
+    "sha256": "58516afc9bfdf8ec6e4977e28969b6c39226d7f4541d31ed8dc5a3a775e97698"
+  }
+}

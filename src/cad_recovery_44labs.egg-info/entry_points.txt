@@ -1,0 +1,2 @@
+[console_scripts]
+cad-recovery = cad_recovery.cli:main

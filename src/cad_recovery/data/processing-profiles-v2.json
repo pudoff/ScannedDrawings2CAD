@@ -1,0 +1,47 @@
+{
+  "code": {
+    "scripts/process_drawing_v2.py": "75f479072850cd195b0442a6a9af44e5d6fd3cb17db675cf09b883d1aec64e4d",
+    "scripts/run_profiles_v2.py": "c58d369b9c77fd3b45aa521be4b0ad47dcd8f56b3af517741bdb3295f2130ece",
+    "scripts/service_profile_pipeline_v2.py": "78f4d48cee9836767a80706ecb1571bd947f7bfebb33159c01a35511d674aa50",
+    "src/cad_recovery/large_raster.py": "6c66275f10ce09035c8c6f2be5066289441221e0d0ba8958734074bb6e24fc89",
+    "src/cad_recovery/native_input_v2.py": "a01d4d0ba939fc438ab51122ab00470119faded28415e443120bdf5650e3162a",
+    "src/cad_recovery/native_merge_v1.py": "4a2a3e7ed4c66fd45eb65958f5ae0a05a37699e30be6243abd3ba7dcc6b749d4",
+    "src/cad_recovery/native_profile_kernel_v2.py": "9746d91c9dd3f0f0ec52006bc4789e2bc026434e354b8c1b8b99038e07c58eb6",
+    "src/cad_recovery/native_tiled_v1.py": "c14d5790b52dde04dc1b64db247025be00c7a4bd31a5a55643a70e49e1865d77",
+    "src/cad_recovery/png_stream.py": "6de9bab3618c17f0b83b62309086e351285fd4a92475327ca51ff793a63bd2f1",
+    "src/cad_recovery/profile_contract_v2.py": "29ae577332872bf91b3a99806dce36f766640e98a6cb8160c6363c20e842ce67",
+    "src/cad_recovery/profile_pipeline_v2.py": "f45b8b9e539e93d0bc897490b822a9b3dba643d8db559fb1b40bad02be4fb528",
+    "src/cad_recovery/raster_regions.py": "f29087da1b2a43001c2160f004805365a10a50f7828e31a9a510c93cebc2cb4b",
+    "src/cad_recovery/service_profiles_v2/api.py": "b3451025772720046887c17b11d3c4c1c5e76b1e73f464b8caff45805b0bc5de",
+    "src/cad_recovery/service_profiles_v2/assets/app.js": "699404ed923c1a29bd0d1bbd6adca2c2e107cf435be053228086eca218ead826",
+    "src/cad_recovery/service_profiles_v2/assets/index.html": "9f4d9cf339fa41c04e9baabafb3b77d396e7883899b7c24afb615946d6824a46",
+    "src/cad_recovery/service_profiles_v2/budget.py": "d934cdd42aa871e80b0952bc65ff6c005a2fab7f5abc09b61031107a30433323",
+    "src/cad_recovery/service_profiles_v2/config.py": "28a9b9df40ac346647fc5a5a9b87e7d3b85929ee65acb7a35eb0044c63f6f750",
+    "src/cad_recovery/service_profiles_v2/queue.py": "c4674e191a81e10a480f4ff205c8301b3b30aa9fbee75ae5d389d807b95480d7",
+    "src/cad_recovery/service_profiles_v2/storage.py": "0e3f676bc597f573c05348784a3d47c3c53c4f43a7ed8fecae36f696450db3e3",
+    "src/cad_recovery/service_profiles_v2/worker.py": "ce829774d921d55ec2c33a268c99bf74c759c8b94eab3131dfc6c5f51e4e47b1"
+  },
+  "definition": {
+    "arrows": true,
+    "association": "contour-association-v3",
+    "export": "observations_only_no_DXF",
+    "formats": [
+      "PNG",
+      "JPEG",
+      "PDF"
+    ],
+    "geometry": true,
+    "input_reduction": false,
+    "jpeg_or_other_png_max_pixels": 25000000,
+    "max_native_pixels": 300000000,
+    "max_retry_windows": 16,
+    "max_windows_per_page": 256,
+    "ocr": true,
+    "pdf_max_pages": 5,
+    "pdf_page_max_render_pixels": 25000000,
+    "png_large": "RGB8 noninterlaced",
+    "prepare": "streaming native with EXIF/quarter-turn chain",
+    "revision": "2.0"
+  },
+  "schema_version": "processing-profiles/2.0"
+}

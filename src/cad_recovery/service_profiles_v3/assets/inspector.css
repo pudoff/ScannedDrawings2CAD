@@ -1,0 +1,27 @@
+.inspection-panel{padding:20px;min-width:0}
+.inspection-toolbar{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.inspection-toolbar label{display:flex;flex-direction:column;gap:6px;font-size:12px}
+.inspection-toolbar label:last-child{grid-column:1/-1}
+.inspection-summary{font-size:13px;line-height:1.6;padding:12px;border-left:3px solid var(--cyan);background:var(--surface-2);margin-bottom:16px}
+.inspection-figure{border:1px solid var(--border);background:var(--surface-2);border-radius:8px;overflow:hidden}
+.inspection-figure svg{display:block;width:100%;height:320px;background:white}
+.inspection-table-wrap{overflow:auto;max-height:410px;margin-top:18px}
+.inspection-table{border-collapse:collapse;width:100%;font-size:12px;table-layout:fixed}
+.inspection-table th,.inspection-table td{text-align:left;padding:10px 7px;border-bottom:1px solid var(--border);vertical-align:top;overflow-wrap:anywhere}
+.inspection-table th:first-child{width:50%}
+.inspection-object{background:none;border:0;padding:0;text-align:left;color:var(--cyan);cursor:pointer;font:inherit;overflow-wrap:anywhere}
+.inspection-object:hover{text-decoration:underline;color:var(--text)}
+.inspection-table tr.selected{background:#152b36}
+.inspection-pagination{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:12px 0;font-size:12px}
+.inspection-details{border-top:1px solid var(--border);padding-top:16px;overflow-wrap:anywhere}
+.inspection-details h4{font-size:13px}
+.inspection-details p{font-size:13px;line-height:1.6}
+.inspection-details pre{overflow:auto;max-height:340px;font-size:11px;background:var(--surface-2);padding:12px;white-space:pre-wrap;overflow-wrap:anywhere}
+.inspection-links{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.inspection-links button{max-width:100%;overflow-wrap:anywhere}
+.document-tabs{overflow-x:auto}
+.inspection-details select{max-width:100%}@media(max-width:600px){.inspection-panel{padding:12px}
+.inspection-toolbar{grid-template-columns:1fr}
+.inspection-toolbar label:last-child{grid-column:auto}
+.inspection-figure svg{height:260px}
+.inspection-table th:first-child{width:46%}}

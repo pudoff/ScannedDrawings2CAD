@@ -1,0 +1,76 @@
+{
+  "schema_version": "processing-profiles/4.0",
+  "definitions": {
+    "native_cad_draft": {
+      "revision": "4.0",
+      "prepare": "always",
+      "geometry": true,
+      "ocr": true,
+      "arrows": true,
+      "association": "contour-association-v3",
+      "input_reduction": true,
+      "export": "native_objects_TEXT_MTEXT_DIMENSION_draft",
+      "cv": "joint_shape+joint_heads+no_part+native_mid",
+      "cv_max_pixels": 4000000,
+      "cv_max_side": 2000,
+      "automatic_roles_verified": false,
+      "production_admitted": false,
+      "quality_gate_override": "user_requested_CAD_demo_2026-11-17",
+      "annotations": "source_bound_components_and_unitless_dimensions",
+      "native_frame": "working_pixel_centres",
+      "review_example": false
+    },
+    "native_cad_review_demo": {
+      "revision": "4.0",
+      "prepare": "always",
+      "geometry": true,
+      "ocr": true,
+      "arrows": true,
+      "association": "contour-association-v3",
+      "input_reduction": true,
+      "export": "native_objects_TEXT_MTEXT_DIMENSION_draft",
+      "cv": "joint_shape+joint_heads+no_part+native_mid",
+      "cv_max_pixels": 4000000,
+      "cv_max_side": 2000,
+      "automatic_roles_verified": false,
+      "production_admitted": false,
+      "quality_gate_override": "user_requested_CAD_demo_2026-11-17",
+      "annotations": "source_bound_components_and_unitless_dimensions",
+      "native_frame": "working_pixel_centres",
+      "review_example": true,
+      "review_policy": "explicit_matching_source_agent_example_only"
+    }
+  },
+  "release": {
+    "path": "artifacts/native-annotations-release-v1.json",
+    "sha256": "7b77dedfd1904d1ed30e46e2441ab9dd4da677037eff234d77b25df17a8cfec7"
+  },
+  "code": {
+    "src/cad_recovery/native_annotation_export_v1.py": "2112b170e49e93d9309856ee5fafae6b0242ef4520b1b383b4e7585d1c6e5aac",
+    "src/cad_recovery/native_annotation_inputs_v1.py": "0f1d0bd8f534c212f5c211518167c2cdaa8f544e327d40eb320ea9d3fd393258",
+    "src/cad_recovery/native_annotation_plan_v1.py": "03220fd9594e35df71d1a25cff1d1cf2dae0906e55095e9b0a5273125c981aa9",
+    "src/cad_recovery/anchored_curve_fit_v1.py": "74f3427dc29a270ccb7ea13353b1d58ab8a1908f2f384bbf141683cd68aad3c0",
+    "src/cad_recovery/annotation_style_v1.py": "9a6814a0223cc54228ed76c25793f487011c3c476d6541854cc6b0417fa78f2e",
+    "src/cad_recovery/cad_object_assembly_v1.py": "9eb7cb27fb9fe0924af033c152906999ddf8eef4f2589f12b4c2fe9c74de5b65",
+    "src/cad_recovery/cad_object_export_v1.py": "c3479d482324a956f6de150dd868f874846b8ec96465785bc7c8d84daae7e257",
+    "src/cad_recovery/cad_object_inputs_v1.py": "e1cc3573266aaac6ab3ddfe066c570780cfcdadfe71671bae10cc428a9b653ab",
+    "src/cad_recovery/curve_graph_metrics_v1.py": "dc5136ce2370ee4b98ab2e4c45bc157e9ef69aa399d5192db82b71a9fdec7e79",
+    "src/cad_recovery/curve_graph_v1.py": "cd2e81898d5f527262c60abe31a9387905cb61b1e483b60cbfe7395e2aa98ac7",
+    "src/cad_recovery/demo_export_v1.py": "6c87e58d8434bcc4ed4beff253db4fef7e3c2c58e06d764a4158397d5091272d",
+    "src/cad_recovery/experimental_export_v1.py": "ded3a8345bfd1163dfb9b24b840fae71bde3aba61052b22c81241199596cacdc",
+    "src/cad_recovery/profile_contract_v4.py": "5b854ed6f23291857eb2cf3fa198777b7bc8fcec52febd5c6d5ddec39c3bec41",
+    "src/cad_recovery/profile_pipeline_v4.py": "157ae2ed9fa83e588509313117b95fd341d9f6e7fb35de7d93a9db49dce1b467",
+    "src/cad_recovery/native_comparison_v1.py": "43e48c88bbcb97fb1c34a64f13ae6c27616cb5cb5218c6e753344d829457af3a",
+    "src/cad_recovery/service_profiles_v9/__init__.py": "0a6ded039f7cbca6480d3bb6002bf50ac0748273bd783722c2dde6b8278b68c8",
+    "src/cad_recovery/service_profiles_v9/api.py": "bd41a1070368fc1fbf8de554d8ed6fbfa2adfe537d7d5a930ae840c05b7323bf",
+    "src/cad_recovery/service_profiles_v9/queue.py": "8db2b782e17ba02a1225489f4b9545a7745bf5249ed595d13f95064085458de6",
+    "src/cad_recovery/service_profiles_v9/worker.py": "6ea3bb3b5e9c113ade6f10177d6d88d0aec774c9e50433e1feb20fe2ddf1fa02",
+    "src/cad_recovery/service_profiles_v9/storage.py": "89ef09d62d68e396c99dadefdeeee1387592ecf477215776041e69626ea236ab",
+    "scripts/service_profile_pipeline_v4.py": "49ad50944434056edee15d3a1eb1671179f2c0eefa6dd7e4daaa6ca8988e814d",
+    "scripts/run_profiles_v11.py": "cf6bbf75b3ef9cd21027b26b7413c2d78af4e0039861966c3d05951f992cdb1c"
+  },
+  "review_example": {
+    "path": "artifacts/native-annotations-v1/star-review.json",
+    "sha256": "df234029aafd049079f7b1d2fa46fff91b0441f69af8cad41c015aa2a44197ec"
+  }
+}

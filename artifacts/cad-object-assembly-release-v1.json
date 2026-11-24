@@ -1,0 +1,310 @@
+{
+  "version": "cad-object-assembly-release/1.0",
+  "date": "2026-11-16",
+  "task": "P13.3b.3",
+  "scope": "demo_component_and_comparison",
+  "prior_release": {
+    "path": "artifacts/open-contour-joint-release-v1.json",
+    "sha256": "14d48d3f05fd809030fb582154d38861125aecce28a0d53cdb1803bc2d311737"
+  },
+  "unit_regression_tests": 87,
+  "artifact_checks": 4,
+  "manual_CAD_acceptance": "pending",
+  "full_sheet_quality_accepted": false,
+  "web_profile_changed": false,
+  "native_DIMENSION": "next_P13.5",
+  "files": [
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/jpg/comparison.json",
+      "sha256": "d629fb955821c1b56999a41fc5fea941c312afa1a216f7a6804dd52ea74d6251"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/jpg/objects-objects.json",
+      "sha256": "bdfc6b50b38969e9ff83020ccfe8f1511334b35c64756d28e43122cbaf322293"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/jpg/objects-ownership.png",
+      "sha256": "f9601674b2f33fa91f7b96352bb31407d519829d50f814816d9d74440d6ab6c9"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/jpg/objects-preview.png",
+      "sha256": "7c8352b0b0e6f86376ea8f2d0a777e536623f2d6acfe75b0e96bd25a0e2b63c4"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/jpg/objects-removed.png",
+      "sha256": "43da7cc71bff511949a75d4c5f2d3e94d2628121ddfb4152df89edbd70f34d35"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/jpg/objects-residual.png",
+      "sha256": "2b6e4ab7e45073b583382cdea6c78be837c8bc5fbc951be1c1563301ed4e0fbb"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/jpg/objects.dxf",
+      "sha256": "fc4936d57af5e9d60a372877d1a67c3c3a09b48f83cff6058fa6d86e81b8d6f8"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/star/comparison.json",
+      "sha256": "bc4e946443dd6ceede24b82448e28ac3fec03cbf97a3dcb1754b123471599504"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/star/objects-objects.json",
+      "sha256": "4c232706fe9a6e8e42e34dd913257057ae24fe87b52798487c085bd319493537"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/star/objects-ownership.png",
+      "sha256": "78e380a08160ff1a98048f757e547695761e5de7f8c8e7c3163b50116d54b334"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/star/objects-preview.png",
+      "sha256": "669f6066250d28099627867ca1deee7f4f9160f216dd45800d8f685f9ccb4d87"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/star/objects-removed.png",
+      "sha256": "6d329f0890033ccf2616cd00924825f370d557670015ee05c917b2ca46c82627"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/star/objects-residual.png",
+      "sha256": "a4063cb3dad83b1cadd93e987bef72dabdf712e7303ee637d69e4b9989008dc8"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-replay/star/objects.dxf",
+      "sha256": "4f1e018e7ff7c3a1b36f885c71d6f32b00b39e4017be715d156eac60161b6c23"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready-verification.json",
+      "sha256": "96dee413e94ba484a49f3b7ae2f1c4c06b8835850b7d5393842d19b4a83d55c8"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/control/objects-objects.json",
+      "sha256": "eb97cd6b985a2536d686e77d8ea4f6c3ad4d88e7fa880abcb02733213c7edf0a"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/control/objects-ownership.png",
+      "sha256": "51418a2373330a59576a962f8eb208e0acf9c80fb9fa3c13fed1f4f62a0cbe8e"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/control/objects-preview.png",
+      "sha256": "b30f13f2cfdf4e00b79f3352bb5b7aeeb3fd35fddab42393ac8c1baeea63810a"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/control/objects-removed.png",
+      "sha256": "164f60dcf1b7f996e2ff7c7d0d799d2610da1f71be558c688fec0ec670485560"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/control/objects-residual.png",
+      "sha256": "18a10c30ec6c4c9894904c6015f0bed7530638662610555a1b94660180ccabaa"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/control/objects.dxf",
+      "sha256": "c054abb8c42895e5c5addf04b2339f572309ac4ed9322000062ba665d26f4e77"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/control/source.png",
+      "sha256": "ed179e7f770f07af32a91fb62fa67527267ef76d85ddaca44ceec6b8222b9629"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/jpg/comparison.json",
+      "sha256": "180a7df9660208ea05d5736495d7cba956a3d6cb4b345e85611771443d1627c9"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/jpg/objects-objects.json",
+      "sha256": "133c71881c006249fb9ce07d7f46b344dd274e4d7c0e16b3cd409c0057957a4b"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/jpg/objects-ownership.png",
+      "sha256": "f9601674b2f33fa91f7b96352bb31407d519829d50f814816d9d74440d6ab6c9"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/jpg/objects-preview.png",
+      "sha256": "7c8352b0b0e6f86376ea8f2d0a777e536623f2d6acfe75b0e96bd25a0e2b63c4"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/jpg/objects-removed.png",
+      "sha256": "43da7cc71bff511949a75d4c5f2d3e94d2628121ddfb4152df89edbd70f34d35"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/jpg/objects-residual.png",
+      "sha256": "2b6e4ab7e45073b583382cdea6c78be837c8bc5fbc951be1c1563301ed4e0fbb"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/jpg/objects.dxf",
+      "sha256": "9adaf6fd324f418af90f23641bfbe35a811f73154602f44caeb81271d0a7d7f5"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/star/comparison.json",
+      "sha256": "c3c3f329a6a69d6fc16fd4e24c861b8fdc958a782ba2d940cefdcd3cdf6a466d"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/star/objects-objects.json",
+      "sha256": "b4ceb9fc4e57085445f37a7a420b81d98a024996fef17b8e60b5124aa6b95344"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/star/objects-ownership.png",
+      "sha256": "78e380a08160ff1a98048f757e547695761e5de7f8c8e7c3163b50116d54b334"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/star/objects-preview.png",
+      "sha256": "669f6066250d28099627867ca1deee7f4f9160f216dd45800d8f685f9ccb4d87"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/star/objects-removed.png",
+      "sha256": "6d329f0890033ccf2616cd00924825f370d557670015ee05c917b2ca46c82627"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/star/objects-residual.png",
+      "sha256": "a4063cb3dad83b1cadd93e987bef72dabdf712e7303ee637d69e4b9989008dc8"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/ready/star/objects.dxf",
+      "sha256": "0c1b74595b114874cae223e079b5b7951a69f1ff96c0d4c796381c50d458eae7"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/results-tests.xml",
+      "sha256": "2a0a8586f387eedc1f0560fab80150d29a9dc1c04d13e714aff006aff26abd76"
+    },
+    {
+      "path": "artifacts/cad-object-assembly-v1/tests.xml",
+      "sha256": "2fd617d1b000830f83909f0abb0c4e9ef20196b972a83dcc58fe6f79545bc56d"
+    },
+    {
+      "path": "artifacts/open-contour-joint-release-v1.json",
+      "sha256": "14d48d3f05fd809030fb582154d38861125aecce28a0d53cdb1803bc2d311737"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/page-001.dxf",
+      "sha256": "98a7025284dc2c4a94227c088ca294668169370062949a07b0c95e3a2e03c8ce"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/chains.json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/geometry.json",
+      "sha256": "b1f8758a5433a73a9c2726725e514c531778cc48647d24a3eb5c7cdf40ed8253"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/graph.json",
+      "sha256": "25cdeb302ad46e794fee06f42a1b1c98080f83294681afd1671d87dd257f0311"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/gray.png",
+      "sha256": "ce26213fa5fc6ceb3fed1a4cf91a8695289dc5ed8e3b29ea2d0de14a3fdf4699"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/heads.json",
+      "sha256": "9195d92a1b90d0da214e945f2c9e45e881f58610c090502f0233629d048af740"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/roles.png",
+      "sha256": "c06aa74888956a810b1a9d0566661d20fe3adae41fa1d2675fc2cf00c6d2f01d"
+    },
+    {
+      "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/summary.json",
+      "sha256": "662be76d4b98f262703bdbdb3477e663e1f145346b26c7c8a85bd77540137ae6"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/chains.json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/geometry.json",
+      "sha256": "d5a093734e230741b5c6f2bf2f331784a8a49bfc12785e2f3beece09acf669ee"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/graph.json",
+      "sha256": "5e8df17ee25401e38535bdaf4508f8ac1524dca3ce9f4dffc39ccf05d5821c39"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/gray.png",
+      "sha256": "5d208fc52bb2262957cb174b8b3536e4f128700aff485e62327eb81d1460ef55"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/heads.json",
+      "sha256": "60bf813dff4600f0b4a6c2f18f6b21637cb3775ff59f0582e3f5c3bec60d1c66"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/roles.png",
+      "sha256": "e8a80b9e501786ad43d8ea1cee1fbbfcd88b26e55cac64e23561077f6e12a84b"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/pipeline-jpg/private/page-001/experimental/summary.json",
+      "sha256": "71af1658323d13d2fa8dcad9752fbd463cdd5aa8ab6df3d19d0495c0b2fc0e70"
+    },
+    {
+      "path": "artifacts/web-experiment-integration-v1/showcase/IMG_20261109_160629_212-current.dxf",
+      "sha256": "f50aeb1bce30eb04004af4bc0632fe044497dce21db1b6a7ad998dcdf16761c2"
+    },
+    {
+      "path": "docs/cad-object-assembly-protocol-v1.md",
+      "sha256": "8a64cc02534c63b9f019b457668c0a7d4941824a310dd94616161f909b8cbf05"
+    },
+    {
+      "path": "docs/cad-object-assembly-v1.md",
+      "sha256": "703f55630463298c1982443dfc035c34b876190fece231a3dcf8c74b8ad4a118"
+    },
+    {
+      "path": "requirements.lock",
+      "sha256": "87c1be1a91a28f1af9ff65e3dcfc9ca2c3451ccb493e85d761d08139e15e0004"
+    },
+    {
+      "path": "scripts/check_cad_objects_v1.py",
+      "sha256": "4e17c3b2114c35dbb4af3c34eeea12c3cd592bf91d5ddcd1169dda2135213bae"
+    },
+    {
+      "path": "scripts/export_cad_objects_v1.py",
+      "sha256": "ae22a4cd7a10835aeed18b56f6b1cd0d90e364909117488cebc55a664230d15d"
+    },
+    {
+      "path": "scripts/seal_cad_objects_v1.py",
+      "sha256": "b38a6387c3beacf9777eb3333deb4fc4c82374b3fe88b97a1e4e9ce45f7d154a"
+    },
+    {
+      "path": "src/cad_recovery/anchored_curve_fit_v1.py",
+      "sha256": "74f3427dc29a270ccb7ea13353b1d58ab8a1908f2f384bbf141683cd68aad3c0"
+    },
+    {
+      "path": "src/cad_recovery/annotation_style_v1.py",
+      "sha256": "9a6814a0223cc54228ed76c25793f487011c3c476d6541854cc6b0417fa78f2e"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_assembly_v1.py",
+      "sha256": "9eb7cb27fb9fe0924af033c152906999ddf8eef4f2589f12b4c2fe9c74de5b65"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_export_v1.py",
+      "sha256": "c3479d482324a956f6de150dd868f874846b8ec96465785bc7c8d84daae7e257"
+    },
+    {
+      "path": "src/cad_recovery/cad_object_inputs_v1.py",
+      "sha256": "e1cc3573266aaac6ab3ddfe066c570780cfcdadfe71671bae10cc428a9b653ab"
+    },
+    {
+      "path": "src/cad_recovery/curve_graph_metrics_v1.py",
+      "sha256": "dc5136ce2370ee4b98ab2e4c45bc157e9ef69aa399d5192db82b71a9fdec7e79"
+    },
+    {
+      "path": "src/cad_recovery/curve_graph_v1.py",
+      "sha256": "cd2e81898d5f527262c60abe31a9387905cb61b1e483b60cbfe7395e2aa98ac7"
+    },
+    {
+      "path": "src/cad_recovery/demo_export_v1.py",
+      "sha256": "6c87e58d8434bcc4ed4beff253db4fef7e3c2c58e06d764a4158397d5091272d"
+    },
+    {
+      "path": "src/cad_recovery/experimental_export_v1.py",
+      "sha256": "ded3a8345bfd1163dfb9b24b840fae71bde3aba61052b22c81241199596cacdc"
+    },
+    {
+      "path": "tests/test_cad_object_assembly_v1.py",
+      "sha256": "7f9f2897d05ae6605dc9baeaa6dc102e29aff6f4d156f62aa9a8dcad59c8d1bb"
+    },
+    {
+      "path": "tests/test_cad_object_inputs_v1.py",
+      "sha256": "410a434681cf5d8777d6d21824c8c595806f7ca88c861f5bdc1b7d1a892dc2c6"
+    },
+    {
+      "path": "tests/test_cad_object_results_v1.py",
+      "sha256": "cdf14e4a3a3c2a769a52d08ae6460551681be1f40597fa2f2fce2ff318314f87"
+    }
+  ]
+}

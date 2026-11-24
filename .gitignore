@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+artifacts/.cache/
+artifacts/demo-runtime-v1/
+artifacts/profile-service-*/
+artifacts/*runtime-v1/deps/
+artifacts/service-postgres-v1/pgsql/
+*.log

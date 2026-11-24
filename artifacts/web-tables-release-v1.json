@@ -1,0 +1,132 @@
+{
+  "automatic_routing": false,
+  "browser_checks": [
+    "fresh_customer_PNG_upload_normal_worker_completed",
+    "explicit_ROI_real_native_worker_preview_requires_review",
+    "prepared_proposal_restored_after_browser_reload",
+    "append_only_version_and_both_downloads",
+    "retained_entities_exact_journal_bound_private_cache_removed"
+  ],
+  "decision": "experimental_manual_aligned_raster_only",
+  "evidence": [
+    {
+      "path": "artifacts/web-tables-qualification-v5/protocol.json",
+      "sha256": "4e29884ea00c2abf62c5c94d831c790c170decfcf182e3a7e762ff672aef2c67"
+    },
+    {
+      "path": "artifacts/web-tables-qualification-v5/tests.xml",
+      "sha256": "5a97a4f215a3e531ad6627d973ffaf1494f4cebddd46e71accf31b188cba27ef"
+    },
+    {
+      "path": "artifacts/web-tables-qualification-v5/browser/verification.json",
+      "sha256": "5e9470a06e6b85fb39b389afdc4bceb83bc32269b337bb783e6d486df2f6c066"
+    },
+    {
+      "path": "artifacts/web-tables-qualification-v5/browser/tables-v2.dxf",
+      "sha256": "6080201cb2a2758efb35056aa9bf8a1733888f6d6a020b4787e715e68f5d54ed"
+    },
+    {
+      "path": "artifacts/web-tables-qualification-v5/browser/parent-v1.dxf",
+      "sha256": "5e3dbf2a9626c25b4d655781233664d19cfdb8c38144478aa00f4b9322d09cba"
+    },
+    {
+      "path": "artifacts/web-tables-qualification-v5/browser/prepared.png",
+      "sha256": "bb1a266a292aa1327461918e2163b3d6bfcc3d265e32c1831f35837567b89138"
+    },
+    {
+      "path": "artifacts/web-tables-regressions-v1.xml",
+      "sha256": "146affa1d6c5da2f8969dc2d031c54bb809dfd8a4b83cdd71c30ab7f2d1c19da"
+    }
+  ],
+  "limitations": [
+    "PDF and rotated registrations guarded, not qualified positive",
+    "OCR draft; preserved native primitives may overlap residual ink",
+    "outside-table CAD retains baseline resolution"
+  ],
+  "manual_CAD_verified": false,
+  "next_task": "10.6.3.4",
+  "no_training": true,
+  "original_profile_core_unchanged": true,
+  "parent_task_complete": false,
+  "protected_pins": 15,
+  "schema_version": "web-table-release/1.0",
+  "table_binding": {
+    "automatic_routing": false,
+    "code": [
+      {
+        "path": "src/cad_recovery/web_tables_contract_v1.py",
+        "sha256": "de1538b567d5a710de3654367b806034eb90875ed7945b5193e1edfe3f5a87bf"
+      },
+      {
+        "path": "src/cad_recovery/web_tables_context_v1.py",
+        "sha256": "102ec1afdb6f50a7897d2804fba2a59d7cf5491eabbcbf238b3ce2e490b667fb"
+      },
+      {
+        "path": "src/cad_recovery/web_tables_store_v1.py",
+        "sha256": "cee6080cffb70b0aad9aa7f7261354576c26ce339d4e6db1ddf48ebd4edd29af"
+      },
+      {
+        "path": "src/cad_recovery/web_tables_build_v1.py",
+        "sha256": "2824d906f8885a8af7033538e13500dd1f1d1c169e001941c9a49c825dfc7032"
+      },
+      {
+        "path": "src/cad_recovery/web_tables_worker_v1.py",
+        "sha256": "9fa918e5e2d8f4bd0848df45140a781db8b5332cad96b36324c6e534537c6fbc"
+      },
+      {
+        "path": "src/cad_recovery/web_tables_api_v1.py",
+        "sha256": "d6357182802bd859952dcb2a5bf4875d9283b89b1dcff647cf4666666cf0fa25"
+      },
+      {
+        "path": "src/cad_recovery/native_table_structure_v1.py",
+        "sha256": "00b436ca89813a8c75b9b2becb32e8d38ea99f6734d94838e6cf3e78a3ccd101"
+      },
+      {
+        "path": "src/cad_recovery/native_table_export_v1.py",
+        "sha256": "6fc04edf6f02fa313d9722b6f8cb5b4ba4fcb94d84f47f74a021b9927a060965"
+      },
+      {
+        "path": "src/cad_recovery/native_table_pipeline_v2.py",
+        "sha256": "8e02648813036224e05773153cae67576c7a0613ffdc58cda7a218acb445339f"
+      },
+      {
+        "path": "src/cad_recovery/native_table_pipeline_v1.py",
+        "sha256": "5f6c8cd8bc83e123860d3c60e1d4067a021cbdf86e83744b60314af3ce20f095"
+      },
+      {
+        "path": "src/cad_recovery/native_sheet_source_v1.py",
+        "sha256": "5ffc942a296f6a3a37546362038110a35741c62c206d264bf83b132a8ed3289a"
+      },
+      {
+        "path": "src/cad_recovery/web_tables_assets_v1/panel.html",
+        "sha256": "418795c12231ca22f9729580d54990ac7f3175be84b623f1174b83ada6e05623"
+      },
+      {
+        "path": "src/cad_recovery/web_tables_assets_v1/tables.js",
+        "sha256": "02334f66c2e8e1a51394bb5c93faec06fb105b7ce03697c6b4d70c3882e88277"
+      },
+      {
+        "path": "src/cad_recovery/web_tables_assets_v1/tables.css",
+        "sha256": "94bc42ca2d16b787821017cd60f16e8e34ce6e7d3947d0ac6dffbfa6dac03a34"
+      },
+      {
+        "path": "scripts/build_web_tables_v1.py",
+        "sha256": "1766d0529a7fd025070590ec6989c2031d1c9d226f1b4b8ad5dd9862c550651e"
+      },
+      {
+        "path": "scripts/run_profiles_v14.py",
+        "sha256": "0c84f1248cb1ac13a92ecefa6ed135001a3daa603cef0349d526220d6c0c0604"
+      }
+    ],
+    "mode": "explicit_manual_review",
+    "qualification": {
+      "path": "artifacts/native-table-release-v1.json",
+      "sha256": "99f98216ea9733b24eb4996439e9168af15186ec8df1a8ae93728ef78cda46a3"
+    },
+    "quality_accepted": false,
+    "schema_version": "web-table-extension/1.0",
+    "sha256": "6e56ae8cbe3f1e458562d7e72682f4940c48bd90704ea3ca246bcda8cd4326a6"
+  },
+  "task": "10.6.3.3",
+  "tests_passed": 110
+}

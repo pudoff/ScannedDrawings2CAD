@@ -1,0 +1,29 @@
+<!doctype html><html lang="ru"><meta charset="utf-8">
+<title>Проверка табличных областей</title>
+<style>
+body{margin:20px;background:#10121b;color:#edf1fa;font:18px system-ui}button,input,select{font:inherit;margin:8px;padding:8px;border-radius:10px}
+canvas{width:min(100%,1400px);height:auto;background:white;touch-action:none;cursor:crosshair}p{max-width:1100px}pre{white-space:pre-wrap}
+</style>
+<h1>Табличная ветка — явный выбор областей</h1>
+<p>Выделите только таблицу или основную надпись. Виды детали оставьте снаружи. Это локальная экспериментальная проверка; основной сервис не переключается автоматически.</p>
+<label>Тип страницы <select id="kind"><option value="mixed">Чертёж с таблицами</option><option value="table_document">Табличный документ</option></select></label>
+<label>Область <select id="regionKind"><option value="table">Таблица</option><option value="title">Основная надпись</option></select></label>
+<label>Проверил <input id="reviewer" placeholder="Имя или идентификатор"></label>
+<button id="undo">Убрать последнюю область</button><button id="save">Сохранить review.json</button>
+<p id="status">Перетяните указатель от одного угла области к другому.</p><canvas id="page"></canvas><pre id="regions"></pre>
+<script>
+'use strict';
+const review=__REVIEW_JSON__, canvas=document.getElementById('page'),ctx=canvas.getContext('2d'),image=new Image();
+if(!review.baseline_complete){const warning=document.createElement('p');warning.textContent='ВНИМАНИЕ: общий CAD-конвейер не завершился. Используется диагностический исходный штрих; этот результат не допущен в основной Web-сервис.';warning.style.color='#ffbd69';canvas.before(warning);}
+let start=null,preview=null;
+function point(e){const b=canvas.getBoundingClientRect();return [Math.max(0,Math.min(canvas.width,Math.round((e.clientX-b.left)*canvas.width/b.width))),Math.max(0,Math.min(canvas.height,Math.round((e.clientY-b.top)*canvas.height/b.height)))];}
+function box(a,b){return [Math.min(a[0],b[0]),Math.min(a[1],b[1]),Math.max(a[0],b[0]),Math.max(a[1],b[1])];}
+function draw(){ctx.drawImage(image,0,0);for(const r of review.regions){ctx.strokeStyle=r.kind==='title'?'#bb38ed':'#0978e8';ctx.lineWidth=3;ctx.strokeRect(r.box_px[0],r.box_px[1],r.box_px[2]-r.box_px[0],r.box_px[3]-r.box_px[1]);}if(preview){ctx.strokeStyle='#f07716';ctx.strokeRect(preview[0],preview[1],preview[2]-preview[0],preview[3]-preview[1]);}document.getElementById('regions').textContent=JSON.stringify(review.regions,null,2);}
+image.onload=()=>{canvas.width=image.width;canvas.height=image.height;draw();};image.src='working.png';
+canvas.onpointerdown=e=>{start=point(e);canvas.setPointerCapture(e.pointerId);};
+canvas.onpointermove=e=>{if(start){preview=box(start,point(e));draw();}};
+canvas.onpointerup=e=>{if(!start)return;const bounds=box(start,point(e));start=null;preview=null;if(bounds[2]>bounds[0]&&bounds[3]>bounds[1]){if(review.regions.some(r=>bounds[0]<r.box_px[2]&&r.box_px[0]<bounds[2]&&bounds[1]<r.box_px[3]&&r.box_px[1]<bounds[3])){document.getElementById('status').textContent='Области пересекаются. Выберите отдельную область.';}else{review.regions.push({id:'region-'+(review.regions.length+1),kind:document.getElementById('regionKind').value,box_px:bounds});}}draw();};
+canvas.onpointercancel=()=>{start=null;preview=null;draw();};
+document.getElementById('undo').onclick=()=>{review.regions.pop();draw();};
+document.getElementById('save').onclick=()=>{review.page_kind=document.getElementById('kind').value;review.reviewer=document.getElementById('reviewer').value.trim();if(!review.reviewer||!review.regions.length){document.getElementById('status').textContent='Укажите проверившего и хотя бы одну область.';return;}review.reviewed_at=new Date().toISOString();const url=URL.createObjectURL(new Blob([JSON.stringify(review,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='review.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+</script></html>

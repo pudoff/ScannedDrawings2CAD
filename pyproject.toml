@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scanned-drawings-to-cad"
+version = "0.1.0"
+description = "Local scanned engineering drawing to DXF demonstration service"
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+cad_recovery = ["data/*.json", "**/assets/*", "**/assets/**/*", "**/*assets*/*", "**/*assets*/**/*"]

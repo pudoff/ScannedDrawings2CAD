@@ -1,0 +1,223 @@
+{
+  "CV_OCR_models_changed": false,
+  "Web_changed": false,
+  "all510_train_preserved": true,
+  "assigned": 3,
+  "canonicalization": "Only OCR elapsed_seconds, individually verified new OCR paths/checksums, and named EZDXF_META creation/write times; all other data exact",
+  "comparisons": [
+    {
+      "checks": {
+        "DXF_audit_zero": true,
+        "OCR_observations": true,
+        "all_DXF_entities_tables_and_provenance": true,
+        "manifest_exact": true,
+        "original_identity": true,
+        "private/page-001/experimental/candidate-roles.png": true,
+        "private/page-001/experimental/chains.json": true,
+        "private/page-001/experimental/geometry.json": true,
+        "private/page-001/experimental/graph.json": true,
+        "private/page-001/experimental/gray.png": true,
+        "private/page-001/experimental/heads.json": true,
+        "private/page-001/experimental/raw-roles.png": true,
+        "private/page-001/experimental/roles.png": true
+      },
+      "complete": true,
+      "id": "0495-compatible",
+      "unchanged": true,
+      "verified_CAD_semantics": {
+        "OCR_data_exact_excluding_elapsed_seconds": true,
+        "allowed_provenance_difference": "Only the paths of the verified new OCR raster/packet and packet SHA due to elapsed_seconds",
+        "annotation_XRECORDs_individually_verified": 3,
+        "annotation_attributes_and_verified_provenance_exact": 3,
+        "audit_errors": 0,
+        "audit_fixes": 0,
+        "modelspace_entities_preserved": 1608,
+        "named_writer_timestamps_only": [
+          {
+            "handle": "2E",
+            "name": "CREATED_BY_EZDXF",
+            "values": [
+              "1.4.5 @ 2026-11-23T21:28:36.332875+00:00",
+              "1.4.5 @ 2026-11-23T21:28:56.197441+00:00"
+            ]
+          },
+          {
+            "handle": "758",
+            "name": "WRITTEN_BY_EZDXF",
+            "values": [
+              "1.4.5 @ 2026-11-23T21:28:37.632761+00:00",
+              "1.4.5 @ 2026-11-23T21:28:57.050207+00:00"
+            ]
+          }
+        ],
+        "non_annotation_OBJECTS_exact": 160,
+        "non_annotation_entity_tags_exact": 1605,
+        "non_modelspace_blocks_exact": true
+      }
+    },
+    {
+      "checks": {
+        "DXF_audit_zero": true,
+        "OCR_observations": true,
+        "all_DXF_entities_tables_and_provenance": true,
+        "manifest_exact": true,
+        "original_identity": true,
+        "private/page-001/experimental/candidate-roles.png": true,
+        "private/page-001/experimental/chains.json": true,
+        "private/page-001/experimental/geometry.json": true,
+        "private/page-001/experimental/graph.json": true,
+        "private/page-001/experimental/gray.png": true,
+        "private/page-001/experimental/heads.json": true,
+        "private/page-001/experimental/raw-roles.png": true,
+        "private/page-001/experimental/roles.png": true
+      },
+      "complete": true,
+      "id": "0449-compatible",
+      "unchanged": true,
+      "verified_CAD_semantics": {
+        "OCR_data_exact_excluding_elapsed_seconds": true,
+        "allowed_provenance_difference": "Only the paths of the verified new OCR raster/packet and packet SHA due to elapsed_seconds",
+        "annotation_XRECORDs_individually_verified": 14,
+        "annotation_attributes_and_verified_provenance_exact": 14,
+        "audit_errors": 0,
+        "audit_fixes": 0,
+        "modelspace_entities_preserved": 5623,
+        "named_writer_timestamps_only": [
+          {
+            "handle": "2E",
+            "name": "CREATED_BY_EZDXF",
+            "values": [
+              "1.4.5 @ 2026-11-23T21:00:44.602349+00:00",
+              "1.4.5 @ 2026-11-23T21:29:30.644987+00:00"
+            ]
+          },
+          {
+            "handle": "18D2",
+            "name": "WRITTEN_BY_EZDXF",
+            "values": [
+              "1.4.5 @ 2026-11-23T21:00:46.803437+00:00",
+              "1.4.5 @ 2026-11-23T21:29:38.111349+00:00"
+            ]
+          }
+        ],
+        "non_annotation_OBJECTS_exact": 641,
+        "non_annotation_entity_tags_exact": 5609,
+        "non_modelspace_blocks_exact": true
+      }
+    }
+  ],
+  "completed": 3,
+  "component_qualified": true,
+  "failures": [],
+  "final_verifier": {
+    "path": "scripts/verify_raster_input_compat_v1.py",
+    "sha256": "4d88411c7818c389c9163bd9156d94739e32b707e96c350b5e9535775dd0067f"
+  },
+  "literal_DXF_provenance_equality": false,
+  "maximum_MiB": 570.5,
+  "maximum_seconds": 41.87548919999972,
+  "named_ezdxf_timestamp_audits": [
+    {
+      "candidate": "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\artifacts\\raster-input-compat-v1\\run\\0495-compatible\\output",
+      "entries": [
+        {
+          "handle": "2E",
+          "name": "CREATED_BY_EZDXF",
+          "values": [
+            "1.4.5 @ 2026-11-23T21:28:36.332875+00:00",
+            "1.4.5 @ 2026-11-23T21:28:56.197441+00:00"
+          ]
+        },
+        {
+          "handle": "758",
+          "name": "WRITTEN_BY_EZDXF",
+          "values": [
+            "1.4.5 @ 2026-11-23T21:28:37.632761+00:00",
+            "1.4.5 @ 2026-11-23T21:28:57.050207+00:00"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate": "D:\\Studying\\URFU\\3Sem\\ProjectPractice44Labs\\artifacts\\raster-input-compat-v1\\run\\0449-compatible\\output",
+      "entries": [
+        {
+          "handle": "2E",
+          "name": "CREATED_BY_EZDXF",
+          "values": [
+            "1.4.5 @ 2026-11-23T21:00:44.602349+00:00",
+            "1.4.5 @ 2026-11-23T21:29:30.644987+00:00"
+          ]
+        },
+        {
+          "handle": "18D2",
+          "name": "WRITTEN_BY_EZDXF",
+          "values": [
+            "1.4.5 @ 2026-11-23T21:00:46.803437+00:00",
+            "1.4.5 @ 2026-11-23T21:29:38.111349+00:00"
+          ]
+        }
+      ]
+    }
+  ],
+  "native_windows_replayed": 24,
+  "new_inference_or_tuning": false,
+  "new_quality_claim": false,
+  "normalized_sources": [
+    "head-train-0495"
+  ],
+  "original_literal_drafts": [
+    {
+      "path": "artifacts/raster-input-compat-v1/verification.json",
+      "sha256": "e0f3a6d0b1754aa411152f093ff0e9380910e60cfba462ab3bfae92ba782e213"
+    },
+    {
+      "path": "artifacts/raster-input-compat-v1/verification-v2.json",
+      "sha256": "1bf667b52c5aa0957731a8d857226ac32578955d9453878364377e74156877c3"
+    }
+  ],
+  "original_verification": {
+    "path": "artifacts/raster-input-compat-v1/verification.json",
+    "sha256": "e0f3a6d0b1754aa411152f093ff0e9380910e60cfba462ab3bfae92ba782e213"
+  },
+  "preparations": 8,
+  "previous_files_verified": 9725,
+  "production_code_changed": false,
+  "reused_semantic_verifier": {
+    "path": "scripts/verify_export_guard_web_v1.py",
+    "sha256": "52926eda81b7abbfc7f7af6a01e064fbaec8562171aca550fe1d171b3b99e31f"
+  },
+  "scorer_corrections": [
+    {
+      "correction": "Only OCR elapsed time and individually verified run-local OCR reference paths/signatures differ",
+      "differing_top_level_fields": [
+        "elapsed_seconds"
+      ],
+      "elapsed_seconds": [
+        0.3708,
+        0.3643
+      ],
+      "every_other_OCR_field_exact": true,
+      "id": "0495-compatible",
+      "literal_OCR_reports_equal": false
+    },
+    {
+      "correction": "Only OCR elapsed time and individually verified run-local OCR reference paths/signatures differ",
+      "differing_top_level_fields": [
+        "elapsed_seconds"
+      ],
+      "elapsed_seconds": [
+        0.5977,
+        0.5937
+      ],
+      "every_other_OCR_field_exact": true,
+      "id": "0449-compatible",
+      "literal_OCR_reports_equal": false
+    }
+  ],
+  "scorer_version": "raster-input-compat/2.0",
+  "task": "10.4.4",
+  "tests_passed": 64,
+  "total_child_seconds": 77.1933541999897,
+  "verifier_version": "raster-input-compat/final-1.0"
+}

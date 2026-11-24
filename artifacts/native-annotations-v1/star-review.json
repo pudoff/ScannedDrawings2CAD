@@ -1,0 +1,54 @@
+{
+  "schema": "native-annotation-review/1.0",
+  "source_pixel_sha256": "a54d9591546e795ec99060b135c79d0f884ae96c66af5828e31521cc97eebb11",
+  "size_px": [
+    1413,
+    2000
+  ],
+  "source": {
+    "path": "artifacts/profile-service-v1/storage/attempts/e46f77be-9e61-4b03-a821-340df91b599e/1b2f6a06-3032-4d82-bbd9-ff390368b36b/output/private/page-001/experimental/gray.png",
+    "sha256": "ce26213fa5fc6ceb3fed1a4cf91a8695289dc5ed8e3b29ea2d0de14a3fdf4699"
+  },
+  "review_scope": "assistant inspection of visible source/observations; not customer or CAD acceptance",
+  "items": [
+    {
+      "id": "star-linear-span-review",
+      "kind": "linear",
+      "points_px": [
+        [
+          636.0,
+          1033.0
+        ],
+        [
+          770.0,
+          1033.0
+        ]
+      ],
+      "placement_px": [
+        703.0,
+        1133.0
+      ],
+      "evidence_mode": "agent_reviewed_draft",
+      "reviewer": "Codex",
+      "anchor_description": "visible extension starts; contour ownership and physical scale unconfirmed",
+      "source_candidate_ids": [
+        "native-fixed-00249",
+        "native-fixed-00250",
+        "native-fixed-00328",
+        "native-fixed-00330"
+      ],
+      "anchor_source_candidate_ids": [
+        "native-fixed-00249",
+        "native-fixed-00250"
+      ],
+      "head_ids": [
+        "completed-arrow-00004",
+        "completed-arrow-00005"
+      ],
+      "ocr_line_ids": [
+        "ocr-line-0009"
+      ],
+      "text_height_px": 20.0
+    }
+  ]
+}

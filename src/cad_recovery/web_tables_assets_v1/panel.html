@@ -1,0 +1,22 @@
+<section id="view-tables" class="tab-panel tables-panel" role="tabpanel" aria-labelledby="tab-tables" hidden>
+  <div class="table-toolbar"><strong>Таблицы и основная надпись</strong><span>Ручное уточнение · экспериментальный режим</span></div>
+  <p id="table-state" role="status">Выберите обработанный документ.</p>
+  <p>Таблица уточняется по исходному разрешению. Вне выбранных областей остаётся прежний результат с прежним разрешением.</p>
+  <div class="table-workspace">
+    <div class="table-drawing"><canvas id="table-canvas" aria-label="Выделение табличных областей на исходном листе"></canvas></div>
+    <div class="table-controls">
+      <label>Тип листа<select id="table-page-kind"><option value="mixed">Чертёж с таблицами</option><option value="table_document">Табличный документ</option></select></label>
+      <label>Новая область<select id="table-region-kind"><option value="table">Таблица</option><option value="title">Основная надпись</option></select></label>
+      <p>Выделите область указателем на листе. Виды детали оставьте снаружи. Для изменения набора областей подготовьте новый просмотр.</p>
+      <div id="table-regions"></div>
+      <button id="table-undo" type="button">Убрать последнюю область</button>
+      <label>Проверил<input id="table-reviewer" maxlength="120" placeholder="Имя или идентификатор"></label>
+      <button id="table-prepare" type="button" disabled>Подготовить просмотр</button>
+      <button id="table-cancel" type="button" hidden>Отменить обработку</button>
+      <div id="table-result"></div>
+      <label id="table-approval-wrap" hidden><input id="table-reviewed" type="checkbox">Проверены выбранные области, текст и сохранность видов</label>
+      <label id="table-key-wrap" hidden>Ключ сохранения<input id="table-key" type="password" autocomplete="off"></label>
+      <button id="table-apply" type="button" disabled>Сохранить новую версию</button>
+    </div>
+  </div>
+</section>

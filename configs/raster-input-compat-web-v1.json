@@ -1,0 +1,65 @@
+{
+  "CV_OCR_export_changed": false,
+  "adapter": "bounded-raster-compat/1.0",
+  "code": [
+    {
+      "path": "src/cad_recovery/profile_contract_v8.py",
+      "sha256": "1224e342802947e3e2db75e6472ae0202a71a79e08e5c1b2fe86932928f1c776"
+    },
+    {
+      "path": "src/cad_recovery/profile_pipeline_v8.py",
+      "sha256": "89ffa4de6e7b8832c92f960ed4b2d41ec47273802970fd1bfc2151b2be430fa9"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v20/__init__.py",
+      "sha256": "f237849e6dd4a417f40d2735688881e7e7307c0cdf7a8033a106a559c2fabe66"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v20/api.py",
+      "sha256": "e3a870ecd2d59f44a141f43ee129344a2df6507ef57ea22908bba94d440e3ba0"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v20/queue.py",
+      "sha256": "588906cab6c9d31b2b7ca79ba2fffe126a5989baa9100c81b1c8e8749a318a59"
+    },
+    {
+      "path": "src/cad_recovery/service_profiles_v20/worker.py",
+      "sha256": "ac7deb31ed65b5c84b50a24e60aed14c73122aed1faf7e1b63923ea903615d6b"
+    },
+    {
+      "path": "scripts/service_profile_diagnostic_v6.py",
+      "sha256": "7f3cd1cfe092bfbe209a93ff5704bde7dbf4e65f8fcccd7b2114256119d76643"
+    },
+    {
+      "path": "scripts/run_profiles_v25.py",
+      "sha256": "9b56305fce4c7f71d5ec72d3097b4d92bb0d515f046984b5d83bf08fb08b0816"
+    },
+    {
+      "path": "scripts/start_profiles_v25.py",
+      "sha256": "5f97dfa06a032aa75c8946720b7ff81cb8d17b23ad420658008b3f8ccc2399f2"
+    },
+    {
+      "path": "src/cad_recovery/raster_input_compat_v1.py",
+      "sha256": "a4af7739123b2a765a97a070a8fb0d2c0bcf95e8e00267f8130e960be17f2743"
+    },
+    {
+      "path": "src/cad_recovery/raster_compatibility_pipeline_v1.py",
+      "sha256": "60a8deaad82844410905e50a5d57a3f60d49a69813823efd7a5011ae4e7dac2f"
+    },
+    {
+      "path": "src/cad_recovery/raster_trailing_normalization_v2.py",
+      "sha256": "ef5f39153353e7812ec6eff2e1c408ca3e0db2d1225835c5c0f708ede87ac6bb"
+    }
+  ],
+  "qualification": [
+    {
+      "path": "artifacts/raster-input-compat-release-v1.json",
+      "sha256": "23286bc4a01ac29d3c35ff109e5d8223f37709e6b407e72dd0e5af48f5e1f7e9"
+    },
+    {
+      "path": "artifacts/raster-input-compat-v1/verification-final.json",
+      "sha256": "bedd4e2eca01c94e6f763fded49ebc3c4b0c49fcf28ee6cc8f3dc291f39d5f72"
+    }
+  ],
+  "schema_version": "compatible-input-web/1.0"
+}
