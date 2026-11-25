@@ -1,6 +1,6 @@
 # Docker: запуск и обслуживание
 
-Из корня клонированного репозитория: `docker compose up --build -d`. Требуются Docker с Linux containers и Compose v2. Python 3.14.6 и зависимости устанавливаются внутри образа; модели OCR входят в Git. Windows runtime ZIP, Cambria и `.venv` для Docker не требуются. Первая сборка требует доступ к Docker Hub, Debian и PyPI. Обработка использует локальные модели и CPU.
+Пошаговый первый запуск, переход с Python-сервиса и диагностика — [QUICKSTART.md](QUICKSTART.md). Из корня клонированного репозитория: `docker compose up --build -d --wait --wait-timeout 300`. Требуются Docker с Linux containers и Compose v2. Python 3.14.6 и зависимости устанавливаются внутри образа; модели OCR входят в Git. Windows runtime ZIP, Cambria и `.venv` для Docker не требуются. Первая сборка требует доступ к Docker Hub, Debian и PyPI. Обработка использует локальные модели и CPU.
 
 ## Сервисы и данные
 
@@ -23,29 +23,36 @@
 
 Сервисы выделенной Compose-сети также имеют эти права при обращении к `web:8000`; подключайте к ней только доверенные контейнеры. Проверки Origin для изменяющих запросов сохраняются.
 
-## Команды
+## Проверки и логи
 
 ```bash
 docker compose ps -a
-docker compose logs --tail 100 web worker corrections tables
+docker compose logs --tail 100 db setup web worker corrections tables
+```
+
+Необязательные проверки после запуска; два теста выполняйте по порядку:
+
+```bash
 docker compose run --rm --no-deps web check
-docker compose exec web python /app/docker/smoke_test.py
-docker compose exec web python /app/docker/smoke_edits.py
-docker compose down
-docker compose up -d
+docker compose exec -T web python /app/docker/smoke_test.py
+docker compose exec -T web python /app/docker/smoke_edits.py
 ```
 
 Тест создаёт синтетический чертёж с кириллицей, отправляет его через API в профиль по умолчанию, ждёт публикации, скачивает DXF, проверяет SHA и открывает его через ezdxf. Результат записывается в `/app/artifacts/profile-service-v1/docker-smoke-result.json`. Тестовый документ остаётся в списке документов.
 
-`smoke_edits.py` затем проверяет подготовку и публикацию размеченной области и правки названия через очереди `tables` и `corrections`, создавая новые версии тестового документа. В текущем Web V31 табличный редактор не принимает версии с `_manual_correction`: сначала выполняйте табличные правки, затем ручные правки метаданных. Это ограничение проверки исходного профиля приложения, независимо от Docker.
+`smoke_edits.py` затем проверяет подготовку и публикацию размеченной области и правки названия через очереди `tables` и `corrections`, создавая новые версии тестового документа. Перед повторным запуском этого теста создайте новый тестовый документ командой `smoke_test.py`. В текущем Web V31 табличный редактор не принимает версии с `_manual_correction`: сначала выполняйте табличные правки, затем ручные правки метаданных. Это ограничение проверки исходного профиля приложения, независимо от Docker.
 
 В `.env` можно указать `CAD_HTTP_PORT=8001` и `CAD_SERVICE_TIMEOUT_SECONDS=900`. Лимит времени относится к обработке одного задания; ожидание очереди добавляется отдельно. Для Docker Desktop выделите не менее 6 ГБ RAM. Каждый worker ограничен 4 ГБ; одновременная обработка документов и правок требует больше общей памяти.
+
+## Остановка и обновление
+
+После завершения текущих задач остановите сервис командой `docker compose down`. Для следующего запуска уже собранной версии выполните `docker compose up -d --wait --wait-timeout 300`.
 
 Обновление после завершения текущей обработки:
 
 ```bash
 git pull --ff-only
-docker compose up --build -d
+docker compose up --build -d --wait --wait-timeout 300
 ```
 
 `docker compose down` сохраняет данные. `docker compose down -v` удаляет тома вместе с документами и БД; эта команда для обычной остановки не нужна.

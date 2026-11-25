@@ -6,7 +6,7 @@
 
 **Статус: предварительная демонстрационная версия.** Текущая поставка — чистая сборка на базе **Web V31**, контракт `processing-profile/9.0`, вычислительное ядро профиля 8. По умолчанию выбран **«CAD · целые объекты и рамка (эксперимент)»** (`native_cad_layers_draft`).
 
-**Запуск через Docker:** после клонирования выполните `docker compose up --build -d` и откройте http://127.0.0.1:8000. Python, `.venv` и Windows runtime-архив на компьютере не нужны. Docker запускает PostgreSQL, Web V31 и три worker, сохраняя документы и базу в отдельных томах. Инструкция — [QUICKSTART.md](QUICKSTART.md), подробности — [DOCKER.md](DOCKER.md). Локальный Windows-запуск также сохранён.
+**Запуск через Docker:** запустите Docker Desktop в режиме Linux containers и из корня проекта выполните `docker compose up --build -d --wait --wait-timeout 300`. После готовности откройте http://127.0.0.1:8000. Python, `.venv` и Windows runtime-архив на компьютере не нужны. Docker запускает PostgreSQL, Web V31 и три worker, сохраняя документы и базу в отдельных томах. Пошаговая инструкция и диагностика — [QUICKSTART.md](QUICKSTART.md), обслуживание — [DOCKER.md](DOCKER.md).
 
 Включены исправления V28–V31: защита от устаревших ответов UI, общий бюджет трёх worker, корректная отмена загрузки и неблокирующий файловый ввод, журнал фаз при оптимизации Python. Алгоритмы и принятые модели CV/OCR/CAD сохранены.
 
@@ -97,32 +97,20 @@ flowchart TD
 
 ## Установка и запуск
 
-Для рекомендуемого Docker-запуска выполните `docker compose up --build -d` — см. [QUICKSTART.md](QUICKSTART.md). Следующие команды описывают альтернативный запуск без Docker: для него требуется **Windows x64 и CPython 3.14**, а библиотеки и PostgreSQL поставляются в отдельном runtime-архиве.
+Рекомендуемый способ — Docker Compose. Нужны Git, работающий Docker с Linux containers и Compose v2; Docker должно быть доступно не менее 6 ГБ памяти. На Linux вместо Docker Desktop можно использовать Docker Engine.
 
-После клонирования скачайте `runtime-win-cp314-v31-20261125.zip` из Release этой версии или получите у владельца проекта. Создайте окружение и восстановите зависимости:
-
-```powershell
-py -3.14 setup_repository.py --runtime-archive "$env:USERPROFILE\Downloads\runtime-win-cp314-v31-20261125.zip"
+```bash
+git clone https://github.com/pudoff/ScannedDrawings2CAD.git
+cd ScannedDrawings2CAD
+docker compose up --build -d --wait --wait-timeout 300
+docker compose ps -a
 ```
 
-Эта команда сама создаёт `.venv`, проверяет SHA-256 архива/файлов и выполняет проверку компонентов. Если хотите создать окружение явно: `py -3.14 -m venv .venv`, затем запустите тот же установщик через `.\.venv\Scripts\python.exe`.
+Интерфейс: **http://127.0.0.1:8000**. `db` и `web` должны стать `healthy`; завершение `setup` с кодом 0 является нормой. Первая сборка скачивает зависимости и может занять несколько минут. Если репозиторий уже клонирован, выполните `git pull --ff-only` в его корне, затем команду запуска с `--build`.
 
-```powershell
-# Проверить компоненты и модели без запуска сервера/БД
-.\.venv\Scripts\python.exe run_service.py --check
+Остановка: `docker compose down`. Повторный запуск: `docker compose up -d --wait --wait-timeout 300`. Документы сохраняются в Docker volumes; флаг `-v` при остановке удаляет данные. Прежняя Windows-БД автоматически не переносится.
 
-# Запустить Web, три worker и локальную БД, открыть браузер
-.\.venv\Scripts\python.exe run_service.py --open
-
-# Штатная остановка из второго терминала
-.\.venv\Scripts\python.exe run_service.py --stop
-```
-
-Адрес: **http://127.0.0.1:8000**, PostgreSQL: **55445**. Другие порты: `run_service.py --port 8001 --db-port 55446 --open`. Остановка также через Ctrl+C; дождитесь безопасного завершения БД. `START.ps1` запускает тот же сервис.
-
-Старые команды `scripts/start_profiles_v27.py` заменены корневым **`run_service.py`**, который запускает квалифицированную чистую сборку `start_clean_demo_v1.py` с исправлениями V31. Инструкция после клонирования, получение архива, ручное создание `.venv` и диагностика — в **[QUICKSTART.md](QUICKSTART.md)**.
-
-Runtime проверяет установленный Windows CAD-шрифт Cambria по SHA; шрифт не распространяется. Другие версии Cambria требуют отдельной проверки. Установка на другом физическом ПК и ручная CAD-приёмка пока отдельно от локальной проверки.
+Подробные шаги, другой порт, просмотр логов и проверка преобразования — **[QUICKSTART.md](QUICKSTART.md)**. Резервное копирование — [DOCKER.md](DOCKER.md). Альтернатива для Windows x64 с CPython 3.14 и отдельным runtime-архивом — [WINDOWS_SETUP.md](WINDOWS_SETUP.md); `START.ps1` относится к этому способу запуска.
 
 ## Использование
 
