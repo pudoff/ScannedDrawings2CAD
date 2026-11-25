@@ -1,0 +1,35 @@
+name: Docker conversion
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  conversion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Linux runtime
+        run: docker compose build web
+      - name: Start services
+        run: docker compose up -d --wait --wait-timeout 300
+      - name: Convert and audit DXF
+        run: docker compose exec -T web python /app/docker/smoke_test.py
+      - name: Preview and publish corrections and tables
+        run: docker compose exec -T web python /app/docker/smoke_edits.py
+      - name: Check persistence after restart
+        run: |
+          docker compose down
+          docker compose up -d --wait --wait-timeout 300
+          docker compose exec -T web python /app/docker/check_persistence.py
+      - name: Logs
+        if: always()
+        run: docker compose logs --no-color --tail 150
+      - name: Stop
+        if: always()
+        run: docker compose down

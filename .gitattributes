@@ -1,0 +1,9 @@
+# Runtime contracts hash file bytes; do not let Git rewrite their line endings.
+src/** -text
+scripts/** -text
+configs/** -text
+runtime/** -text
+artifacts/models/** -text
+Dockerfile text eol=lf
+compose.yaml text eol=lf
+docker/** text eol=lf

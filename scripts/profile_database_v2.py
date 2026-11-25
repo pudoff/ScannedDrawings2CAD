@@ -1,28 +1,11 @@
 """Wait for crash recovery and never forcibly kill PostgreSQL on a startup timeout."""
 from pathlib import Path
-import os
 import subprocess
 import time
 
 import run_demo as base
 
 ROOT=base.ROOT;DATA=base.DATA;BIN=base.BIN;FLAGS=base.FLAGS
-
-
-def verify_database(port):
-    with base.db_connect(port) as connection:
-        # Windows PostgreSQL can return this path in the system ANSI code page.
-        raw = connection.execute("SELECT pg_catalog.textsend(current_setting('data_directory'))").fetchone()[0]
-        try:
-            directory = raw.decode('utf-8')
-        except UnicodeDecodeError:
-            if os.name != 'nt':
-                raise
-            directory = raw.decode('mbcs')
-        if Path(directory).resolve() != DATA.resolve():
-            raise RuntimeError('Database port belongs to another data directory; nothing was changed.')
-        if connection.execute('SHOW listen_addresses').fetchone()[0] != '127.0.0.1':
-            raise RuntimeError('The demo database must listen only on 127.0.0.1.')
 
 
 def cluster_identity(port=None):
@@ -47,7 +30,7 @@ def wait_ready(port,process,*,timeout,cancelled=lambda:False):
         if cancelled():raise RuntimeError('Database startup cancelled; waiting for safe shutdown.')
         if process is not None and process.poll() is not None:raise RuntimeError('PostgreSQL exited during startup; inspect postgres.log.')
         if ready(port):
-            verify_database(port)
+            base.verify_database(port)
             return
         if time.monotonic()>=next_progress:
             print('PostgreSQL is starting/recovering; waiting for readiness (up to '+str(timeout)+'s).',flush=True)
