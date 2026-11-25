@@ -32,7 +32,7 @@ COPY --from=build /app/artifacts/models /app/artifacts/models
 COPY --from=build /app/docker /app/docker
 ENV PYTHONPATH=/app/src:/app/scripts:/app/runtime/algorithm-deps:/app/docker \
     CAD_SERVICE_STORAGE=/app/artifacts/profile-service-v1/storage CAD_DEMO_OCR_MODELS=/app/artifacts/models/ppocr-v5 \
-    CAD_SERVICE_TIMEOUT_SECONDS=900 WINDIR=/app/runtime/font \
+    CAD_SERVICE_TIMEOUT_SECONDS=1800 WINDIR=/app/runtime/font \
     XDG_CACHE_HOME=/app/artifacts/profile-service-v1/cache
 RUN groupadd --gid 10001 cad && useradd --uid 10001 --gid cad --no-create-home cad \
     && mkdir -p /app/artifacts/profile-service-v1/storage /app/artifacts/profile-service-v1/cache \

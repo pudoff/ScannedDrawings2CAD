@@ -8,7 +8,7 @@ x-app: &app
   restart: unless-stopped
   environment: &environment
     CAD_SERVICE_DSN: postgresql://cad_demo:cad_local@db:5432/cad_recovery
-    CAD_SERVICE_TIMEOUT_SECONDS: ${CAD_SERVICE_TIMEOUT_SECONDS:-900}
+    CAD_SERVICE_TIMEOUT_SECONDS: ${CAD_SERVICE_TIMEOUT_SECONDS:-1800}
   volumes:
     - documents:/app/artifacts/profile-service-v1
   stop_grace_period: 30s
