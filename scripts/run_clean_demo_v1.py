@@ -1,4 +1,4 @@
-"""Local clean demo V1: corrected child phase lifecycle; retained V30 API/processing/UI."""
+"""Local compact demo with Web V32 DXF display and retained V31 processing."""
 import argparse
 from contextlib import ExitStack
 from dataclasses import replace
@@ -23,7 +23,7 @@ def component(mode, port):
     settings = replace(Settings.environment(), lease_seconds=90)
     if mode == 'web':
         import uvicorn
-        from cad_recovery.compact_web_api_v2 import create_web_app
+        from cad_recovery.compact_web_api_v3 import create_web_app
         uvicorn.run(create_web_app(settings), host='127.0.0.1', port=port, access_log=False,
                     server_header=False, timeout_keep_alive=5, limit_concurrency=16)
     elif mode == 'tables':
@@ -95,14 +95,14 @@ def run(args):
     check_workers()
     check_uploads()
     check_phases()
-    from cad_recovery.compact_web_api_v2 import check_assets
+    from cad_recovery.compact_web_api_v3 import check_assets
     check_assets()
     from cad_recovery.profile_contract_v9 import DEFINITIONS, resolve_profile, verify_models, verify_cv_runtime
     from cad_recovery.web_tables_contract_v7 import binding
     for name in DEFINITIONS: verify_models(resolve_profile(name), MODELS)
     verify_cv_runtime(); binding()
     if args.check:
-        print('OK: clean demo V1 corrected child phases, V30 upload/UI, retained workers and CV/OCR/CAD verified. No services started.'); return
+        print('OK: compact Web V32 legible DXF display, retained workers and CV/OCR/CAD verified. No services started.'); return
     with launcher_lock():
         available_port(args.port)
         if args.port == args.db_port: raise ValueError('HTTP and database ports must differ')

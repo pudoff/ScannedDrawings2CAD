@@ -1,4 +1,4 @@
-"""Run the qualified compact Web V31 service without external site-packages."""
+"""Run the qualified compact Web V32 service without external site-packages."""
 from pathlib import Path
 import os
 import platform

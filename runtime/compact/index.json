@@ -53655,6 +53655,12 @@
     },
     {
       "kind": "runtime",
+      "path": "scripts/render_comparison_v2.py",
+      "sha256": "d7c921f0dd3dc1fd76ab1eb9087e0e8b0058e979b5f74485eee8f1486043f9f6",
+      "size_bytes": 4860
+    },
+    {
+      "kind": "runtime",
       "path": "scripts/resume_centerline_comparison_v2.py",
       "sha256": "6ddfddec71d34b4fa4c56aadb09e326163221f37be47e1b90d84f9f43b72d057",
       "size_bytes": 7860
@@ -53686,8 +53692,8 @@
     {
       "kind": "runtime",
       "path": "scripts/run_clean_demo_v1.py",
-      "sha256": "8bf56458058dac44e885e34101d1b248d65afcde9ea591f1d19b594964ad790c",
-      "size_bytes": 10564
+      "sha256": "2c6e1e4036181645d755b1a253f6c699d439a856f419e953aadb4e8d50ef4d50",
+      "size_bytes": 10363
     },
     {
       "kind": "runtime",
@@ -54960,6 +54966,18 @@
       "path": "src/cad_recovery/compact_web_api_v2.py",
       "sha256": "23ec3c75f0f1e12ac31ef62700e8b5f7b62ef4133f4704c7f328c697039d9288",
       "size_bytes": 1290
+    },
+    {
+      "kind": "runtime",
+      "path": "src/cad_recovery/compact_web_api_v3.py",
+      "sha256": "d8f18932594ad6ea856af2a67fc5008dfa7e0dea6bff6dcd74a8b19c2559e9f3",
+      "size_bytes": 1353
+    },
+    {
+      "kind": "runtime",
+      "path": "src/cad_recovery/comparison_display_v2.py",
+      "sha256": "965c4741783e4a166bd73887b08bf24673a75d81b77d3507ba5fc72e6fdf4363",
+      "size_bytes": 3900
     },
     {
       "kind": "runtime",
@@ -58563,6 +58581,18 @@
     },
     {
       "kind": "runtime",
+      "path": "src/cad_recovery/service_profiles_v25/__init__.py",
+      "sha256": "e0a44b5e4c2fe36ad22331275229813ca5ac649455e3f2cb0947853b770286fc",
+      "size_bytes": 39
+    },
+    {
+      "kind": "runtime",
+      "path": "src/cad_recovery/service_profiles_v25/api.py",
+      "sha256": "e2db2950c85679b22bb59fb4147675bdff68b2fdc4684a63869918a318af1c21",
+      "size_bytes": 3984
+    },
+    {
+      "kind": "runtime",
       "path": "src/cad_recovery/service_profiles_v3/__init__.py",
       "sha256": "10b8139df08b5c50b6465da0ad19fa48e9461b4a3a85bcf69bf350a9be99f3ac",
       "size_bytes": 74
@@ -59802,5 +59832,12 @@
     "numerical_algorithms_changed": false
   },
   "producer": "13.1.2.3",
-  "schema_version": "compact-runtime/1.0"
+  "schema_version": "compact-runtime/1.0",
+  "viewer_update": {
+    "web_version": "32",
+    "renderer": "comparison-svg/2.0",
+    "previous_index_sha256": "497c3fd275cbf1eca3966c6c14ef77baea277ad754e62e57158d7119ecebce9c",
+    "processing_changed": false,
+    "date": "2026-11-26"
+  }
 }
