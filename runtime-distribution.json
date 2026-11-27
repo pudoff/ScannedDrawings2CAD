@@ -1,8 +1,8 @@
 {
   "schema": "runtime-distribution/1.0",
   "platform": "Windows x64 CPython 3.14",
-  "service": "clean-demo-v1 / Web V31",
-  "index_sha256": "497c3fd275cbf1eca3966c6c14ef77baea277ad754e62e57158d7119ecebce9c",
+  "service": "clean-demo-v1 / Web V32",
+  "index_sha256": "32f0f7d7f907ab01ba81f87b518b9419b969ca7af99e90320c1d0f9af22b6c88",
   "archive": {
     "filename": "runtime-win-cp314-v31-20261125.zip",
     "sha256": "7e9e1027a3698986f67117714a6960f7bc81d78dcf7a8e48fde1f9cee9adb938",
